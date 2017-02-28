@@ -51,7 +51,7 @@ Weitere Erklärungen zu einigen Sachen folgen hier:
 
 
 Codereview: Erklärt euch einfach einander ABWECHSELND eine Klasse (oder auch ein Interface und implementierende KLasse). Auch wenn eurem Gegenüber oft kein Fehler auffallen wird, euch selbst stechen sie umso mehr ins Gesicht.
-		Der Gruppenpartner, der gerade zuhört, sollte vor allem darauf achten, dass der Codestyle richtig ist, und auch in einer Java Weise Programmiert wird, und nicht Java in Beispielsweise C++ Syntax da steht.
+		Der Gruppenpartner, der gerade zuhört, sollte vor allem darauf achten, dass der Codestyle richtig ist, alle "warnings" von IDEs (zum Beispiel unbenutze imports) behoben werden und auch in einer Java Weise Programmiert wird, und nicht Java in Beispielsweise C++ Syntax da steht.
 		Auch könnt ihr hier auch ein Refactoring oder das Hinzufügen von mehr Kommentaren vorschlagen, falls euch dieser Abschnitt einfach nicht übersichtlich genug erscheint.
 
 

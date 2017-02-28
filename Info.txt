@@ -1,0 +1,85 @@
+Ich habe mir die Phase nun so vorgestellt, bin aber immer offen für Verbesserungsvorschläge:
+
+Da die Testfälle aus dem Pflichtenheft nur die GUI betreffen, und nicht anders ausführbar sind, werde ich diese Testfälle selbst
+übernehmen.
+
+Die Hauptaufgabe in dieser Phase für uns alle besteht nun aus zwei Sachen, welche ich probiert habe zu einer Sache zusammenzufassen.
+
+So habe ich uns zum einen in zweier Teams eingeteilt (siehe anderes .txt Dokument welches neben diesem hier liegt) und 6 Issues auf diesem Repo geöffnet, für jeden von uns eins.
+
+In diese Issues habe ich (so gut es ging) alle Klassen ihren jeweiligen Autoren zugeordnet. Nun sollt ihr für diese Klassen die Checklist folgendermaßen abarbeiten:
+
+
+- Zuerst wählt ihr euch eine Anzahl an Klassen aus, die ihr diese Woche abschließen wollt (denkt daran, dasss bis zum Ende der Phase alles fertig sein muss)
+
+- Nun schreibt ihr Testfälle für die von euch ausgewählten Klassen (mehr zu Testfällen weiter unten).
+
+
+- Darauf besprecht ihr euch mit eurem Gruppenmitglied, wann ihr beide unter der Woche Zeit für die Codereviews habt.
+Hierbei kann es nun drei Ergebnisse geben:
+
+1 (und meiner Meinung nach am besten): ihr beschließt euch in der Uni (oder sonstwo) zu treffen, und euch gegenseitig eure ausgewählten Code zu erklären.
+			(zum Beispiel ein typischer Ablauffluss in eurem Programm, oder jede Methode an sich)
+
+2 (zweitbeste Möglichkeit): Ihr wollt euch nicht treffen, oder habt aus anderen Gründen keine Möglichkeit, also beschließt ihr euch über Skype / etwas ähnliches
+			zu treffen. Hier teilt ihr vielleicht einfach euren Bildschirm und fahrt wie oben beschrieben fort.
+
+3) (meiner Meinung nach schlechteste Möglichkeit): Ihr könnt auch nicht Skypen, weshalb ihr nun wie folgt vorgeht:
+			Ihr guckt euch die Ausgewählten Klassen eures Gruppenmitgliedes gut an, und probiert sie zu verstehen.
+			Solltet ihr irgendwelche Fragen haben, so schreibt sie auf. Seid ihr mit diesem Teil fertig, so
+			schickt die Fragen an den anderen, sodass er sie beantworten kann, und ihr so ggf. Fehler finden könnt.
+
+
+Was tun, wenn ihr einen Fehler gefunden habt:
+
+1) Es ist nur ein kleiner Fehler, der nur auf den lokalen Code Auswirkungen hat:
+		Ihr korrigiert den Fehler, committed auf GitHub und erhöht die Versionsnummer um 0.0.01
+
+2) Der Fehler betrifft auch andere Klassen (von euch, oder von anderen Leuten): 
+		Ihr macht ein Issue auf, diskutiertgegebenenfalls und geht dann wie in Schritt 1) weiter vor
+
+3) Der Fehler ist sehr schwerwiegend, und bedarf einer Änderung am Pflichtenheft/ Entwurf:
+		Macht ein Issue auf, und schreibt ALLE Gruppenmitglieder an, sodass wir uns gemeinsam eine Lösung erarbeiten können.
+
+immer) schreibt am Ende einen Regressionstest, um zu prüfen, dass weitere Änderungen den Fehler nicht wieder hervorbringen.
+
+
+Weitere Erklärungen zu einigen Sachen folgen hier:
+
+
+
+
+
+Codereview: Erklärt euch einfach einander ABWECHSELND eine Klasse (oder auch ein Interface und implementierende KLasse). Auch wenn eurem Gegenüber oft kein Fehler auffallen wird, euch selbst stechen sie umso mehr ins Gesicht.
+		Der Gruppenpartner, der gerade zuhört, sollte vor allem darauf achten, dass der Codestyle richtig ist, und auch in einer Java Weise Programmiert wird, und nicht Java in Beispielsweise C++ Syntax da steht.
+		Auch könnt ihr hier auch ein Refactoring oder das Hinzufügen von mehr Kommentaren vorschlagen, falls euch dieser Abschnitt einfach nicht übersichtlich genug erscheint.
+
+
+Testfälle:
+
+	-Für die Testfälle gebe ich jetzt erstmal am Anfang nicht so viele Vorgaben, werde das mir aber im Laufe der Phase weiter angucken.
+	  Vertraut eurem Gefühl, welche Methoden zu testen sind, und welche nicht (Beispiel: solange ein getter oder setter keine weitere Logik besitz
+ 	  müsst ihr ihn nicht testen. Auch müsst ihr autogenerierten Code (GUI, AntLR) nicht automatisch testen.
+	
+	-Wenn ihr nun Testfälle schreibt, denkt daran, nicht nur Happy Paths abzudecken, sondern auch nullpointer exceptions und ähnliches zu provozieren.
+
+
+
+Arbeitsverteilung:
+
+	-Da ich die Klasse jetzt grob so aufgeteilt habe, wie sie geschrieben wurden, gibt es einige hier (Holger vor allem) die eine sehr lange 
+	  Checkliste haben. Die Codereview lässt sich leider nicht gut übertagen, das schreiben von Testfällen jedoch schon. Deshalb würde ich jetzt
+	  alle bitten (vor allem Holger) die denken, dass sie zu viel haben, sich bei mir zu melden, und mir zu sagen, welche Teile sie gerne abgeben würden,
+          ich werde mich dann darum kümmern, und die Arbeit gerechter verteilen. Sehr verbunden wäre ich, wenn ihr dabei aber auch gleich gucken könnt, ob die 
+          Klassen, die ihr behalten / weggeben wollt überhaupt Tests benötigen, oder ob sie nicht gleich verworfen werden könnten, um Zeit zu sparen.
+
+	  Eine weitere Arbeit, welche ich bis jetzt noch nicht einbezogen habe ist das beenden einiger Funktionalitäten. Da jeder sicherlich am besten wissens wird,
+          was er noch zu machen hat, wäre ich sehr froh darüber, wenn ihr diese Aufgaben mit auf eure "Issue page" auf meinem Repo schreibt.
+
+
+Milestones:
+
+	Unser erster Milestone ist am nächsten Montag, den 06.03.17 11:00. Hierfür würde ich mir stark wünschen, dass alle fehlenden / nicht funktionierenden Funktionalitäten
+	 fertig gestellt werden können, und wir mit dem schreiben der Testfälle und auch mit den Codereviews gut vorankommen.
+         Ich werde die Listen im Blick behalten, sodass ich schnell sehen kann, wenn jemand mit seiner Arbeit überfordert ist (vor allem da einige ja auch noch so manche Klausur schreiben müssen)
+         und wir diese Probleme als Gruppe lösen können

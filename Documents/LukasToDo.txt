@@ -1,0 +1,200 @@
+ - propertychecker/CBMCProcess.java                                                                                     
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - propertychecker/CBMCProcessFactory.java                                                                              
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - propertychecker/CBMCResult.java                                                                                      
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - propertychecker/CBMCResultWrapperLong.java                                                                           
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - propertychecker/CBMCResultWrapperMultiArray.java                                                                     
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - propertychecker/CBMCResultWrappersingleArray.java                                                                    
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - propertychecker/Checker.java                                                                                         
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - propertychecker/CheckerFactory.java                                                                                  
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - propertychecker/CheckerFactoryFactory.java                                                                           
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - propertychecker/FactoryController.java                                                                               
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - propertychecker/jna/Win32Process.java                                                                                
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - propertychecker/LinuxProcess.java                                                                                    
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - propertychecker/OperatingSystems.java                                                                                
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - propertychecker/PropertyChecker.java                                                                                 
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written  
+ - propertychecker/Result.java                                                                                          
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - propertychecker/WindowsProcess.java                                                                                  
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - celectiondescriptioneditor/CElectioncodearea/ErrorHandling/DeepErrorChecker.java                                     
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - celectiondescriptioneditor/CElectioncodearea/ErrorHandling/LinuxErrorChecker.java                                    
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - celectiondescriptioneditor/CElectioncodearea/ErrorHandling/SystemSpecificErrorChecker.java                           
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - celectiondescriptioneditor/CElectioncodearea/ErrorHandling/WindowsErrorChecker.java                                
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+  - toolbox/WindowsOStoolbox.java                                                                                        
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - toolbox/SuperFolderFinder.java                                                                                       
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - toolbox/ThreadedBufferedReader.java                                                                                  
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - toolbox/TimeOutNotifier.java                                                                                         
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - toolbox/FileSaver.java                                                                                               
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - toolbox/ErrorLogger.java                                                                                             
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - toolbox/ErrorForUserDisplayer.java                                                                                   
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - toolbox/ActionIdAndListener.java                                                                                     
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - datatypes/electioncheckparameter/TimeOut.java                                                                        
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - datatypes/electioncheckparameter/ElectionCheckParameter.java                                                         
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - datatypes/booleanExpAST/BinaryRelationshipNode.java                                                                  
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - datatypes/booleanExpAST/BooleanExpConstant.java                                                                      
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - datatypes/booleanExpAST/BooleanExpressionNode.java                                                                   
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - datatypes/booleanExpAST/ComparisonNode.java                                                                          
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - datatypes/booleanExpAST/ComparisonSymbol.java                                                                        
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - datatypes/booleanExpAST/ConstantExp.java                                                                             
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - datatypes/booleanExpAST/ElectExp.java                                                                                
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - datatypes/booleanExpAST/EquivalencyNode.java                                                                         
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - datatypes/booleanExpAST/ForAllNode.java                                                                              
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - datatypes/booleanExpAST/ImplicationNode.java                                                                         
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - datatypes/booleanExpAST/LogicalAndNode.java                                                                          
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - datatypes/booleanExpAST/LogicalOrNode.java                                                                           
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - datatypes/booleanExpAST/NotNode.java                                                                                 
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - datatypes/booleanExpAST/QuantorNode.java                                                                             
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - datatypes/booleanExpAST/SymbolicVarExp.java                                                                          
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - datatypes/booleanExpAST/VoteExp.java                                                                                 
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - datatypes/booleanExpAST/VoteSumForCandExp.java                                                                       
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - datatypes/electiondescription/ElectionDescription.java                                                               
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - datatypes/electiondescription/ElectionTypeContainer.java                                                             
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - options/Options.java                                                                                                 
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written

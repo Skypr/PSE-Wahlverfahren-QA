@@ -1,0 +1,144 @@
+ - parametereditor/ArgumentHandler.java                                                                                 
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - parametereditor/MinMaxSpinValueHandler.java                                                                          
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - parametereditor/ParameterEditor.java                                                                                 
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - parametereditor/ParameterEditorBuilder.java                                                                          
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - parametereditor/ParameterEditorMenuBarHandler.java                                                                   
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - parametereditor/ParameterEditorToolbarHandler.java                                                                   
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - parametereditor/SingleValueSpinnerHandler.java                                                                       
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - parametereditor/TimeoutValueHandler.java                                                                             
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - parametereditor/UserActions/AbortCheckUserAction.java                                                                
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - parametereditor/UserActions/LoadProjectUserAction.java                                                               
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - parametereditor/UserActions/OptionsUserAction.java                                                                   
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - parametereditor/UserActions/SaveProjectAsUserAction.java                                                             
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - parametereditor/UserActions/SaveProjectUserAction.java                                                               
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - parametereditor/UserActions/ShowHideBooleanExpEditor.java                                                            
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - parametereditor/UserActions/ShowHideCElectionEditor.java                                                             
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - parametereditor/UserActions/ShowHidePropertyList.java                                                                
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - parametereditor/UserActions/StartCheckUserAction.java                                                                
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - parametereditor/View/AboutWindow.java                                                                                
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - parametereditor/View/AdvancedWindow.java                                                                             
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - parametereditor/View/ParameterEditorWindow.java                                                                      
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - parametereditor/View/ParameterEditorWindowStarter.java                                                               
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+  - highlevel/BEASTCommunicator.java                                                                                     
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - highlevel/CentralObjectProvider.java                                                                                 
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - highlevel/CheckListener.java                                                                                         
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - highlevel/CheckStatusDisplay.java                                                                                    
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - highlevel/DisplaysStringsToUser.java                                                                                 
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - highlevel/ElectionDescriptionSource.java                                                                             
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - highlevel/MainClass.java                                                                                             
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - highlevel/MainNotifier.java                                                                                          
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - highlevel/ParameterSource.java                                                                                       
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - highlevel/PostAndPrePropertiesDescriptionSource.java                                                                 
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - highlevel/PSECentralObjectProvider.java                                                                              
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - highlevel/ResultCheckerCommunicator.java                                                                             
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - highlevel/ResultInterface.java                                                                                       
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - highlevel/ResultPresenter.java                                                                                       
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - highlevel/ResultPresenterElement.java                                                                                
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written

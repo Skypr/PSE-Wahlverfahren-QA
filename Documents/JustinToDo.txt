@@ -1,0 +1,80 @@
+ - propertylist/DeleteDescriptionAction.java                                                                            
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - propertylist/Model/PLModel.java                                                                                      
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - propertylist/Model/PLModelInterface.java                                                                             
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - propertylist/Model/PropertyItem.java                                                                                 
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - propertylist/Model/ResultType.java                                                                                   
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - propertylist/PLChangeHandler.java                                                                                    
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - propertylist/PLControllerInterface.java                                                                              
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - propertylist/PropertyList.java
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - propertylist/PropertyListBuilder.java                                                                                
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - propertylist/PropertyListMenuBarHandler.java                                                                         
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - propertylist/PropertyListToolbarHandler.java                                                                         
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - propertylist/UserActions/LoadPropertyList.java                                                                       
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - propertylist/UserActions/NewPropertyList.java                                                                        
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - propertylist/UserActions/SaveAsPropertyList.java                                                                     
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - propertylist/UserActions/SavePropertyList.java                                                                       
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - propertylist/UserActions/UndoChangesPropertyList.java                                                                
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - propertylist/View/ListItem.java                                                                                      
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - propertylist/View/PropertyListWindow.java                                                                            
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - propertylist/View/ResultPresenterWindow.java                                                                         
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - datatypes/FailureExample.java                                                                                        
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written

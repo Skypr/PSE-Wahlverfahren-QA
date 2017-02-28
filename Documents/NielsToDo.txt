@@ -1,0 +1,76 @@
+ - propertychecker/CBMCCodeGenerationVisitor.java                                                                       
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - propertychecker/CBMCCodeGenerator.java                                                                               
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - stringresource/BooleanExpEditorStringResProvider.java                                                                
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - stringresource/CElectionEditorStringResProvider.java                                                                 
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - stringresource/OptionStringResProvider.java                                                                          
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - stringresource/ParameterEditorStringResProvider.java                                                                 
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - stringresource/PropertyListStringResProvider.java                                                                    
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - stringresource/StringLoaderInterface.java                                                                            
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - stringresource/StringResourceLoader.java                                                                             
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - stringresource/StringResourceProvider.java                                                                           
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - toolbox/FileLoader.java                                                                                              
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - toolbox/CodeArrayListBeautifier.java                                                                                 
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - toolbox/BooleanExpCodeToASTConverter.java                                                                            
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - datatypes/internal/InternalTypeContainer.java                                                                        
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - datatypes/Project.java                                                                                               
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - datatypes/PropertyList.java                                                                                          
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - datatypes/propertydescription/PostAndPrePropertiesDescription.java                                                   
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - datatypes/propertydescription/SymbolicVariable.java                                                                  
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - datatypes/propertydescription/SymbolicVariableList.java                                                              
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written

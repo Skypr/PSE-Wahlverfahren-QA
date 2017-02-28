@@ -1,0 +1,564 @@
+ - celectiondescriptioneditor/CElectioncodearea/Antlr/CAntlrHandler.java                                                
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - celectiondescriptioneditor/CElectioncodearea/Antlr/CBaseListener.java                                                
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - celectiondescriptioneditor/CElectioncodearea/Antlr/CBaseVisitor.java                                                 
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - celectiondescriptioneditor/CElectioncodearea/Antlr/CLexer.java                                                       
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - celectiondescriptioneditor/CElectioncodearea/Antlr/CListener.java                                                    
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - celectiondescriptioneditor/CElectioncodearea/Antlr/CParser.java                                                      
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - celectiondescriptioneditor/CElectioncodearea/Antlr/CVisitor.java                                                     
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - celectiondescriptioneditor/CElectioncodearea/CElectionCodeArea.java                                                  
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - celectiondescriptioneditor/CElectioncodearea/CElectionCodeAreaBuilder.java                                           
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - celectiondescriptioneditor/CElectioncodearea/CSyntaxHl.java                                                          
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - celectiondescriptioneditor/CElectioncodearea/ErrorHandling/CCodeErrorFactory.java                                    
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - celectiondescriptioneditor/CElectioncodearea/ErrorHandling/CErrorDisplayer.java                                      
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - celectiondescriptioneditor/CElectioncodearea/ErrorHandling/CGrammarErrorFinder.java                                  
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - celectiondescriptioneditor/CElectioncodearea/ErrorHandling/CVariableErrorFinder.java                                 
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - celectiondescriptioneditor/CElectionDescriptionEditor.java                                                           
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - celectiondescriptioneditor/CElectionDescriptionEditorBuilder.java                                                    
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - celectiondescriptioneditor/CElectionDescriptionEditorChangeHandler.java                                              
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - celectiondescriptioneditor/CElectionEditorMenubarHandler.java                                                        
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - celectiondescriptioneditor/CElectionEditorToolbarHandler.java                                                        
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - celectiondescriptioneditor/ElectionTemplates/ElectionTemplateChooser.java                                            
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - celectiondescriptioneditor/ElectionTemplates/ElectionTemplateHandler.java                                            
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - celectiondescriptioneditor/UserActions/ElectionCopyUserAction.java                                                   
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - celectiondescriptioneditor/UserActions/ElectionCutUserAction.java                                                    
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - celectiondescriptioneditor/UserActions/ElectionPasteUserAction.java                                                  
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - celectiondescriptioneditor/UserActions/ElectionRedoUserAction.java                                                   
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - celectiondescriptioneditor/UserActions/ElectionUndoUserAction.java                                                   
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - celectiondescriptioneditor/UserActions/LoadElectionUserAction.java                                                   
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - celectiondescriptioneditor/UserActions/NewElectionUserAction.java                                                    
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - celectiondescriptioneditor/UserActions/PresentOptionsUserAction.java                                                 
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - celectiondescriptioneditor/UserActions/SaveAsElectionUserAction.java                                                 
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - celectiondescriptioneditor/UserActions/SaveElectionUserAction.java                                                   
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - celectiondescriptioneditor/UserActions/StaticErrorFindingUserAction.java                                             
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - celectiondescriptioneditor/View/CCodeEditorWindow.java                                                               
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - celectiondescriptioneditor/View/CEditorWindowStarter.java                                                            
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - celectiondescriptioneditor/View/ErrorWindow.java                                                                     
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - codearea/ActionAdder/ActionlistListener.java                                                                         
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - codearea/ActionAdder/TextChangedActionAdder.java                                                                     
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - codearea/Actionlist/Action.java                                                                                      
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - codearea/Actionlist/Actionlist.java                                                                                  
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - codearea/Actionlist/TextAction/TextAddedAction.java                                                                  
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - codearea/Actionlist/TextAction/TextDelta.java                                                                        
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - codearea/Actionlist/TextAction/TextRemovedAction.java                                                                
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - saverloader/OptionSaverLoader/OptionsSaverLoaderInterface.java                                                       
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - saverloader/StaticSaverLoaders/SymbolicVarListSaverLoader.java                                                       
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - saverloader/StaticSaverLoaders/FormalPropertySaverLoader.java                                                        
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - celectiondescriptioneditor/CElectionDescriptionEditor.java                                                           
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - celectiondescriptioneditor/CElectionDescriptionEditorBuilder.java                                                    
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - celectiondescriptioneditor/CElectionEditorMenubarHandler.java                                                        
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - celectiondescriptioneditor/CElectionEditorToolbarHandler.java                                                        
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - celectiondescriptioneditor/CElectioncodearea/CElectionCodeArea.java                                                  
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - celectiondescriptioneditor/CElectioncodearea/CElectionCodeAreaBuilder.java                                           
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - celectiondescriptioneditor/CElectioncodearea/CSyntaxHl.java                                                          
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - celectiondescriptioneditor/CElectioncodearea/ErrorHandling/CCodeErrorFactory.java                                    
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - celectiondescriptioneditor/CElectioncodearea/ErrorHandling/CErrorDisplayer.java                                      
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - celectiondescriptioneditor/CElectioncodearea/ErrorHandling/CGrammarErrorFinder.java                                  
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - celectiondescriptioneditor/CElectioncodearea/ErrorHandling/CVariableErrorFinder.java                                 
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - celectiondescriptioneditor/ElectionTemplates/ElectionTemplateChooser.java                                            
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - celectiondescriptioneditor/ElectionTemplates/ElectionTemplateHandler.java                                            
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - celectiondescriptioneditor/UserActions/LoadElectionUserAction.java                                                   
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - celectiondescriptioneditor/UserActions/NewElectionUserAction.java                                                    
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - celectiondescriptioneditor/UserActions/PresentOptionsUserAction.java                                                 
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - celectiondescriptioneditor/UserActions/SaveAsElectionUserAction.java                                                 
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - celectiondescriptioneditor/UserActions/SaveElectionUserAction.java                                                   
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - celectiondescriptioneditor/UserActions/StaticErrorFindingUserAction.java                                             
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - celectiondescriptioneditor/View/CCodeEditorWindow.java                                                               
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - celectiondescriptioneditor/View/CEditorWindowStarter.java                                                            
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - codearea/ActionAdder/TextChangedActionAdder.java                                                                     
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - codearea/Actionlist/Actionlist.java                                                                                  
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - codearea/Actionlist/TextAction/TextAddedAction.java                                                                  
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - codearea/Actionlist/TextAction/TextDelta.java                                                                        
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - codearea/Actionlist/TextAction/TextRemovedAction.java                                                                
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - codearea/Autocompletion/AutocompletionController.java                                                                
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - codearea/Autocompletion/AutocompletionFrame.java                                                                     
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - codearea/Autocompletion/AutocompletionOption.java                                                                    
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - codearea/Autocompletion/FindWordsConcurrently.java                                                                   
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - codearea/Autocompletion/WordsMoreEqualToComparator.java                                                              
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - codearea/CodeArea.java                                                                                               
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - codearea/CodeAreaBuilder.java                                                                                        
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - codearea/OpenCloseCharHighlighter.java                                                                               
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - codearea/SaveTextBeforeRemove.java                                                                             
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - codearea/StoppedTypingContinuouslyMessager.java                                                                      
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - codearea/TextLineNumber.java                                                                                         
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - codearea/ErrorHandling/CodeError.java                                                                                
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - codearea/ErrorHandling/ErrorController.java                                                                          
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - codearea/ErrorHandling/ErrorDisplayer.java                                                                                
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - codearea/ErrorHandling/ErrorFinderList.java                                                                          
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - codearea/ErrorHandling/ErrorFinderThread.java                                                                        
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - codearea/ErrorHandling/ErrorPopupMenu.java                                                                           
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - codearea/ErrorHandling/SquigglePainter.java                                                                          
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - codearea/InputToCode/CodeInputHandler.java                                                                                                                             
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - codearea/InputToCode/JTextPaneToolbox.java                                                                           
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - codearea/InputToCode/LineBeginningTabsHandler.java                                                                   
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - codearea/InputToCode/LockedLinesDisplay.java                                                                         
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - codearea/InputToCode/LockedLinesHandler.java                                                                         
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - codearea/InputToCode/NewlineInserter/BetweenCurlyBracesNewlineInserter.java                                          
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - codearea/InputToCode/NewlineInserter/LockedLineNewlineInserter.java                                                  
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - codearea/InputToCode/NewlineInserter/NewlineInserter.java                                                            
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - codearea/InputToCode/NewlineInserter/NewlineInserterChooser.java                                                     
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - codearea/InputToCode/NewlineInserter/StandardNewlineInserter.java                                                    
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - codearea/InputToCode/OpenCloseChar.java                                                                              
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - codearea/InputToCode/OpenCloseCharList.java                                                                          
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - codearea/InputToCode/ShortcutHandler.java                                                                            
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - codearea/InputToCode/TabInserter.java                                                                                
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - codearea/InputToCode/UserInputHandler.java                                                                           
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - codearea/InputToCode/UserInsertToCode.java                                                                           
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - codearea/UserActions/CodeAreaUserActions.java                                                                        
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - codearea/UserActions/CopyUserAction.java                                                                             
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - codearea/UserActions/CutUserAction.java                                                                              
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - codearea/UserActions/PasteUserAction.java                                                                            
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - codearea/UserActions/RedoLastUserAction.java                                                                         
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - codearea/UserActions/UndoLastUserAction.java                                                                         
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - toolbox/ToolbarHandler.java                                                                                          
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - toolbox/Tuple.java                                                                                                   
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - toolbox/UserAction.java                                                                                              
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - toolbox/SortedIntegerList.java                                                                                       
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - toolbox/MenuBarHandler.java                                                                                          
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - toolbox/ObjectRefsForBuilder.java                                                                                    
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - toolbox/RepaintThread.java                                                                                           
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - toolbox/ImageResourceProvider.java                                                                                   
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - toolbox/CCodeHelper.java                                                                                             
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - datatypes/booleanExpAST/BooleanExpListNode.java                                                                                                                                       
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - datatypes/booleanExpAST/NumberExpression.java                                                                        
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - datatypes/booleanExpAST/ThereExistsNode.java                                                                         
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - datatypes/booleanExpAST/TypeExpression.java                                                                          
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - datatypes/propertydescription/FormalPropertiesDescription.java                                                       
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - options/OptionElemComboBox.java                                                                                      
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - options/OptionElement.java                                                                                           
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - options/BooleanExpEditoroptions/BooleanExpCodeAreaOptions.java                                                       
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - options/BooleanExpEditoroptions/BooleanExpEditorOptions.java                                                         
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - options/CEditorOptions/CElectionCodeAreaOptions.java                                                                 
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - options/CEditorOptions/CElectionEditorOptions.java                                                                   
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - options/CodeAreaOptions/CodeAreaOptions.java                                                                         
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - options/CodeAreaOptions/FontSizeOptionElement.java                                                                   
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - options/CodeAreaOptions/FontTypeOptionElement.java                                                                   
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - options/CodeAreaOptions/SpacesPerTabOptionElement.java                                                               
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - options/OptionPresenter.java                                                                                         
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - options/OptionPresenterFrame.java                                                                                    
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - options/ParametereditorOptions/CheckerOptionElement.java                                                             
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - options/ParametereditorOptions/LanguageOptionElement.java                                                            
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - options/ParametereditorOptions/LanguageOptions.java                                                                  
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written
+ - options/ParametereditorOptions/ParametereditorOptions.java                                                           
+ - [ ] tests written 
+ - [ ] codereview passed 
+ - [ ] regression tests written

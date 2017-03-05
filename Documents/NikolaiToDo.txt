@@ -131,7 +131,7 @@
  - [ ] codereview passed 
  - [ ] regression tests written
  - booleanexpeditor/View/ErrorWindow.java                                                                               
- - [ ] tests written 
+ - [x] tests written 
  - [ ] codereview passed 
  - [ ] regression tests written
  - saverloader/ElectionDescriptionSaverLoader.java                                                                      
@@ -139,31 +139,31 @@
  - [ ] codereview passed 
  - [ ] regression tests written
  - saverloader/FileChooser.java                                                                                         
- - [ ] tests written 
+ - [x] tests written 
  - [ ] codereview passed 
  - [ ] regression tests written
  - saverloader/PostAndPrePropertiesDescriptionSaverLoader.java                                                          
- - [ ] tests written 
+ - [x] tests written 
  - [ ] codereview passed 
  - [ ] regression tests written
  - saverloader/ProjectSaverLoader.java                                                                                  
- - [ ] tests written 
+ - [x] tests written 
  - [ ] codereview passed 
  - [ ] regression tests written
  - saverloader/PropertyListSaverLoader.java                                                                             
- - [ ] tests written 
+ - [x] tests written 
  - [ ] codereview passed 
  - [ ] regression tests written
  - saverloader/SaverLoader.java                                                                                         
- - [ ] tests written 
+ - [x] tests written 
  - [ ] codereview passed 
  - [ ] regression tests written
  - saverloader/StaticSaverLoaders/TimeOutSaverLoader.java                                                               
- - [ ] tests written 
+ - [x] tests written 
  - [ ] codereview passed 
  - [ ] regression tests written
  - saverloader/StaticSaverLoaders/StringSaverLoader.java                                                                
- - [ ] tests written 
+ - [x] tests written 
  - [ ] codereview passed 
  - [ ] regression tests written
  - saverloader/StaticSaverLoaders/ElectionCheckParameterSaverLoader.java                                                

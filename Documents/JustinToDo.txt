@@ -19,27 +19,27 @@
  - [ ] codereview passed 
  - [ ] regression tests written
  - propertylist/PLChangeHandler.java                                                                                    
- - [ ] tests written 
+ - [x] tests written 
  - [ ] codereview passed 
  - [ ] regression tests written
  - propertylist/PLControllerInterface.java                                                                              
- - [ ] tests written 
+ - [x] tests written 
  - [ ] codereview passed 
  - [ ] regression tests written
  - propertylist/PropertyList.java
- - [ ] tests written 
+ - [x] tests written 
  - [ ] codereview passed 
  - [ ] regression tests written
  - propertylist/PropertyListBuilder.java                                                                                
- - [ ] tests written 
+ - [x] tests written 
  - [ ] codereview passed 
  - [ ] regression tests written
  - propertylist/PropertyListMenuBarHandler.java                                                                         
- - [ ] tests written 
+ - [x] tests written 
  - [ ] codereview passed 
  - [ ] regression tests written
  - propertylist/PropertyListToolbarHandler.java                                                                         
- - [ ] tests written 
+ - [x] tests written 
  - [ ] codereview passed 
  - [ ] regression tests written
  - propertylist/UserActions/LoadPropertyList.java                                                                       

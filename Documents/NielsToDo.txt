@@ -42,14 +42,14 @@
  - [ ] tests written 
  - [ ] codereview passed 
  - [ ] regression tests written
- - toolbox/CodeArrayListBeautifier.java                                                                                 
+ - toolbox/CodeArrayListBeautifier.java                                                                            
  - [ ] tests written 
  - [ ] codereview passed 
  - [ ] regression tests written
- - toolbox/BooleanExpCodeToASTConverter.java                                                                            
- - [ ] tests written 
- - [ ] codereview passed 
- - [ ] regression tests written
+ - toolbox/BooleanExpCodeToASTConverter.java (not used and deleted)                                                                            
+ - [X] tests written 
+ - [X] codereview passed 
+ - [X] regression tests written
  - datatypes/internal/InternalTypeContainer.java                                                                        
  - [ ] tests written 
  - [ ] codereview passed 
@@ -58,10 +58,10 @@
  - [ ] tests written 
  - [ ] codereview passed 
  - [ ] regression tests written
- - datatypes/PropertyList.java                                                                                          
- - [ ] tests written 
- - [ ] codereview passed 
- - [ ] regression tests written
+ - datatypes/PropertyList.java (deleted / not used)                                                                                         
+ - [x] tests written 
+ - [x] codereview passed 
+ - [x] regression tests written
  - datatypes/propertydescription/PostAndPrePropertiesDescription.java                                                   
  - [ ] tests written 
  - [ ] codereview passed 

@@ -43,7 +43,7 @@
  - [ ] codereview passed 
  - [ ] regression tests written
  - toolbox/CodeArrayListBeautifier.java                                                                            
- - [ ] tests written 
+ - [X] tests written 
  - [ ] codereview passed 
  - [ ] regression tests written
  - toolbox/BooleanExpCodeToASTConverter.java (not used and deleted)                                                                            

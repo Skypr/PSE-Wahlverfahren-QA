@@ -1,0 +1,37 @@
+\begin{table}[]
+\caption{Testfall 8.2 (Testfall für Rückgängig machen und Wiederherstellen)}
+\centering
+	\begin{tabular}{| p{0.15\linewidth} | p{0.15\linewidth} | p{0.20\linewidth} |
+	p{0.15\linewidth} | p{0.1\linewidth} | p{0.1\linewidth} |}
+	\hline
+	\textbf{Sub-Testfall} &
+	\textbf{Abgedeckte Funktionalitäten} &
+	\textbf{Beschreibung} &
+	\textbf{Ergebnis} & \textbf{Lukas}
+	(Windows 10) Version 1.4.13 &
+	\textbf{Jemand anderes} Ubuntu 14.0 Version 1.4.13) 
+\\
+\hline
+/T100/ &
+/FS1100/ /FS2150/ /F0010/ /F0050/ &
+Man startet das Programm ganz normal. Nun gibt man in
+jedes Feld, das die "`Rückgängig machen"' Funktionalität unterstützt, einen
+kleinen Text ein, und drückt dann, während der Fokus auf dem zu testendem Feld
+liegt "`Strg + z"' &
+Der zuletzt eingegebene Buchstabe
+oder Textblock (im Falle des Einfügens mit "`Strg + c"') wird gelöscht &
+\centering \Checkmark & X
+\\
+\hline /T110/& /FS1100/ /FS2150/ /F0010/ /F0050 &
+Man startet das Programm ganz normal. Nun gibt man in
+jedes Feld, das die "`Rückgängig machen"' Funktionalität unterstützt, einen
+kleinen Text ein, und drückt dann, während der Fokus auf dem zu testendem Feld
+liegt "`Strg + z"'. Nun drückt man "`Strg + r" &
+Der vorher durch das rückgängig machen verschwundene Buchstabe oder Textblock
+erscheint wieder &
+\centering \Checkmark 
+& X 
+\\ \hline
+
+\end{tabular}
+\end{table}

@@ -1,0 +1,14 @@
+#TeXlipse project settings
+#Sun Feb 26 22:59:25 CET 2017
+markTmpDer=true
+builderNum=2
+outputDir=
+makeIndSty=
+bibrefDir=
+outputFormat=pdf
+tempDir=tmp
+mainTexFile=Qualit\u00E4tssicherung.tex
+outputFile=Qualit\u00E4tssicherung.pdf
+langSpell=de
+markDer=true
+srcDir=

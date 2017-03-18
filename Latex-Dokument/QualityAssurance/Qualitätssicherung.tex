@@ -1,0 +1,212 @@
+\documentclass[a4paper]{scrreprt}
+\usepackage[german]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{pdflscape}
+\usepackage{wrapfig}
+\usepackage{adjustbox}
+\usepackage{bbding}
+\usepackage{subfiles}
+\hypersetup{
+    colorlinks,
+    citecolor=black,
+    filecolor=black,
+    linkcolor=black,
+    urlcolor=black
+}
+
+
+\begin{document}
+\title{Qualitätssicherungsdokument}
+\author{Hanselmann, Hecht, Klein, Schnell, Stapelbroek, Wohnig}
+\date{\today\\v0.4}
+\maketitle 
+\tableofcontents	
+
+\chapter{Einleitung}
+
+
+\chapter{Codereviews}
+
+\section{Planung}
+Wir haben die Qualitätssicherungsphase mit Codereviews angefangen.
+Hierfür wurde unsere Gruppe in Gruppen zu je zwei Leuten unterteilt, wobei
+darauf Wert gelegt wird, dass diese, die sich gegenseitig ihren Code erklären
+müssen, möglichst wenig über den Code des anderen wissen. Wir haben hiermit
+angefangen, um möglichst schnell die gröbsten Fehler im Code zu finden, sodass
+wir uns im weiteren Verlauf des Qualitätssicherung auf versteckter liegende konzentrieren
+konnten. Ein weiterer wichtiger Aspekt dieser Codereviwes war, den Code zu
+refactorn, um die Lesbarkeit, Wartbarkeit und spätere Testbarkeit zu erhöhen.
+
+\section{Ergebnis}
+Das Ergebnis der Codereviews ist nicht ganz eindeutig. Während sie manchen
+Personen geholfen haben Fehler zu finden, die beim späteren Testen
+wahrscheinlich nicht entdeckt worden wären, und den Code an sich etwas robuster
+zu machen, haben andere eigentlich nur ein paar Style Fehler gefunden, und
+angegeben, dass ihnen die Codereviews eigentlich nicht geholfen hätten. Dies
+kann aber auch daran gelegen haben, dass die Leute zu schnell über den Code
+gegangen sind, und die andere Person nicht tiefgründig genug gehende Fragen
+gestellt hat.
+
+\chapter{Unit-Tests}
+
+\section{Planung}
+Neben den Codereviews haben wir anfangs parallel (zum
+Beispiel weil ein Gruppenmitglied einer Zweiergruppe keine Zeit hat und sein
+Partner etwas zu tun braucht) und später auch
+verstärkt darauf hinarbeiten Testfälle für den Code zu schreiben.
+Zum einen werden wir alle Testfälle, welche im Pflichtenheft genannt wurden,
+implementieren. Sollte der Testfall GUI Bezug haben oder an sich nicht mit JUnit
+realisieren lassen wird er dann von Hand ausgefürt. Dabei ist es jedoch wichtig alle Schritte genau zu
+dokumentieren, damit der Test, im Falle einer Änderung, auch später noch
+reproduzierbar ist.
+
+\section{Übersicht über gefundene Fehler}
+Dank der Unit-Tests und dem Testen von Hand konnten in dieser Phase  viele
+Fehler gefunden werden, sodass wir hier eine Übersicht über einige geben werde:
+
+\begin{itemize}
+  \item Es gab einen Fehler in der Codegenerierung, sodass zum Beispiel Voting
+  Arrays, die gleich sein sollten, unterschiedlich waren.
+  \item In manchen Fälle ließ sich die Analyse nicht starten.
+  \item Ein paar Nullpointer Exceptions.
+  \item Die Ausgabe von CBMC konnte nicht immer richtig geparsed werden.
+  \item Ein Fehler in der Codegenerierung, wenn man "`EXISTSONE"' verwendet.
+  \item Fehler bei der Präferenz Wahl, bei der Wähler Kandidaten die selbe
+  Position geben konnten.
+\end{itemize}
+
+
+\section{Testüberdeckung}
+Zur Bewertung unserer Tests setzten wir als Metrik auf die
+"`Instruktionsüberdeckung"', da sich diese am leichtesten messen lässt, und für
+so ein komplexes Programm gut anzeigt, welche Bereiche noch weiterer Tests
+bedürfen.
+Weiterhin wird aber auch darauf geachtet, dass in den Methoden der einzelnen Klassen eine möglichst hohe
+Pfadüberdeckung gegeben ist. Da die Metrik-Werkzeuge, welche wir verwenden zwar
+nicht überdeckte Pfade anzeigen, daraus aber keine Ausdrucksvolle Metrik bauen
+können, fließt sie nicht in die Metrik an sich mit ein, auch wenn darauf
+geachtet wurde.
+\newline
+Momentan erreiche wir eine Testabdeckung von ca 77 \% (Stand 15.3.17 am Abend).
+Für das fertige Dokument kommt hier ein Graph hin, in dem man die Testabdeckung
+im Laufe der Zei (mindestens zu jedem milestone) erkennen kann.
+
+\chapter{Performance und Verbrauch:}
+Über die Phase haben wir unser Programm stetig in einem Profiler betrachtet, um
+schnell reagieren zu können, sollte eine Änderung in dieser Phase die
+Lauffähigkeit unseres Programmes stärker als Erwartet beeinflussen.
+\newline
+Die war jedoch nicht der Fall, sodass der Resoucenverbraucht vor und nach der
+Qualitätssicherungsphase relativ konstant geblieben ist.
+\newline
+Wie man in \ref{fig1} und \ref{fig2} erkennen kann, ist der Verlauf des
+Speicherverbrauches so gut wie identisch mit ca 30MB, bevor der "`garbage
+collector"' es wieder auf ca 10 MB herunterbringt. Anscheinend haben viele
+unserer Objekte nur eine kurze Lebensdauer, woraus sich auch schließen ließe,
+dass unser Programm im "`Leerlauf"' einen insignifikanten Speicherverbrauch hat,
+der Computersysteme von heute vor keine große Aufgabe stellen sollte.
+\newline
+Vergleicht man nun \ref{fig3} mit \ref{fig4} sieht man, dass sich die
+Unterschiede der Versionen, während eine Eigenschaft überprüft wird, schon
+stärker unterscheiden. Während der Arbeitsspeicherverbrauch zwar noch relativ
+ähnlich zwischen den beiden Versionen ist, sieht man, dass die Auslastung des
+Prozessors schon deutliche Unterschiede aufweist, welche jedoch vor allem darauf
+zurückzuführen sind, dass nicht die exakt gleichen Wahlverfahren verglichen
+wurden, da sich im Laufe der Qualitätssicherungsphase etwas am System zum
+Speichern der Wahlverfahren geändert hatte.
+\newline
+Der Grund, aus dem der Resourcenverbrauch bei der Überprüfung so viel höher
+liegt, ist, dass in dieser Phase zum einen der Code, welcher an CBMC gesendet
+werden muss, für jede Eigenschaft einzeln erzeugt wird, und auch mehrere Threads
+konstant die Ausgabe von CBMC auffangen müssen.
+Ist die Überprüfung jedoch abgeschlossen normalisiert sich der
+Resourcenverbrauch wieder relativ schnell.
+
+\newpage
+\begin{figure}[ht]
+	\centering
+  \includegraphics[width=1.0\textwidth,
+  height=0.40\textwidth]{images/OLD_NO.png} \caption{Dies ist der
+  Resoucenverbrauch des Programmes, während es auf eine Eingabe vom Nutzer wartet und momentan keine Verifikation durchführt}
+	\label{fig1}
+\end{figure}
+
+\vspace{4cm}
+
+\begin{figure}[ht]
+	\centering
+  \includegraphics[width=1.0\textwidth,
+  height=0.40\textwidth]{images/NEW_NO.png} \caption{Der Resourcenverbrauch der
+  momentanten Version des Programmes, während keine Überprüfung durchgeführt wird}
+	\label{fig2}
+\end{figure}
+
+
+\newpage
+
+\begin{figure}[ht]
+	\centering
+  \includegraphics[width=1.0\textwidth,
+  height=0.4\textwidth]{images/OLD_YES.png} \caption{Der Resourcenverbrauch
+ der originalen Version von BEAST, während Eigenschaften überprüft werden}
+	\label{fig3}
+\end{figure}
+
+\vspace{4cm}
+
+\begin{figure}[ht]
+	\centering
+  \includegraphics[width=1.0\textwidth,
+  height=0.40\textwidth]{images/NEW_YES.png} \caption{Der Resourcenverbrauch der
+  momentanten Version des Programmes, während Eigenschaften überprüft werden}
+	\label{fig4}
+\end{figure}
+
+\newpage
+Betrachtet man die Verteilung der neusten BEAST Version während einer
+Analyse (siehe \ref{fig5}) fällt auf, dass die Methoden, welche die meiste
+Prozessorzeit in Anspruch nehmen, die sind, die dafür sorgen, dass das Programm
+so angenehmt für wie möglich läuft. Würde man zum Beispiel die konstante
+Überprüfung auf Fehler weniger häuftig ausführen, so müsste der Nutzer länger auf eine
+Rückmeldung warten, was er noch ändern müsste. Ähnlich verhält es sich zu den
+"`ThreadedBufferedReader"' Instanzen, die auch noch einen großen Anteil an der
+Prozessorzeit haben. Dies liegt daran, dass sie die gesamte Kommunikation zu
+außerhalb laufenden Prozessen übernehmen, und deshalb die gesamte Zeit ohne
+Unterbrechung laufen müssen, solange der Prozess, den sie Überwachen, auch noch
+läuft.
+
+\begin{figure}[ht]
+	\centering
+  \includegraphics[width=1.0\textwidth,
+  height=0.40\textwidth]{images/BEAST_PROCESSORTIME.png} \caption{Der
+  Prozentuale Anteil einzelner Methoden an der gesamt benutzen Prozessorzeit}
+	\label{fig5}
+\end{figure}
+
+\chapter{Fehlerbehebungen}
+
+Nummer problem | Ursache | Lösung
+
+
+\chapter{Verbesserungen in der Phase}
+Neben Fehlerbehebungen haben wir BEAST in dieser Phase auch in einigen Punkten
+verbessert:
+
+\begin{itemize}
+  \item Im Eigenschafteneditor gibt es nun einen Knopf, welcher eine Erklärung
+  über die BooleanExpressionLanguage gibt, mit der der Nutzer hier Befehler
+  schreiben kann.
+  \item Der Nutzer kann nun als Nach-Eigenschaft angeben, dass die Analyse
+  erfolgreich war, wenn ein bestimmter Kandidat gewählt wurde.
+\end{itemize}
+
+\chapter{Anhang}
+
+\section{Testprotokolle}
+
+\input{testProtokolle/Testfall8_2.tex}
+
+
+\end{document}

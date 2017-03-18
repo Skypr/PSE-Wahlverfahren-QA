@@ -1,0 +1,7 @@
+*.aux
+Latex-Dokument/QualityAssurance/Qualitätssicherun.synctex.gz
+*.log
+Latex-Dokument/QualityAssurance/Qualitätssicherung.out
+*.toc
+*.project
+*.texclipse

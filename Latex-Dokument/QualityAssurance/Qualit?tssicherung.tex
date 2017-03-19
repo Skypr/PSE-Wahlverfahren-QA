@@ -193,6 +193,8 @@ läuft.
 Nummer problem | Ursache | Lösung
 
 
+
+
 \chapter{Verbesserungen in der Phase}
 Neben Fehlerbehebungen haben wir BEAST in dieser Phase auch in einigen Punkten
 verbessert:
@@ -201,8 +203,8 @@ verbessert:
   \item Im Eigenschafteneditor gibt es nun einen Knopf, welcher eine Erklärung
   über die BooleanExpressionLanguage gibt, mit der der Nutzer hier Befehler
   schreiben kann.
-  \item Der Nutzer kann nun als Nach-Eigenschaft angeben, dass die Analyse
-  erfolgreich war, wenn ein bestimmter Kandidat gewählt wurde.
+  \item Der Nutzer kann nun Wähler, Kandidaten und Sitze via ihrer Position in den entsprechenden Arrays angeben. Dazu wurden die Sprachkonstrukte \verb!VOTER_AT_POS!, \verb!CAND_AT_POS! und \verb!SEAT_AT_POS! implementiert.
+  \item Der Nutzer kann nun beliebige mathematische Terme angeben, welche *, /, + und - unterstützen. Diese binären mathematischen Operationen können auf sämtliche Ausdrücke angewendet werden, welche einen ganzzahligen Wert liefern.
 \end{itemize}
 
 \chapter{Anhang}

@@ -91,7 +91,10 @@ geachtet wurde.
 \newline
 Momentan erreiche wir eine Testabdeckung von ca 77 \% (Stand 15.3.17 am Abend).
 Für das fertige Dokument kommt hier ein Graph hin, in dem man die Testabdeckung
-im Laufe der Zei (mindestens zu jedem milestone) erkennen kann.
+im Laufe der Zeit (mindestens zu jedem milestone) erkennen kann.
+
+\section{Unit-Tests für AST- und Codegenerierung}
+Da die theoretische Anzahl möglicher korrekter boolscher Ausdrücke abzählbar unendlich ist ist es unmöglich jeden möglichen Ausdruck auf korrekte Übersetzung in AST und C-Code zu überprüfen. Daher wird stattdessen die AST- und Codegenerierung jedes Sprachkonstrukts einmal auf Korrektheit überprüft. Sprachkonstrukte sind im Pflichtenheft in "'1.1 Die Syntax zur Angabe der formalen Eigenschaften"' beschrieben. Zusätzlich werden einige gängige komplexere Ausdrücke überprüft (Beispiele in https://formal.iti.kit.edu/teaching/pse/201617/voting/kickOff.pdf, Folie 22). Zur Überprüfung der ASTs wurde Funktionalität zur Darstellung eines ASTs in textueller Form implementiert. Diese Repräsentation wird auf Korrektheit überprüft. Die Codegenerierung wird so getestet, dass ein gegebener boolscher Ausdruck übersetzt wird. Dadurch wird bei der Überprüfung der Codegenerierung erneut die Erstellung der ASTs überprüft. 
 
 \chapter{Performance und Verbrauch:}
 Über die Phase haben wir unser Programm stetig in einem Profiler betrachtet, um

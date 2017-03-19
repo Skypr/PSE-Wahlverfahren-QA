@@ -200,6 +200,11 @@ Issue 27\\
 Beschreibung: Obwohl als Voraussetzung angegeben war, dass beide vote-Arrays gleich sein sollten (\verb!VOTES1==VOTES2!) wurde in beiden Wahlvorgängen verschiedene Stimmen abgegeben.\\
 Lösung: Der Bug stammte daher, dass der generierte Code die abgegebenen Stimmen nur bis zu Anzahl Wähler verglich. Bei Wahlverfahren, bei welchen jeder Wähler eine Liste von Länge Anzahl Kandidaten abgibt, wurden daher nur die ersten Stimmen verglichen. Dies führte zu dem Bug, sobald es mehr Kandidaten als Wähler gab.
 
+Issue 28
+Beschreibung: Bei einem Wahlverfahren welches Preference-voting als input verwendet dauerte es enorm lange eine Eigenschaft zu testen, wenn es mehr Kandidaten als Wähler gab. Bei 6 Wählern und Kandidaten dauerte eine Überprüfung wenige Sekunden. Bei 5 Wählern und 6 Kandidaten war die Überprüfung nach 2 Minuten noch nicht fertig.\\
+Lösung: Die Ursache war, dass bei Preference-voting als zusätzliche Voraussetzung alle von einem Wähler abgegebenen Stimmen verschieden sein müssen. Dies liegt daran dass diese Platzierungen von Wählern repräsentieren. Der Code welcher produziert wurde um diese Eigenschaft sicherzustellen war fehlerhaft.
+ 
+
 
 \chapter{Verbesserungen in der Phase}
 Neben Fehlerbehebungen haben wir BEAST in dieser Phase auch in einigen Punkten

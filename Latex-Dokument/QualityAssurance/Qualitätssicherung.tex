@@ -1,4 +1,4 @@
-\documentclass[a4paper]{scrreprt}
+﻿\documentclass[a4paper]{scrreprt}
 \usepackage[german]{babel}
 \usepackage[utf8]{inputenc}
 \usepackage{graphicx}
@@ -12,7 +12,7 @@
     colorlinks,
     citecolor=black,
     filecolor=black,
-    linkcolor=black,
+    linkcolor=black, 
     urlcolor=black
 }
 
@@ -91,7 +91,10 @@ geachtet wurde.
 \newline
 Momentan erreiche wir eine Testabdeckung von ca 77 \% (Stand 15.3.17 am Abend).
 Für das fertige Dokument kommt hier ein Graph hin, in dem man die Testabdeckung
-im Laufe der Zei (mindestens zu jedem milestone) erkennen kann.
+im Laufe der Zeit (mindestens zu jedem milestone) erkennen kann.
+
+\section{Unit-Tests für AST- und Codegenerierung}
+Da die theoretische Anzahl möglicher korrekter boolscher Ausdrücke abzählbar unendlich ist ist es unmöglich jeden möglichen Ausdruck auf korrekte Übersetzung in AST und C-Code zu überprüfen. Daher wird stattdessen die AST- und Codegenerierung jedes Sprachkonstrukts einmal auf Korrektheit überprüft. Sprachkonstrukte sind im Pflichtenheft in "'1.1 Die Syntax zur Angabe der formalen Eigenschaften"' beschrieben. Zusätzlich werden einige gängige komplexere Ausdrücke überprüft (Beispiele in https://formal.iti.kit.edu/teaching/pse/201617/voting/kickOff.pdf, Folie 22). Zur Überprüfung der ASTs wurde Funktionalität zur Darstellung eines ASTs in textueller Form implementiert. Diese Repräsentation wird auf Korrektheit überprüft. Die Codegenerierung wird so getestet, dass ein gegebener boolscher Ausdruck übersetzt wird. Dadurch wird bei der Überprüfung der Codegenerierung erneut die Erstellung der ASTs überprüft. 
 
 \chapter{Performance und Verbrauch:}
 Über die Phase haben wir unser Programm stetig in einem Profiler betrachtet, um
@@ -189,6 +192,23 @@ läuft.
 
 Nummer problem | Ursache | Lösung
 
+Issue 16\\
+Beschreibung: Es war möglich Zeilen zu verändern welche als nicht editierbar angezeigt und festgelegt wurden. Dies geschah wenn man unterhalb einer solchen Zeile etwas schrieb. Durch Entfernen des Zeilentrennungszeichens wurde dieses Zeichen dann in die nicht editierbare Zeile angehoben.\\
+Lösung: In die \verb!removeToTheLeft! Methode in \verb!UserInserToCode! wurde ein zusätzlicher Check eingefügt. Es überprüft nun ob die Zeile über der, in welcher etwas gelöscht wird, nicht editierbar ist. Falls ja, und das zu löschende Zeichen ist ein Zeichentrennungszeichen, wird nur gelöscht falls die Zeile auf welcher sich der Cursor befindet leer ist.
+
+Issue 27\\
+Beschreibung: Obwohl als Voraussetzung angegeben war, dass beide vote-Arrays gleich sein sollten (\verb!VOTES1==VOTES2!) wurde in beiden Wahlvorgängen verschiedene Stimmen abgegeben.\\
+Lösung: Der Bug stammte daher, dass der generierte Code die abgegebenen Stimmen nur bis zu Anzahl Wähler verglich. Bei Wahlverfahren, bei welchen jeder Wähler eine Liste von Länge Anzahl Kandidaten abgibt, wurden daher nur die ersten Stimmen verglichen. Dies führte zu dem Bug, sobald es mehr Kandidaten als Wähler gab.
+
+Issue 28\\
+Beschreibung: Bei einem Wahlverfahren welches Preference-Voting als input verwendet dauerte es enorm lange eine Eigenschaft zu testen, wenn es mehr Kandidaten als Wähler gab. Bei 6 Wählern und Kandidaten dauerte eine Überprüfung wenige Sekunden. Bei 5 Wählern und 6 Kandidaten war die Überprüfung nach 2 Minuten noch nicht fertig.\\
+Lösung: Die Ursache war, dass bei Preference-voting als zusätzliche Voraussetzung alle von einem Wähler abgegebenen Stimmen verschieden sein müssen. Dies liegt daran dass diese Platzierungen von Wählern repräsentieren. Der Code welcher produziert wurde um diese Eigenschaft sicherzustellen war fehlerhaft.
+
+Issue 42\\
+Beschreibung: Bei der Codeerzeugung für Vergleiche wurden linke und rechte Seite des Vergleiches vertauscht.\\
+Lösung: An der Stelle an welcher der String für den Vergleich generiert wird wurde lhs und rhs vertauscht. 
+ 
+
 
 \chapter{Verbesserungen in der Phase}
 Neben Fehlerbehebungen haben wir BEAST in dieser Phase auch in einigen Punkten
@@ -198,8 +218,8 @@ verbessert:
   \item Im Eigenschafteneditor gibt es nun einen Knopf, welcher eine Erklärung
   über die BooleanExpressionLanguage gibt, mit der der Nutzer hier Befehler
   schreiben kann.
-  \item Der Nutzer kann nun als Nach-Eigenschaft angeben, dass die Analyse
-  erfolgreich war, wenn ein bestimmter Kandidat gewählt wurde.
+  \item Der Nutzer kann nun Wähler, Kandidaten und Sitze via ihrer Position in den entsprechenden Arrays angeben. Dazu wurden die Sprachkonstrukte \verb!VOTER_AT_POS!, \verb!CAND_AT_POS! und \verb!SEAT_AT_POS! implementiert.
+  \item Der Nutzer kann nun beliebige mathematische Terme angeben, welche *, /, + und - unterstützen. Diese binären mathematischen Operationen können auf sämtliche Ausdrücke angewendet werden, welche einen ganzzahligen Wert liefern.
 \end{itemize}
 
 \chapter{Anhang}
@@ -209,6 +229,7 @@ verbessert:
 \input{testProtokolle/Testfall8_1b.tex}
 \input{testProtokolle/Testfall8_1c.tex}
 \input{testProtokolle/Testfall8_2.tex}
+\input{testProtokolle/Testfall8_4.tex}
 \input{testProtokolle/Testfall8_5.tex}
 \input{testProtokolle/Testfall8_6.tex}
 

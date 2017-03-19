@@ -7,9 +7,8 @@
 	\textbf{Sub-Testfall} &
 	\textbf{Abgedeckte Funktionalitäten} &
 	\textbf{Beschreibung} &
-	\textbf{Ergebnis} & \textbf{Holger}
-	(Windows 7) Version 1.4.13 &
-	\textbf{Holger} Ubuntu (16.04 LTS))|
+	\textbf{Ergebnis} & \textbf{Holger} Windows 7  &
+	\textbf{Holger} Ubuntu (16.04 LTS))
 \\
 \hline
 /T310/ &
@@ -17,20 +16,202 @@
 Man startet das Programm und öffnet den C-Editor. Dort wählt man eine der Möglichkeiten eine neue Wahlbeschreibung zu entwerfen
 &
 & 
+&
 \\
 \hline
 &
-& per Shortcut: Strg + n
-& Der Dialog zum Erstellen einer neuen Wahlbeschreibung wird angezeigt
-& \centering X
+/FS1100/&
+Per Shortcut: Strg + n
+& Der Dialog zum Erstellen einer neuen Wahlverfahrensbeschreibung wird angezeigt
 & \Checkmark
+&\Checkmark
+\\
 \hline
 &
-& per Menü: Klicken auf das erste Menüitem, klicken auf das erste Submenüitem
-& Der Dialog zum Erstellen einer neuen Wahlbeschreibung wird angezeigt
-& \centering X
+&
+Per Menü: Datei, dann Neu
+& Der Dialog zum Erstellen einer neuen Wahlverfahrensbeschreibung wird angezeigt
 & \Checkmark
+&\Checkmark
+\\
+\hline
+&
+&
+Per Toolbar: Erster Button der Toolbar
+& Der Dialog zum Erstellen einer neuen Wahlverfahrensbeschreibung wird angezeigt
+& \Checkmark
+&\Checkmark
+\\
+\hline
+\end{tabular}
+\end{table}
 
+\begin{table}[]
+\caption{Testfälle 8.4 (Testfälle für den C-Editor)}
+\centering
+	\begin{tabular}{| p{0.15\linewidth} | p{0.15\linewidth} | p{0.20\linewidth} |
+	p{0.15\linewidth} | p{0.1\linewidth} | p{0.1\linewidth} |}
+	\hline
+	\textbf{Sub-Testfall} &
+	\textbf{Abgedeckte Funktionalitäten} &
+	\textbf{Beschreibung} &
+	\textbf{Ergebnis} & \textbf{Holger} Windows 7 &
+	\textbf{Holger} Ubuntu (16.04 LTS))
+\\
+\hline
+& /FS1110/
+& Auswahl eines Input- und Resulttypen sowie eines Namens. Klicken des "Erstellen"-Buttons
+& Der Funktionskörper wird entsprechend aktualisiert 
+& 
+&
+\\
+\hline
+&
+& Single-chice 
+& Input: unsigned int votes[V]
+& \Checkmark
+& \Checkmark
+\\
+\hline
+&
+& Preference 
+& Input: unsigned int votes[V][C]
+& \Checkmark
+& \Checkmark
+\\
+\hline
+&
+& Approval 
+& Input: unsigned int votes[V][C]
+& \Checkmark
+& \Checkmark
+\\
+\hline
+&
+& Weighted Approval 
+& Input: unsigned int votes[V][C]
+& \Checkmark
+& \Checkmark
+\\
+\hline
+&
+& Candidate or not determined
+& Result: unsigned int 
+& \Checkmark
+& \Checkmark
+\\
+\hline
+&
+& Seats per party
+& Result: unsigned int *
+& \Checkmark
+& \Checkmark
+\\
+\hline
+\end{tabular}
+\end{table}
 
+\begin{table}[]
+\caption{Testfälle 8.4 (Testfälle für den C-Editor)}
+\centering
+	\begin{tabular}{| p{0.15\linewidth} | p{0.15\linewidth} | p{0.20\linewidth} |
+	p{0.15\linewidth} | p{0.1\linewidth} | p{0.1\linewidth} |}
+	\hline
+	\textbf{Sub-Testfall} &
+	\textbf{Abgedeckte Funktionalitäten} &
+	\textbf{Beschreibung} &
+	\textbf{Ergebnis} & \textbf{Holger} Windows 7 &
+	\textbf{Holger} Ubuntu (16.04 LTS))
+\\
+\hline
+/T320/ &
+/FM1050/&
+Man startet das Programm und öffnet den C-Editor. Dort gibt man ein Programm ein welches mehrere Fehler enthält. Danach wählt man im Menü Code "statische Analyse" aus.
+Fehler: Fehlendes return, Zugriff auf nicht deklarierte Variable, Verwendung nicht deklarierter Funktion, Funktionsaufruf mit falschen Parametern, fehlendes Semikolon, Fehlende schließende geschweifte Klammer nach for-Schleife
+& Es werden alle Fehler im Code angezeigt
+& \Checkmark
+& \Checkmark
+\\
+\hline
+\end{tabular}
+\end{table}
+
+\begin{table}[]
+\caption{Testfälle 8.4 (Testfälle für den C-Editor)}
+\centering
+	\begin{tabular}{| p{0.15\linewidth} | p{0.15\linewidth} | p{0.20\linewidth} |
+	p{0.15\linewidth} | p{0.1\linewidth} | p{0.1\linewidth} |}
+	\hline
+	\textbf{Sub-Testfall} &
+	\textbf{Abgedeckte Funktionalitäten} &
+	\textbf{Beschreibung} &
+	\textbf{Ergebnis} & \textbf{Holger} Windows 7 &
+	\textbf{Holger} Ubuntu (16.04 LTS))
+\\
+\hline
+&
+/FM1030/, /FM1040/&
+Man startet das Programm und öffnet den C-Editor. Dort speichert man die geöffnete Wahlverfahrensbeschreibung an. einem beliebigen Ort. Danach klickt man auf Öffnen, navigiert an den Ort an dem die Datei gerade gespeichert wurde, und öffnet sie 
+& Die gespeicherte Datei wird angezeigt
+& \Checkmark
+& \Checkmark
+\\
+\hline
+\end{tabular}
+\end{table}
+
+\begin{table}[]
+\caption{Testfälle 8.4 (Testfälle für den C-Editor)}
+\centering
+	\begin{tabular}{| p{0.15\linewidth} | p{0.15\linewidth} | p{0.20\linewidth} |
+	p{0.15\linewidth} | p{0.1\linewidth} | p{0.1\linewidth} |}
+	\hline
+	\textbf{Sub-Testfall} &
+	\textbf{Abgedeckte Funktionalitäten} &
+	\textbf{Beschreibung} &
+	\textbf{Ergebnis} & \textbf{Holger} Windows 7 &
+	\textbf{Holger} Ubuntu (16.04 LTS))
+\\
+\hline
+&
+/FK1130/&
+Man startet das Programm und öffnet den C-Editor. Dort geht man in den Körper der voting-Funktion und beginnt return zu tippen. Nach den ersten zwei Buchstaben betätigt man den Shortcut Strg - Leer. In dem erschienenen Menü wählt man return aus und drückt Enter.
+& Das Wort return wird in den Funktionskörper geschrieben
+& \Checkmark
+& \Checkmark
+\\
+\hline
+&
+/FK1130/&
+Man gibt in den Funktionskörper der voting-Funktion den text int asdasdasd ein und wartet 10 Sekunden. Danach geht man auf eine neue Zeile und tippt a. Dann betätigt man den Shortcut Strg-Leer
+& In dem erschienenen Menü wird nun asdasdasd als Option angezeigt
+& \Checkmark
+& \Checkmark
+\\
+\hline
+\end{tabular}
+\end{table}
+
+\begin{table}[]
+\caption{Testfälle 8.4 (Testfälle für den C-Editor)}
+\centering
+	\begin{tabular}{| p{0.15\linewidth} | p{0.15\linewidth} | p{0.20\linewidth} |
+	p{0.15\linewidth} | p{0.1\linewidth} | p{0.1\linewidth} |}
+	\hline
+	\textbf{Sub-Testfall} &
+	\textbf{Abgedeckte Funktionalitäten} &
+	\textbf{Beschreibung} &
+	\textbf{Ergebnis} & \textbf{Holger} Windows 7 &
+	\textbf{Holger} Ubuntu (16.04 LTS))
+\\
+\hline
+&
+/FK1140/&
+Man startet das Programm und öffnet den C-Editor. Dort geht man auf den Menüpunkt Editor -> Eigenschaften. In dem erschienenen Dialog wählt man einen anderen Font und Schriftgröße aus
+& Der verwendete Font und Schriftgröße werden zu der gewählten aktualisiert. Diese Änderung bleibt auch nach Neustart des Programmes
+& \Checkmark
+& \Checkmark
+\\
+\hline
 \end{tabular}
 \end{table}

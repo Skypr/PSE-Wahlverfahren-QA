@@ -7,6 +7,7 @@
 \contentsline {section}{\numberline {3.1}Planung}{5}{section.3.1}
 \contentsline {section}{\numberline {3.2}\IeC {\"U}bersicht \IeC {\"u}ber gefundene Fehler}{5}{section.3.2}
 \contentsline {section}{\numberline {3.3}Test\IeC {\"u}berdeckung}{5}{section.3.3}
+\contentsline {section}{\numberline {3.4}Unit-Tests f\IeC {\"u}r AST- und Codegenerierung}{6}{section.3.4}
 \contentsline {chapter}{\numberline {4}Performance und Verbrauch:}{7}{chapter.4}
 \contentsline {chapter}{\numberline {5}Fehlerbehebungen}{11}{chapter.5}
 \contentsline {chapter}{\numberline {6}Verbesserungen in der Phase}{12}{chapter.6}

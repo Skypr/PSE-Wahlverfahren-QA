@@ -1,9 +1,24 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.3.30)  18 MAR 2017 11:26
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.3.30)  19 MAR 2017 16:40
 entering extended mode
 **./Qualit√§tssicherung.tex
 (Qualit√§tssicherung.tex
 LaTeX2e <2015/10/01> patch level 2
 Babel <3.9n> and hyphenation patterns for 69 languages loaded.
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 Ô
+     ªø\documentclass[a4paper]{scrreprt}
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no Ô in font nullfont!
+Missing character: There is no ª in font nullfont!
+Missing character: There is no ø in font nullfont!
 
 ("C:\Users\Lukas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\koma-script\scrrep
 rt.cls"
@@ -119,6 +134,11 @@ LaTeX Info: Redefining \textsubscript on input line 4769.
 Class scrreprt Info: Redefining `\numberline' on input line 5764.
 \bibindent=\dimen102
 )
+Overfull \hbox (20.0pt too wide) in paragraph at lines 1--2
+[][]
+ []
+
+[1{C:/Users/Lukas/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
 ("C:\Users\Lukas\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\babel.sty"
 Package: babel 2016/01/08 3.9n The Babel package
 *************************************
@@ -722,7 +742,7 @@ Package babel Info: Redefining german shorthand "~
 
 
 
-{C:/Users/Lukas/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
+]
 (Qualit√§tssicherung.toc
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <10.95> on input line 4.
@@ -858,164 +878,1188 @@ Package babel Info: Redefining german shorthand "|
 (babel)             in language  on input line 96.
 Package babel Info: Redefining german shorthand "~
 (babel)             in language  on input line 96.
+
+Overfull \hbox (16.4905pt too wide) in paragraph at lines 97--98
+\OT1/cmr/m/n/10.95 ps://formal.iti.kit.edu/teaching/pse/201617/voting/kickOff.p
+df, Fo-lie 22). Zur []Uberpr[]ufung
+ []
+
 Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 96.
+(babel)             in language  on input line 99.
 Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 96.
+(babel)             in language  on input line 99.
 Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 96.
- [6]
+(babel)             in language  on input line 99.
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 99.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 99.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 99.
+[6]
 chapter 4.
 Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 96.
+(babel)             in language  on input line 99.
 Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 96.
+(babel)             in language  on input line 99.
 Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 96.
+(babel)             in language  on input line 99.
 Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 127.
+(babel)             in language  on input line 130.
 Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 127.
+(babel)             in language  on input line 130.
 Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 127.
+(babel)             in language  on input line 130.
 Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 127.
+(babel)             in language  on input line 130.
 Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 127.
+(babel)             in language  on input line 130.
 Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 127.
+(babel)             in language  on input line 130.
 [7
 
-] <images/OLD_NO.png, id=111, 1245.9047pt x 667.74469pt>
+] <images/OLD_NO.png, id=119, 1245.9047pt x 667.74469pt>
 File: images/OLD_NO.png Graphic file (type png)
 
 <use images/OLD_NO.png>
-Package pdftex.def Info: images/OLD_NO.png used on input line 131.
+Package pdftex.def Info: images/OLD_NO.png used on input line 134.
 (pdftex.def)             Requested size: 418.25992pt x 167.29237pt.
 
-<images/NEW_NO.png, id=112, 1239.88219pt x 664.73344pt>
+<images/NEW_NO.png, id=120, 1239.88219pt x 664.73344pt>
 File: images/NEW_NO.png Graphic file (type png)
 
 <use images/NEW_NO.png>
-Package pdftex.def Info: images/NEW_NO.png used on input line 141.
+Package pdftex.def Info: images/NEW_NO.png used on input line 144.
 (pdftex.def)             Requested size: 418.24353pt x 167.29868pt.
 Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 147.
+(babel)             in language  on input line 150.
 Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 147.
+(babel)             in language  on input line 150.
 Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 147.
+(babel)             in language  on input line 150.
 Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 147.
+(babel)             in language  on input line 150.
 Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 147.
+(babel)             in language  on input line 150.
 Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 147.
+(babel)             in language  on input line 150.
  [8 <./images/OLD_NO.png> <./images/NEW_NO.png>]
-<images/OLD_YES.png, id=117, 1241.38782pt x 669.2503pt>
+<images/OLD_YES.png, id=125, 1241.38782pt x 669.2503pt>
 File: images/OLD_YES.png Graphic file (type png)
 
 <use images/OLD_YES.png>
-Package pdftex.def Info: images/OLD_YES.png used on input line 152.
+Package pdftex.def Info: images/OLD_YES.png used on input line 155.
 (pdftex.def)             Requested size: 418.23997pt x 167.30196pt.
 
-<images/NEW_YES.png, id=118, 1244.39906pt x 670.75594pt>
+<images/NEW_YES.png, id=126, 1244.39906pt x 670.75594pt>
 File: images/NEW_YES.png Graphic file (type png)
 
 <use images/NEW_YES.png>
-Package pdftex.def Info: images/NEW_YES.png used on input line 162.
+Package pdftex.def Info: images/NEW_YES.png used on input line 165.
 (pdftex.def)             Requested size: 418.24815pt x 167.29964pt.
 Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 167.
+(babel)             in language  on input line 170.
 Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 167.
+(babel)             in language  on input line 170.
 Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 167.
+(babel)             in language  on input line 170.
 Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 167.
+(babel)             in language  on input line 170.
 Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 167.
+(babel)             in language  on input line 170.
 Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 167.
+(babel)             in language  on input line 170.
  [9 <./images/OLD_YES.png> <./images/NEW_YES.png>]
-<images/BEAST_PROCESSORTIME.png, id=124, 1111.15125pt x 372.39125pt>
+<images/BEAST_PROCESSORTIME.png, id=132, 1111.15125pt x 372.39125pt>
 File: images/BEAST_PROCESSORTIME.png Graphic file (type png)
 
 <use images/BEAST_PROCESSORTIME.png>
-Package pdftex.def Info: images/BEAST_PROCESSORTIME.png used on input line 183.
+Package pdftex.def Info: images/BEAST_PROCESSORTIME.png used on input line 186.
 
 (pdftex.def)             Requested size: 418.25749pt x 167.30176pt.
 Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 188.
+(babel)             in language  on input line 191.
 Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 188.
+(babel)             in language  on input line 191.
 Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 188.
+(babel)             in language  on input line 191.
 Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 188.
+(babel)             in language  on input line 191.
 Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 188.
+(babel)             in language  on input line 191.
 Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 188.
+(babel)             in language  on input line 191.
  [10 <./images/BEAST_PROCESSORTIME.png (PNG copy)>]
 chapter 5.
 Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 188.
+(babel)             in language  on input line 191.
 Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 188.
+(babel)             in language  on input line 191.
 Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 188.
+(babel)             in language  on input line 191.
 Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 193.
+(babel)             in language  on input line 213.
 Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 193.
+(babel)             in language  on input line 213.
 Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 193.
+(babel)             in language  on input line 213.
 Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 193.
+(babel)             in language  on input line 213.
 Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 193.
+(babel)             in language  on input line 213.
 Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 193.
+(babel)             in language  on input line 213.
 [11
 
 ]
 chapter 6.
 Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 193.
+(babel)             in language  on input line 213.
 Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 193.
+(babel)             in language  on input line 213.
 Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 193.
+(babel)             in language  on input line 213.
 Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 205.
+(babel)             in language  on input line 225.
 Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 205.
+(babel)             in language  on input line 225.
 Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 205.
+(babel)             in language  on input line 225.
 Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 205.
+(babel)             in language  on input line 225.
 Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 205.
+(babel)             in language  on input line 225.
 Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 205.
+(babel)             in language  on input line 225.
 [12
 
 ]
 chapter 7.
 Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 205.
+(babel)             in language  on input line 225.
 Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 205.
+(babel)             in language  on input line 225.
 Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 205.
+(babel)             in language  on input line 225.
 Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 207.
+(babel)             in language  on input line 227.
 Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 207.
+(babel)             in language  on input line 227.
 Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 207.
-(testProtokolle/Testfall8_2.tex
+(babel)             in language  on input line 227.
+(testProtokolle/Testfall8_1.tex
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 1.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--7
+[][]\OT1/cmr/bx/n/10.95 Sub-
+ []
+
+
+Overfull \hbox (1.17683pt too wide) in paragraph at lines 8--8
+[][]\OT1/cmr/bx/n/10.95 Abgedeckte
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 8--8
+\OT1/cmr/bx/n/10.95 Funk-tio-na-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--11
+[]\OT1/cmr/bx/n/10.95 Lukas
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--11
+\OT1/cmr/m/n/10.95 (Win-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--11
+\OT1/cmr/m/n/10.95 Ver-si-on
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12--14
+[][]\OT1/cmr/bx/n/10.95 Justin
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12--14
+\OT1/cmr/m/n/10.95 Lu-bun-tu
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12--14
+\OT1/cmr/m/n/10.95 16.1
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12--14
+\OT1/cmr/m/n/10.95 Ver-si-on
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--15
+[][]\OT1/cmr/m/n/10.95 /T010/
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 16--16
+[][]\OT1/cmr/m/n/10.95 /FS1030/
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 16--16
+\OT1/cmr/m/n/10.95 /FS1100/
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--18
+[][]\OT1/cmr/m/n/10.95 Man gibt ein
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--18
+\OT1/cmr/m/n/10.95 Wahl-ver-fah-ren
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--18
+\OT1/cmr/m/n/10.95 But-ton []Neu\
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--18
+\OT1/cmr/m/n/10.95 aus. In einen
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--18
+\OT1/cmr/m/n/10.95 das gew[]unschte
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--18
+\OT1/cmr/m/n/10.95 Wahl-ver-fah-ren
+ []
+
+
+Underfull \hbox (badness 2269) in paragraph at lines 17--18
+\OT1/cmr/m/n/10.95 und die An-zahl
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--18
+\OT1/cmr/m/n/10.95 der Sit-ze ein.
+ []
+
+
+Underfull \hbox (badness 4595) in paragraph at lines 17--18
+\OT1/cmr/m/n/10.95 In ein Text-feld
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--18
+\OT1/cmr/m/n/10.95 wird der Na-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--18
+\OT1/cmr/m/n/10.95 me ein-ge-ge-ben.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--18
+\OT1/cmr/m/n/10.95 Man dr[]uckt
+ []
+
+
+Underfull \hbox (badness 2376) in paragraph at lines 17--18
+\OT1/cmr/m/n/10.95 auf den But-ton
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 19--19
+[][]\OT1/cmr/m/n/10.95 Ein neu-er
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 19--19
+\OT1/cmr/m/n/10.95 vor-ge-fer-tig-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 19--19
+\OT1/cmr/m/n/10.95 ter C-Code
+ []
+
+
+Underfull \hbox (badness 1874) in paragraph at lines 19--19
+\OT1/cmr/m/n/10.95 er-scheint im
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 19--19
+\OT1/cmr/m/n/10.95 C-Editor.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 19--19
+\OT1/cmr/m/n/10.95 Aus-ge-graut
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 19--19
+\OT1/cmr/m/n/10.95 sind die
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 19--19
+\OT1/cmr/m/n/10.95 Ar-gu-men-te
+ []
+
+LaTeX Font Info:    Try loading font information for U+ding on input line 20.
+("C:\Users\Lukas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\bbding\uding.fd"
+File: Uding.fd 1996/02/01 v1.0 BBding font definitions
+)
+Underfull \hbox (badness 10000) in paragraph at lines 23--23
+[][]\OT1/cmr/m/n/10.95 /T010/
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 23--23
+\OT1/cmr/m/n/10.95 (Ei-gen-schaf-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 24--24
+[][]\OT1/cmr/m/n/10.95 /FM2100/
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 25--26
+\OT1/cmr/m/n/10.95 Ei-gen-schaf-ten
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 25--26
+\OT1/cmr/m/n/10.95 But-ton []Neu\
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 27--27
+[][]\OT1/cmr/m/n/10.95 Die Fel-der
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 27--27
+\OT1/cmr/m/n/10.95 f[]ur []Sym-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 27--27
+\OT1/cmr/m/n/10.95 bo-li-sche
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 27--27
+\OT1/cmr/m/n/10.95 Va-ria-blen\,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 27--27
+[]\OT1/cmr/m/n/10.95 Vor-be-din-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 27--27
+[]\OT1/cmr/m/n/10.95 Nach-be-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 27--27
+\OT1/cmr/m/n/10.95 din-gun-gen\
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 27--27
+\OT1/cmr/m/n/10.95 lee-ren sich.
+ []
+
+
+Underfull \hbox (badness 7740) in paragraph at lines 27--27
+\OT1/cmr/m/n/10.95 In der Ti-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 27--27
+\OT1/cmr/m/n/10.95 tel-lei-ste
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 27--27
+\OT1/cmr/m/n/10.95 er-scheint
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 27--27
+\OT1/cmr/m/n/10.95 der Na-me
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 27--27
+[]\OT1/cmr/m/n/10.95 Ei-gen-schaft
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 31--31
+[][]\OT1/cmr/m/n/10.95 /T010/
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 31--31
+\OT1/cmr/m/n/10.95 (Ei-gen-schaf-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 33--34
+[][]\OT1/cmr/m/n/10.95 Man f[]ugt Ei-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 33--34
+\OT1/cmr/m/n/10.95 gen-schaf-ten zur
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 33--34
+\OT1/cmr/m/n/10.95 Li-ste hin-zu.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 33--34
+\OT1/cmr/m/n/10.95 Man w[]ahlt in
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 33--34
+\OT1/cmr/m/n/10.95 But-ton []Neu\
+ []
+
+
+Underfull \hbox (badness 4686) in paragraph at lines 33--34
+\OT1/cmr/m/n/10.95 aus. Die Nach-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 33--34
+\OT1/cmr/m/n/10.95 fra-ge, ob man
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 33--34
+\OT1/cmr/m/n/10.95 spei-chern will,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 35--35
+\OT1/cmr/m/n/10.95 Ei-gen-schaf-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 35--35
+\OT1/cmr/m/n/10.95 ten leert
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 39--39
+[][]\OT1/cmr/m/n/10.95 /T010/
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 39--39
+\OT1/cmr/m/n/10.95 (Pa-ra-me-te-re-
+ []
+
+
+Underfull \hbox (badness 1874) in paragraph at lines 41--42
+[][]\OT1/cmr/m/n/10.95 Man []andert die
+ []
+
+
+Underfull \hbox (badness 2837) in paragraph at lines 41--42
+\OT1/cmr/m/n/10.95 Pa-ra-me-ter. Man
+ []
+
+
+Underfull \hbox (badness 1789) in paragraph at lines 41--42
+\OT1/cmr/m/n/10.95 bar den But-ton
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 43--43
+[][]\OT1/cmr/m/n/10.95 Es exi-stiert
+ []
+
+
+Underfull \hbox (badness 3049) in paragraph at lines 43--43
+\OT1/cmr/m/n/10.95 kein But-ton
+ []
+
+
+Overfull \hbox (9.2578pt too wide) in paragraph at lines 4--51
+ [][][] 
+ []
+
+
+LaTeX Warning: Float too large for page by 142.69202pt on input line 51.
+
+) (testProtokolle/Testfall8_1b.tex
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 1.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--7
+[][]\OT1/cmr/bx/n/10.95 Sub-
+ []
+
+
+Overfull \hbox (1.17683pt too wide) in paragraph at lines 8--8
+[][]\OT1/cmr/bx/n/10.95 Abgedeckte
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 8--8
+\OT1/cmr/bx/n/10.95 Funk-tio-na-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--11
+[]\OT1/cmr/bx/n/10.95 Lukas
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--11
+\OT1/cmr/m/n/10.95 (Win-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--11
+\OT1/cmr/m/n/10.95 Ver-si-on
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12--14
+[][]\OT1/cmr/bx/n/10.95 Justin
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12--14
+\OT1/cmr/m/n/10.95 Lu-bun-tu
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12--14
+\OT1/cmr/m/n/10.95 16.1
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12--14
+\OT1/cmr/m/n/10.95 Ver-si-on
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--15
+[][]\OT1/cmr/m/n/10.95 /T020/
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--15
+\OT1/cmr/m/n/10.95 /T030/
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 16--16
+[][]\OT1/cmr/m/n/10.95 /FM1030/
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 16--16
+\OT1/cmr/m/n/10.95 /FS1100/
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 16--16
+\OT1/cmr/m/n/10.95 /FS1040/
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--18
+[][]\OT1/cmr/m/n/10.95 Man gibt ein
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--18
+\OT1/cmr/m/n/10.95 Wahl-ver-fah-ren
+ []
+
+
+Underfull \hbox (badness 2698) in paragraph at lines 17--18
+\OT1/cmr/m/n/10.95 ein. Man w[]ahlt
+ []
+
+
+Underfull \hbox (badness 6725) in paragraph at lines 17--18
+\OT1/cmr/m/n/10.95 in der Tool-bar
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--18
+\OT1/cmr/m/n/10.95 den But-ton
+ []
+
+
+Underfull \hbox (badness 1308) in paragraph at lines 17--18
+[]\OT1/cmr/m/n/10.95 Spei-chern\ aus.
+ []
+
+
+Underfull \hbox (badness 2376) in paragraph at lines 17--18
+\OT1/cmr/m/n/10.95 In einen Dia-log
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--18
+\OT1/cmr/m/n/10.95 gibt man den
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--18
+\OT1/cmr/m/n/10.95 gew[]unschten
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--18
+\OT1/cmr/m/n/10.95 Spei-cher-ort ein.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--18
+\OT1/cmr/m/n/10.95 Man dr[]uckt
+ []
+
+
+Underfull \hbox (badness 2376) in paragraph at lines 17--18
+\OT1/cmr/m/n/10.95 auf den But-ton
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--18
+[]\OT1/cmr/m/n/10.95 Spei-chern\.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--18
+\OT1/cmr/m/n/10.95 In ei-nem Dia-
+ []
+
+
+Underfull \hbox (badness 6808) in paragraph at lines 17--18
+\OT1/cmr/m/n/10.95 log w[]ahlt man
+ []
+
+
+Underfull \hbox (badness 3989) in paragraph at lines 17--18
+\OT1/cmr/m/n/10.95 das ge-spei-cher-te
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--18
+\OT1/cmr/m/n/10.95 Wahl-ver-fah-ren
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 19--19
+[][]\OT1/cmr/m/n/10.95 Das Wahl-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 19--19
+\OT1/cmr/m/n/10.95 ver-fah-ren
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 19--19
+\OT1/cmr/m/n/10.95 wur-de ge-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 19--19
+\OT1/cmr/m/n/10.95 spei-chert.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 19--19
+\OT1/cmr/m/n/10.95 Das La-den
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 19--19
+\OT1/cmr/m/n/10.95 des Wahl-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 19--19
+\OT1/cmr/m/n/10.95 ver-fah-rens
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 19--19
+\OT1/cmr/m/n/10.95 schlug fehl.
+ []
+
+
+Underfull \hbox (badness 3668) in paragraph at lines 19--19
+\OT1/cmr/m/n/10.95 Das For-mat
+ []
+
+
+Underfull \hbox (badness 3780) in paragraph at lines 19--19
+\OT1/cmr/m/n/10.95 wur-de nicht
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 23--23
+[][]\OT1/cmr/m/n/10.95 /T020/
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 23--23
+\OT1/cmr/m/n/10.95 /T030/
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 23--23
+\OT1/cmr/m/n/10.95 (Ei-gen-schaf-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 24--24
+[][]\OT1/cmr/m/n/10.95 /FM2100/
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 25--26
+\OT1/cmr/m/n/10.95 Ei-gen-schaf-ten
+ []
+
+
+Underfull \hbox (badness 2698) in paragraph at lines 25--26
+\OT1/cmr/m/n/10.95 ein. Man w[]ahlt
+ []
+
+
+Underfull \hbox (badness 6725) in paragraph at lines 25--26
+\OT1/cmr/m/n/10.95 in der Tool-bar
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 25--26
+\OT1/cmr/m/n/10.95 den But-ton
+ []
+
+
+Underfull \hbox (badness 1308) in paragraph at lines 25--26
+[]\OT1/cmr/m/n/10.95 Spei-chern\ aus.
+ []
+
+
+Underfull \hbox (badness 2376) in paragraph at lines 25--26
+\OT1/cmr/m/n/10.95 In einen Dia-log
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 25--26
+\OT1/cmr/m/n/10.95 gibt man den
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 25--26
+\OT1/cmr/m/n/10.95 gew[]unschten
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 25--26
+\OT1/cmr/m/n/10.95 Spei-cher-ort ein.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 25--26
+\OT1/cmr/m/n/10.95 Man dr[]uckt
+ []
+
+
+Underfull \hbox (badness 2376) in paragraph at lines 25--26
+\OT1/cmr/m/n/10.95 auf den But-ton
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 25--26
+[]\OT1/cmr/m/n/10.95 Spei-chern\.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 25--26
+\OT1/cmr/m/n/10.95 Man w[]ahlt in
+ []
+
+
+Underfull \hbox (badness 1400) in paragraph at lines 25--26
+\OT1/cmr/m/n/10.95 But-ton [][]Offnen\
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 25--26
+\OT1/cmr/m/n/10.95 aus. In ei-nem
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 25--26
+\OT1/cmr/m/n/10.95 Dia-log w[]ahlt
+ []
+
+
+Underfull \hbox (badness 1527) in paragraph at lines 25--26
+\OT1/cmr/m/n/10.95 man die ge-spei-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 25--26
+\OT1/cmr/m/n/10.95 Ei-gen-schaf-ten
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 27--27
+[][]\OT1/cmr/m/n/10.95 Die Ei-gen-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 27--27
+\OT1/cmr/m/n/10.95 ge-spei-chert.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 27--27
+\OT1/cmr/m/n/10.95 Das La-den
+ []
+
+
+Underfull \hbox (badness 2717) in paragraph at lines 27--27
+\OT1/cmr/m/n/10.95 schl[]agt fehl.
+ []
+
+
+Underfull \hbox (badness 3668) in paragraph at lines 27--27
+\OT1/cmr/m/n/10.95 Das For-mat
+ []
+
+
+Underfull \hbox (badness 3780) in paragraph at lines 27--27
+\OT1/cmr/m/n/10.95 wur-de nicht
+ []
+
+
+Overfull \hbox (9.2578pt too wide) in paragraph at lines 4--34
+ [][][] 
+ []
+
+
+LaTeX Warning: Float too large for page by 83.19995pt on input line 34.
+
+) (testProtokolle/Testfall8_1c.tex
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 1.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--7
+[][]\OT1/cmr/bx/n/10.95 Sub-
+ []
+
+
+Overfull \hbox (1.17683pt too wide) in paragraph at lines 8--8
+[][]\OT1/cmr/bx/n/10.95 Abgedeckte
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 8--8
+\OT1/cmr/bx/n/10.95 Funk-tio-na-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--11
+[]\OT1/cmr/bx/n/10.95 Lukas
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--11
+\OT1/cmr/m/n/10.95 (Win-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--11
+\OT1/cmr/m/n/10.95 Ver-si-on
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12--14
+[][]\OT1/cmr/bx/n/10.95 Justin
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12--14
+\OT1/cmr/m/n/10.95 Lu-bun-tu
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12--14
+\OT1/cmr/m/n/10.95 16.1
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12--14
+\OT1/cmr/m/n/10.95 Ver-si-on
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--15
+[][]\OT1/cmr/m/n/10.95 /T020/
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--15
+\OT1/cmr/m/n/10.95 /T030/
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--15
+\OT1/cmr/m/n/10.95 (Ei-gen-schaf-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 16--16
+[][]\OT1/cmr/m/n/10.95 /FM3060/
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--18
+[][]\OT1/cmr/m/n/10.95 Man f[]ugt Ei-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--18
+\OT1/cmr/m/n/10.95 gen-schaf-ten zur
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--18
+\OT1/cmr/m/n/10.95 w[]ahlt in der
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--18
+\OT1/cmr/m/n/10.95 ton []Spei-chern\
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--18
+\OT1/cmr/m/n/10.95 aus. In einen
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--18
+\OT1/cmr/m/n/10.95 Spei-cher-ort ein.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--18
+\OT1/cmr/m/n/10.95 Man dr[]uckt
+ []
+
+
+Underfull \hbox (badness 2376) in paragraph at lines 17--18
+\OT1/cmr/m/n/10.95 auf den But-ton
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--18
+[]\OT1/cmr/m/n/10.95 Spei-chern\.
+ []
+
+
+Underfull \hbox (badness 6808) in paragraph at lines 17--18
+\OT1/cmr/m/n/10.95 w[]ahlt man die
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--18
+\OT1/cmr/m/n/10.95 ge-spei-cher-te Ei-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--18
+\OT1/cmr/m/n/10.95 gen-schaf-ten-li-ste
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 19--19
+\OT1/cmr/m/n/10.95 Ei-gen-schaf-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 19--19
+\OT1/cmr/m/n/10.95 ten wur-de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 19--19
+\OT1/cmr/m/n/10.95 ge-spei-chert.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 19--19
+\OT1/cmr/m/n/10.95 Die Li-ste
+ []
+
+
+Underfull \hbox (badness 4954) in paragraph at lines 19--19
+\OT1/cmr/m/n/10.95 wird wie-der
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 23--23
+[][]\OT1/cmr/m/n/10.95 /T020/
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 23--23
+\OT1/cmr/m/n/10.95 /T030/
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 23--23
+\OT1/cmr/m/n/10.95 (Pa-ra-me-te-re-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 24--24
+[][]\OT1/cmr/m/n/10.95 /FM4050/
+ []
+
+
+Underfull \hbox (badness 1874) in paragraph at lines 25--26
+[][]\OT1/cmr/m/n/10.95 Man []andert die
+ []
+
+
+Underfull \hbox (badness 2837) in paragraph at lines 25--26
+\OT1/cmr/m/n/10.95 Pa-ra-me-ter. Man
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 25--26
+\OT1/cmr/m/n/10.95 w[]ahlt in der
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 25--26
+\OT1/cmr/m/n/10.95 ton []Spei-chern\
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 25--26
+\OT1/cmr/m/n/10.95 aus. In einen
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 25--26
+\OT1/cmr/m/n/10.95 Spei-cher-ort ein.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 25--26
+\OT1/cmr/m/n/10.95 Man dr[]uckt
+ []
+
+
+Underfull \hbox (badness 2376) in paragraph at lines 25--26
+\OT1/cmr/m/n/10.95 auf den But-ton
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 25--26
+[]\OT1/cmr/m/n/10.95 Spei-chern\.
+ []
+
+
+Underfull \hbox (badness 6808) in paragraph at lines 25--26
+\OT1/cmr/m/n/10.95 w[]ahlt man die
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 25--26
+\OT1/cmr/m/n/10.95 ge-spei-cher-te Ei-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 25--26
+\OT1/cmr/m/n/10.95 gen-schaf-ten-li-ste
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 27--27
+[][]\OT1/cmr/m/n/10.95 Das Pro-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 27--27
+\OT1/cmr/m/n/10.95 jekt wird
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 27--27
+\OT1/cmr/m/n/10.95 ge-spei-chert.
+ []
+
+
+Underfull \hbox (badness 1874) in paragraph at lines 27--27
+\OT1/cmr/m/n/10.95 Das Pro-jekt
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 27--27
+\OT1/cmr/m/n/10.95 kann wie-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 27--27
+\OT1/cmr/m/n/10.95 der ge-la-den
+ []
+
+
+Overfull \hbox (9.2578pt too wide) in paragraph at lines 4--32
+ [][][] 
+ []
+
+
+LaTeX Warning: Float too large for page by 58.86133pt on input line 32.
+
+) (testProtokolle/Testfall8_2.tex
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 1.
@@ -1180,10 +2224,7 @@ Underfull \hbox (badness 2726) in paragraph at lines 21--22
 \OT1/cmr/m/n/10.95 + c\) wird
  []
 
-LaTeX Font Info:    Try loading font information for U+ding on input line 23.
-("C:\Users\Lukas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\bbding\uding.fd"
-File: Uding.fd 1996/02/01 v1.0 BBding font definitions
-)
+
 Underfull \hbox (badness 10000) in paragraph at lines 25--25
 []\OT1/cmr/m/n/10.95 /FS1100/
  []
@@ -1293,50 +2334,1833 @@ Overfull \hbox (9.2578pt too wide) in paragraph at lines 4--37
  [][][] 
  []
 
+) (testProtokolle/Testfall8_4.tex
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 1.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--7
+[][]\OT1/cmr/bx/n/10.95 Sub-
+ []
+
+
+Overfull \hbox (1.17683pt too wide) in paragraph at lines 8--8
+[][]\OT1/cmr/bx/n/10.95 Abgedeckte
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 8--8
+\OT1/cmr/bx/n/10.95 Funk-tio-na-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--10
+[]\OT1/cmr/bx/n/10.95 Holger
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--10
+\OT1/cmr/m/n/10.95 Win-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--10
+\OT1/cmr/m/n/10.95 dows
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--13
+[][]\OT1/cmr/bx/n/10.95 Holger
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--13
+\OT1/cmr/m/n/10.95 Ubun-tu
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--13
+\OT1/cmr/m/n/10.95 (16.04
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 16--17
+[][]\OT1/cmr/m/n/10.95 Man star-tet
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 16--17
+\OT1/cmr/m/n/10.95 das Pro-gramm
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 16--17
+\OT1/cmr/m/n/10.95 und []offnet
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 16--17
+\OT1/cmr/m/n/10.95 den C-Editor.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 16--17
+\OT1/cmr/m/n/10.95 Dort w[]ahlt
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 16--17
+\OT1/cmr/m/n/10.95 man ei-ne der
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 16--17
+\OT1/cmr/m/n/10.95 M[]oglichkeiten
+ []
+
+
+Underfull \hbox (badness 5417) in paragraph at lines 16--17
+\OT1/cmr/m/n/10.95 be-schrei-bung zu
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 24--25
+[][]\OT1/cmr/m/n/10.95 Per Short-cut:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 25--26
+[][]\OT1/cmr/m/n/10.95 Der Dia-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 25--26
+\OT1/cmr/m/n/10.95 log zum
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 25--26
+\OT1/cmr/m/n/10.95 Er-stel-len
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 25--26
+\OT1/cmr/m/n/10.95 ei-ner neu-en
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 25--26
+\OT1/cmr/m/n/10.95 Wahl-ver-fah-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 25--26
+\OT1/cmr/m/n/10.95 rens-be-schrei-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 25--26
+\OT1/cmr/m/n/10.95 bung wird
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 33--34
+[][]\OT1/cmr/m/n/10.95 Der Dia-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 33--34
+\OT1/cmr/m/n/10.95 log zum
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 33--34
+\OT1/cmr/m/n/10.95 Er-stel-len
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 33--34
+\OT1/cmr/m/n/10.95 ei-ner neu-en
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 33--34
+\OT1/cmr/m/n/10.95 Wahl-ver-fah-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 33--34
+\OT1/cmr/m/n/10.95 rens-be-schrei-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 33--34
+\OT1/cmr/m/n/10.95 bung wird
+ []
+
+
+Underfull \hbox (badness 1742) in paragraph at lines 40--41
+\OT1/cmr/m/n/10.95 ster But-ton der
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 41--42
+[][]\OT1/cmr/m/n/10.95 Der Dia-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 41--42
+\OT1/cmr/m/n/10.95 log zum
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 41--42
+\OT1/cmr/m/n/10.95 Er-stel-len
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 41--42
+\OT1/cmr/m/n/10.95 ei-ner neu-en
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 41--42
+\OT1/cmr/m/n/10.95 Wahl-ver-fah-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 41--42
+\OT1/cmr/m/n/10.95 rens-be-schrei-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 41--42
+\OT1/cmr/m/n/10.95 bung wird
+ []
+
+
+Overfull \hbox (9.2578pt too wide) in paragraph at lines 4--47
+ [][][] 
+ []
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 49.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 55--55
+[][]\OT1/cmr/bx/n/10.95 Sub-
+ []
+
+
+Overfull \hbox (1.17683pt too wide) in paragraph at lines 56--56
+[][]\OT1/cmr/bx/n/10.95 Abgedeckte
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 56--56
+\OT1/cmr/bx/n/10.95 Funk-tio-na-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 58--58
+[]\OT1/cmr/bx/n/10.95 Holger
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 58--58
+\OT1/cmr/m/n/10.95 Win-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 58--58
+\OT1/cmr/m/n/10.95 dows
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 59--61
+[][]\OT1/cmr/bx/n/10.95 Holger
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 59--61
+\OT1/cmr/m/n/10.95 Ubun-tu
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 59--61
+\OT1/cmr/m/n/10.95 (16.04
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 63--64
+[][]\OT1/cmr/m/n/10.95 Auswahl ei-nes
+ []
+
+
+Underfull \hbox (badness 3049) in paragraph at lines 63--64
+\OT1/cmr/m/n/10.95 Input- und Re-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 63--64
+\OT1/cmr/m/n/10.95 sult-ty-pen so-wie
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 63--64
+\OT1/cmr/m/n/10.95 ei-nes Na-mens.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 63--64
+\OT1/cmr/m/n/10.95 Klicken des
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 64--65
+[][]\OT1/cmr/m/n/10.95 Der Funk-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 64--65
+\OT1/cmr/m/n/10.95 ti-onsk[]orper
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 64--65
+\OT1/cmr/m/n/10.95 wird ent-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 64--65
+\OT1/cmr/m/n/10.95 spre-chend
+ []
+
+
+Underfull \hbox (badness 4316) in paragraph at lines 71--72
+[][]\OT1/cmr/m/n/10.95 Input: un-si-
+ []
+
+
+Underfull \hbox (badness 4316) in paragraph at lines 78--79
+[][]\OT1/cmr/m/n/10.95 Input: un-si-
+ []
+
+
+Underfull \hbox (badness 4316) in paragraph at lines 85--86
+[][]\OT1/cmr/m/n/10.95 Input: un-si-
+ []
+
+
+Underfull \hbox (badness 4316) in paragraph at lines 92--93
+[][]\OT1/cmr/m/n/10.95 Input: un-si-
+ []
+
+
+Overfull \hbox (9.2578pt too wide) in paragraph at lines 52--112
+ [][][] 
+ []
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 114.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 120--120
+[][]\OT1/cmr/bx/n/10.95 Sub-
+ []
+
+
+Overfull \hbox (1.17683pt too wide) in paragraph at lines 121--121
+[][]\OT1/cmr/bx/n/10.95 Abgedeckte
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 121--121
+\OT1/cmr/bx/n/10.95 Funk-tio-na-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 123--123
+[]\OT1/cmr/bx/n/10.95 Holger
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 123--123
+\OT1/cmr/m/n/10.95 Win-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 123--123
+\OT1/cmr/m/n/10.95 dows
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 124--126
+[][]\OT1/cmr/bx/n/10.95 Holger
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 124--126
+\OT1/cmr/m/n/10.95 Ubun-tu
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 124--126
+\OT1/cmr/m/n/10.95 (16.04
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 129--131
+[][]\OT1/cmr/m/n/10.95 Man star-tet
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 129--131
+\OT1/cmr/m/n/10.95 das Pro-gramm
+ []
+
+
+Underfull \hbox (badness 5622) in paragraph at lines 129--131
+\OT1/cmr/m/n/10.95 und []offnet den
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 129--131
+\OT1/cmr/m/n/10.95 C-Editor. Dort
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 129--131
+\OT1/cmr/m/n/10.95 gibt man ein
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 129--131
+\OT1/cmr/m/n/10.95 Pro-gramm ein
+ []
+
+
+Underfull \hbox (badness 4048) in paragraph at lines 129--131
+\OT1/cmr/m/n/10.95 wel-ches meh-re-re
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 129--131
+\OT1/cmr/m/n/10.95 Feh-ler enth[]alt.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 129--131
+\OT1/cmr/m/n/10.95 Da-nach w[]ahlt
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 129--131
+\OT1/cmr/m/n/10.95 man im Men[]u
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 129--131
+\OT1/cmr/m/n/10.95 Co-de ta-ti-sche
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 129--131
+\OT1/cmr/m/n/10.95 ler: Feh-len-des
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 129--131
+\OT1/cmr/m/n/10.95 re-turn, Zu-griff
+ []
+
+
+Underfull \hbox (badness 1412) in paragraph at lines 129--131
+\OT1/cmr/m/n/10.95 auf nicht de-kla-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 129--131
+\OT1/cmr/m/n/10.95 rier-te Va-ria-ble,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 129--131
+\OT1/cmr/m/n/10.95 Ver-wen-dung
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 129--131
+\OT1/cmr/m/n/10.95 nicht de-kla-rier-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 129--131
+\OT1/cmr/m/n/10.95 ter Funk-ti-on,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 129--131
+\OT1/cmr/m/n/10.95 Funk-ti-ons-auf-ruf
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 129--131
+\OT1/cmr/m/n/10.95 mit falschen
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 129--131
+\OT1/cmr/m/n/10.95 Feh-len-de schlie-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 129--131
+\OT1/cmr/m/n/10.95 Klam-mer nach
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 131--132
+[][]\OT1/cmr/m/n/10.95 Es wer-den
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 131--132
+\OT1/cmr/m/n/10.95 al-le Feh-ler
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 131--132
+\OT1/cmr/m/n/10.95 im Co-de
+ []
+
+
+Overfull \hbox (9.2578pt too wide) in paragraph at lines 117--137
+ [][][] 
+ []
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 139.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 145--145
+[][]\OT1/cmr/bx/n/10.95 Sub-
+ []
+
+
+Overfull \hbox (1.17683pt too wide) in paragraph at lines 146--146
+[][]\OT1/cmr/bx/n/10.95 Abgedeckte
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 146--146
+\OT1/cmr/bx/n/10.95 Funk-tio-na-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 148--148
+[]\OT1/cmr/bx/n/10.95 Holger
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 148--148
+\OT1/cmr/m/n/10.95 Win-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 148--148
+\OT1/cmr/m/n/10.95 dows
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 149--151
+[][]\OT1/cmr/bx/n/10.95 Holger
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 149--151
+\OT1/cmr/m/n/10.95 Ubun-tu
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 149--151
+\OT1/cmr/m/n/10.95 (16.04
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 153--153
+[][]\OT1/cmr/m/n/10.95 /FM1030/,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 154--155
+[][]\OT1/cmr/m/n/10.95 Man star-tet
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 154--155
+\OT1/cmr/m/n/10.95 das Pro-gramm
+ []
+
+
+Underfull \hbox (badness 5622) in paragraph at lines 154--155
+\OT1/cmr/m/n/10.95 und []offnet den
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 154--155
+\OT1/cmr/m/n/10.95 C-Editor. Dort
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 154--155
+\OT1/cmr/m/n/10.95 spei-chert man
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 154--155
+\OT1/cmr/m/n/10.95 die ge[]offnete
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 154--155
+\OT1/cmr/m/n/10.95 Wahl-ver-fah-rens-
+ []
+
+
+Underfull \hbox (badness 1270) in paragraph at lines 154--155
+\OT1/cmr/m/n/10.95 ei-nem be-lie-bi-gen
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 154--155
+\OT1/cmr/m/n/10.95 Ort. Da-nach
+ []
+
+
+Underfull \hbox (badness 6001) in paragraph at lines 154--155
+\OT1/cmr/m/n/10.95 klickt man auf
+ []
+
+
+Underfull \hbox (badness 2261) in paragraph at lines 154--155
+\OT1/cmr/m/n/10.95 an den Ort an
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 154--155
+\OT1/cmr/m/n/10.95 dem die Da-tei
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 154--155
+\OT1/cmr/m/n/10.95 ge-ra-de ge-spei-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 155--156
+[][]\OT1/cmr/m/n/10.95 Die ge-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 155--156
+\OT1/cmr/m/n/10.95 spei-cher-te
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 155--156
+\OT1/cmr/m/n/10.95 Da-tei wird
+ []
+
+
+Overfull \hbox (9.2578pt too wide) in paragraph at lines 142--161
+ [][][] 
+ []
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 163.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 169--169
+[][]\OT1/cmr/bx/n/10.95 Sub-
+ []
+
+
+Overfull \hbox (1.17683pt too wide) in paragraph at lines 170--170
+[][]\OT1/cmr/bx/n/10.95 Abgedeckte
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 170--170
+\OT1/cmr/bx/n/10.95 Funk-tio-na-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 172--172
+[]\OT1/cmr/bx/n/10.95 Holger
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 172--172
+\OT1/cmr/m/n/10.95 Win-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 172--172
+\OT1/cmr/m/n/10.95 dows
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 173--175
+[][]\OT1/cmr/bx/n/10.95 Holger
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 173--175
+\OT1/cmr/m/n/10.95 Ubun-tu
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 173--175
+\OT1/cmr/m/n/10.95 (16.04
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 178--179
+[][]\OT1/cmr/m/n/10.95 Man star-tet
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 178--179
+\OT1/cmr/m/n/10.95 das Pro-gramm
+ []
+
+
+Underfull \hbox (badness 5622) in paragraph at lines 178--179
+\OT1/cmr/m/n/10.95 und []offnet den
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 178--179
+\OT1/cmr/m/n/10.95 C-Editor. Dort
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 178--179
+\OT1/cmr/m/n/10.95 geht man in
+ []
+
+
+Underfull \hbox (badness 2213) in paragraph at lines 178--179
+\OT1/cmr/m/n/10.95 den K[]orper der
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 178--179
+\OT1/cmr/m/n/10.95 voting-Funktion
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 178--179
+\OT1/cmr/m/n/10.95 und be-ginnt
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 178--179
+\OT1/cmr/m/n/10.95 bet[]atigt man
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 178--179
+\OT1/cmr/m/n/10.95 den Short-cut
+ []
+
+
+Underfull \hbox (badness 2050) in paragraph at lines 178--179
+\OT1/cmr/m/n/10.95 Strg - Leer. In
+ []
+
+
+Underfull \hbox (badness 3872) in paragraph at lines 178--179
+\OT1/cmr/m/n/10.95 re-turn aus und
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 179--180
+[][]\OT1/cmr/m/n/10.95 Das Wort
+ []
+
+
+Underfull \hbox (badness 8075) in paragraph at lines 179--180
+\OT1/cmr/m/n/10.95 re-turn wird
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 179--180
+\OT1/cmr/m/n/10.95 ti-onsk[]orper
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 186--187
+[][]\OT1/cmr/m/n/10.95 Man gibt in
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 186--187
+\OT1/cmr/m/n/10.95 den Funk-ti-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 186--187
+\OT1/cmr/m/n/10.95 onsk[]orper der
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 186--187
+\OT1/cmr/m/n/10.95 voting-Funktion
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 186--187
+\OT1/cmr/m/n/10.95 man auf ei-ne
+ []
+
+
+Underfull \hbox (badness 5274) in paragraph at lines 186--187
+\OT1/cmr/m/n/10.95 neue Zei-le und
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 186--187
+\OT1/cmr/m/n/10.95 tippt a. Dann
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 186--187
+\OT1/cmr/m/n/10.95 bet[]atigt man
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 186--187
+\OT1/cmr/m/n/10.95 den Short-cut
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 187--188
+[][]\OT1/cmr/m/n/10.95 In dem
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 187--188
+\OT1/cmr/m/n/10.95 er-schie-ne-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 187--188
+\OT1/cmr/m/n/10.95 nen Men[]u
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 187--188
+\OT1/cmr/m/n/10.95 wird nun
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 187--188
+\OT1/cmr/m/n/10.95 as-das-dasd
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 187--188
+\OT1/cmr/m/n/10.95 als Op-ti-on
+ []
+
+
+Overfull \hbox (9.2578pt too wide) in paragraph at lines 166--193
+ [][][] 
+ []
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 195.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 201--201
+[][]\OT1/cmr/bx/n/10.95 Sub-
+ []
+
+
+Overfull \hbox (1.17683pt too wide) in paragraph at lines 202--202
+[][]\OT1/cmr/bx/n/10.95 Abgedeckte
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 202--202
+\OT1/cmr/bx/n/10.95 Funk-tio-na-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 204--204
+[]\OT1/cmr/bx/n/10.95 Holger
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 204--204
+\OT1/cmr/m/n/10.95 Win-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 204--204
+\OT1/cmr/m/n/10.95 dows
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 205--207
+[][]\OT1/cmr/bx/n/10.95 Holger
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 205--207
+\OT1/cmr/m/n/10.95 Ubun-tu
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 205--207
+\OT1/cmr/m/n/10.95 (16.04
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 210--211
+[][]\OT1/cmr/m/n/10.95 Man star-tet
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 210--211
+\OT1/cmr/m/n/10.95 das Pro-gramm
+ []
+
+
+Underfull \hbox (badness 5622) in paragraph at lines 210--211
+\OT1/cmr/m/n/10.95 und []offnet den
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 210--211
+\OT1/cmr/m/n/10.95 C-Editor. Dort
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 210--211
+\OT1/cmr/m/n/10.95 geht man auf
+ []
+
+
+Underfull \hbox (badness 7238) in paragraph at lines 210--211
+\OT1/cmr/m/n/10.95 den Men[]upunkt
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 210--211
+\OT1/cmr/m/n/10.95 Edi-tor -> Ei-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 210--211
+\OT1/cmr/m/n/10.95 gen-schaf-ten. In
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 210--211
+\OT1/cmr/m/n/10.95 Dia-log w[]ahlt
+ []
+
+
+Underfull \hbox (badness 7667) in paragraph at lines 210--211
+\OT1/cmr/m/n/10.95 man einen an-
+ []
+
+
+Underfull \hbox (badness 2150) in paragraph at lines 210--211
+\OT1/cmr/m/n/10.95 de-ren Font und
+ []
+
+
+Underfull \hbox (badness 1735) in paragraph at lines 211--212
+[][]\OT1/cmr/m/n/10.95 Der ver-wen-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 211--212
+\OT1/cmr/m/n/10.95 de-te Font
+ []
+
+
+Underfull \hbox (badness 2762) in paragraph at lines 211--212
+\OT1/cmr/m/n/10.95 und Schrift-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 211--212
+\OT1/cmr/m/n/10.95 zu der
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 211--212
+\OT1/cmr/m/n/10.95 gew[]ahlten
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 211--212
+\OT1/cmr/m/n/10.95 ak-tua-li-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 211--212
+\OT1/cmr/m/n/10.95 siert. Die-se
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 211--212
+[]\OT1/cmr/m/n/10.95 Anderung
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 211--212
+\OT1/cmr/m/n/10.95 bleibt auch
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 211--212
+\OT1/cmr/m/n/10.95 nach Neu-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 211--212
+\OT1/cmr/m/n/10.95 start des
+ []
+
+
+Overfull \hbox (9.2578pt too wide) in paragraph at lines 198--217
+ [][][] 
+ []
+
+) (testProtokolle/Testfall8_5.tex
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 1.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2--2
+[][]\OT1/cmr/m/n/10.95 Testfall 8.5 (Test-fall f[]ur das Er-stel-len ei-ner Ei-
+gen-schaft im
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--7
+[][]\OT1/cmr/bx/n/10.95 Sub-
+ []
+
+
+Overfull \hbox (1.17683pt too wide) in paragraph at lines 8--8
+[][]\OT1/cmr/bx/n/10.95 Abgedeckte
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 8--8
+\OT1/cmr/bx/n/10.95 Funk-tio-na-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--11
+[]\OT1/cmr/bx/n/10.95 Lukas
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--11
+\OT1/cmr/m/n/10.95 (Win-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--11
+\OT1/cmr/m/n/10.95 Ver-si-on
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12--14
+[][]\OT1/cmr/bx/n/10.95 Nikolai
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12--14
+\OT1/cmr/m/n/10.95 Arch
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12--14
+\OT1/cmr/m/n/10.95 Li-nux
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12--14
+\OT1/cmr/m/n/10.95 (4.1.3-1-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 16--16
+[][]\OT1/cmr/m/n/10.95 /FM2040/
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 16--16
+\OT1/cmr/m/n/10.95 /FM2050/
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 16--16
+\OT1/cmr/m/n/10.95 /FM2070/
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 16--16
+\OT1/cmr/m/n/10.95 /FM2071/
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 16--16
+\OT1/cmr/m/n/10.95 /FM2072/
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 16--16
+\OT1/cmr/m/n/10.95 /FM2073/
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 16--16
+\OT1/cmr/m/n/10.95 /FM2080/
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 16--16
+\OT1/cmr/m/n/10.95 /FM2100/
+ []
+
+
+Underfull \hbox (badness 6641) in paragraph at lines 17--17
+\OT1/cmr/m/n/10.95 Pro-gramm ganz
+ []
+
+
+Underfull \hbox (badness 4441) in paragraph at lines 17--17
+\OT1/cmr/m/n/10.95 man im Ei-gen-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--17
+\OT1/cmr/m/n/10.95 den Vor-be-din-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--17
+\OT1/cmr/m/n/10.95 == VO-TES2;',
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--17
+\OT1/cmr/m/n/10.95 be-din-gun-gen
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--17
+\OT1/cmr/m/n/10.95 'ELECT1 !=
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--17
+\OT1/cmr/m/n/10.95 ELECT2;' ein.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--17
+\OT1/cmr/m/n/10.95 von SSta-ti-sche
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--17
+\OT1/cmr/m/n/10.95 Co-de Ana-ly-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--17
+\OT1/cmr/m/n/10.95 sett-ested man
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--17
+\OT1/cmr/m/n/10.95 die Ei-gen-schaft
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--17
+\OT1/cmr/m/n/10.95 auf kor-rekt-heit
+ []
+
+
+Underfull \hbox (badness 3646) in paragraph at lines 17--17
+\OT1/cmr/m/n/10.95 und kann die-se
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--17
+\OT1/cmr/m/n/10.95 an-schlie-end
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--17
+\OT1/cmr/m/n/10.95 mit dem ent-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--17
+\OT1/cmr/m/n/10.95 spre-chen-den
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--17
+\OT1/cmr/m/n/10.95 Tool-bar But-ton
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 18--18
+[][]\OT1/cmr/m/n/10.95 Es wird
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 18--18
+\OT1/cmr/m/n/10.95 Feh-ler-fen-ster
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 18--18
+\OT1/cmr/m/n/10.95 an-ge-zeigt
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 18--18
+\OT1/cmr/m/n/10.95 und die
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 18--18
+\OT1/cmr/m/n/10.95 Ei-gen-schaft
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 18--18
+\OT1/cmr/m/n/10.95 hat sich
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 18--18
+\OT1/cmr/m/n/10.95 oh-ne Feh-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 18--18
+\OT1/cmr/m/n/10.95 ler-mel-dung
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 18--18
+\OT1/cmr/m/n/10.95 spei-chern
+ []
+
+
+Overfull \hbox (9.2578pt too wide) in paragraph at lines 4--24
+ [][][] 
+ []
+
+) (testProtokolle/Testfall8_6.tex
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 1.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--7
+[][]\OT1/cmr/bx/n/10.95 Sub-
+ []
+
+
+Overfull \hbox (1.17683pt too wide) in paragraph at lines 8--8
+[][]\OT1/cmr/bx/n/10.95 Abgedeckte
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 8--8
+\OT1/cmr/bx/n/10.95 Funk-tio-na-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--11
+[]\OT1/cmr/bx/n/10.95 Lukas
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--11
+\OT1/cmr/m/n/10.95 (Win-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--11
+\OT1/cmr/m/n/10.95 Ver-si-on
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12--14
+[][]\OT1/cmr/bx/n/10.95 Justin
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12--14
+\OT1/cmr/m/n/10.95 Lu-bun-tu
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12--14
+\OT1/cmr/m/n/10.95 16.1
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12--14
+\OT1/cmr/m/n/10.95 Ver-si-on
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 16--16
+[][]\OT1/cmr/m/n/10.95 /FM0010/
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 16--16
+\OT1/cmr/m/n/10.95 /FM0020/
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 16--16
+\OT1/cmr/m/n/10.95 /FM0030/
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--18
+[][]\OT1/cmr/m/n/10.95 Man gibt
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--18
+\OT1/cmr/m/n/10.95 ein ein-fa-ches
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--18
+\OT1/cmr/m/n/10.95 Wahl-ver-fah-ren
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--18
+\OT1/cmr/m/n/10.95 ein, das ei-ne
+ []
+
+
+Underfull \hbox (badness 3281) in paragraph at lines 17--18
+\OT1/cmr/m/n/10.95 gew[]ahlte Per-son
+ []
+
+
+Underfull \hbox (badness 1859) in paragraph at lines 17--18
+\OT1/cmr/m/n/10.95 zur[]uckgibt. Man
+ []
+
+
+Underfull \hbox (badness 3323) in paragraph at lines 17--18
+\OT1/cmr/m/n/10.95 er-stellt ei-ne er-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--18
+\OT1/cmr/m/n/10.95 ste Ei-gen-schaft,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--18
+\OT1/cmr/m/n/10.95 die erf[]ullt ist,
+ []
+
+
+Underfull \hbox (badness 1895) in paragraph at lines 17--18
+\OT1/cmr/m/n/10.95 und ei-ne zwei-te
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--18
+\OT1/cmr/m/n/10.95 Ei-gen-schaft, die
+ []
+
+
+Underfull \hbox (badness 1515) in paragraph at lines 17--18
+\OT1/cmr/m/n/10.95 nicht erf[]ullt ist.
+ []
+
+
+Underfull \hbox (badness 8132) in paragraph at lines 17--18
+\OT1/cmr/m/n/10.95 Man w[]ahlt im
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--18
+\OT1/cmr/m/n/10.95 Pa-ra-me-te-re-di-tor
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--18
+\OT1/cmr/m/n/10.95 den Start der
+ []
+
+
+Underfull \hbox (badness 5893) in paragraph at lines 17--18
+\OT1/cmr/m/n/10.95 Ana-ly-se in der
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 19--19
+[][]\OT1/cmr/m/n/10.95 Die er-ste
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 19--19
+\OT1/cmr/m/n/10.95 Ei-gen-schaft
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 19--19
+\OT1/cmr/m/n/10.95 er-scheint
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 19--19
+\OT1/cmr/m/n/10.95 gr[]un. Die
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 19--19
+\OT1/cmr/m/n/10.95 zwei-te Ei-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 19--19
+\OT1/cmr/m/n/10.95 gen-schaft
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 19--19
+\OT1/cmr/m/n/10.95 Beim Klick
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 19--19
+\OT1/cmr/m/n/10.95 gen-sym-bol
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 19--19
+\OT1/cmr/m/n/10.95 der zwei-ten
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 19--19
+\OT1/cmr/m/n/10.95 Ei-gen-schaft
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 19--19
+[]\OT1/cmr/m/n/10.95 offnet sich
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 19--19
+\OT1/cmr/m/n/10.95 ein Fen-ster
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 19--19
+\OT1/cmr/m/n/10.95 mit ei-nem
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 19--19
+\OT1/cmr/m/n/10.95 Ge-gen-bei-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 24--24
+[][]\OT1/cmr/m/n/10.95 /FM3010/
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 25--26
+\OT1/cmr/m/n/10.95 gen-schaf-ten-li-ste
+ []
+
+
+Underfull \hbox (badness 3872) in paragraph at lines 25--26
+\OT1/cmr/m/n/10.95 ei-ne Ei-gen-schaft
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 25--26
+\OT1/cmr/m/n/10.95 hin-zu, in-dem
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 25--26
+\OT1/cmr/m/n/10.95 man auf den
+ []
+
+
+Underfull \hbox (badness 4467) in paragraph at lines 25--26
+\OT1/cmr/m/n/10.95 Plus-zei-chen und
+ []
+
+
+Underfull \hbox (badness 1596) in paragraph at lines 25--26
+\OT1/cmr/m/n/10.95 der Be-schrif-tung
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 25--26
+[]\OT1/cmr/m/n/10.95 Neu\ dr[]uckt.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 25--26
+\OT1/cmr/m/n/10.95 Die Check-box
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 25--26
+\OT1/cmr/m/n/10.95 tung []Ana-ly-se\
+ []
+
+
+Underfull \hbox (badness 6396) in paragraph at lines 25--26
+\OT1/cmr/m/n/10.95 klickt man an.
+ []
+
+
+Underfull \hbox (badness 8132) in paragraph at lines 25--26
+\OT1/cmr/m/n/10.95 Man w[]ahlt im
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 25--26
+\OT1/cmr/m/n/10.95 Pa-ra-me-te-re-di-tor
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 25--26
+\OT1/cmr/m/n/10.95 den Start der
+ []
+
+
+Underfull \hbox (badness 5893) in paragraph at lines 25--26
+\OT1/cmr/m/n/10.95 Ana-ly-se in der
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 27--27
+[][]\OT1/cmr/m/n/10.95 Die Ei-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 27--27
+\OT1/cmr/m/n/10.95 gen-schaft
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 27--27
+\OT1/cmr/m/n/10.95 er-scheint
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 27--27
+\OT1/cmr/m/n/10.95 gr[]un. Die
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 27--27
+\OT1/cmr/m/n/10.95 Ei-gen-schaft
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 27--27
+\OT1/cmr/m/n/10.95 wur-de von
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 27--27
+\OT1/cmr/m/n/10.95 CBMC
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 32--32
+[][]\OT1/cmr/m/n/10.95 /FM3010/
+ []
+
+
+Underfull \hbox (badness 1394) in paragraph at lines 33--34
+[][]\OT1/cmr/m/n/10.95 Man dr[]uckt auf
+ []
+
+
+Underfull \hbox (badness 1484) in paragraph at lines 33--34
+\OT1/cmr/m/n/10.95 den But-ton mit
+ []
+
+
+Underfull \hbox (badness 1655) in paragraph at lines 33--34
+\OT1/cmr/m/n/10.95 dem Plus-zei-chen
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 35--35
+[][]\OT1/cmr/m/n/10.95 Eine neue
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 35--35
+\OT1/cmr/m/n/10.95 Ei-gen-schaft
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 35--35
+\OT1/cmr/m/n/10.95 mit dem
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 35--35
+\OT1/cmr/m/n/10.95 Na-me []Ei-
+ []
+
+
+Underfull \hbox (badness 1430) in paragraph at lines 35--35
+\OT1/cmr/m/n/10.95 gen-schaft 0\
+ []
+
+
+Underfull \hbox (badness 8075) in paragraph at lines 35--35
+\OT1/cmr/m/n/10.95 er-scheint in
+ []
+
+
+Overfull \hbox (9.2578pt too wide) in paragraph at lines 4--43
+ [][][] 
+ []
+
+
+LaTeX Warning: Float too large for page by 74.292pt on input line 43.
+
 )
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 212.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 236.
 Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 212.
+(babel)             in language  on input line 236.
 Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 212.
+(babel)             in language  on input line 236.
 Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 212.
+(babel)             in language  on input line 236.
 Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 212.
+(babel)             in language  on input line 236.
 Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 212.
+(babel)             in language  on input line 236.
 Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 212.
+(babel)             in language  on input line 236.
  [13
 
 ]
 Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 212.
+(babel)             in language  on input line 236.
 Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 212.
+(babel)             in language  on input line 236.
 Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 212.
+(babel)             in language  on input line 236.
 Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 212.
+(babel)             in language  on input line 236.
 Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 212.
+(babel)             in language  on input line 236.
 Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 212.
+(babel)             in language  on input line 236.
  [14]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 212.
- (Qualit√§tssicherung.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 212.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 212.
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 236.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 236.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 236.
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 236.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 236.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 236.
+ [15]
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 236.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 236.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 236.
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 236.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 236.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 236.
+ [16]
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 236.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 236.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 236.
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 236.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 236.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 236.
+ [17]
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 236.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 236.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 236.
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 236.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 236.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 236.
+ [18]
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 236.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 236.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 236.
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 236.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 236.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 236.
+ [19]
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 236.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 236.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 236.
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 236.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 236.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 236.
+ [20]
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 236.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 236.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 236.
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 236.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 236.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 236.
+ [21]
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 236.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 236.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 236.
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 236.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 236.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 236.
+ [22]
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 236.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 236.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 236.
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 236.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 236.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 236.
+ [23]
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 236.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 236.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 236.
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 236.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 236.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 236.
+ [24]
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 236.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 236.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 236.
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 236.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 236.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 236.
+ [25]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 236.
+
+(Qualit√§tssicherung.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 236.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 236.
 Package rerunfilecheck Info: File `Qualit√§tssicherung.out' has not changed.
-(rerunfilecheck)             Checksum: 52A9AF71F81853FDC271B79B11CD7BA3;735.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 212.
+(rerunfilecheck)             Checksum: F7BE8EA938F54AAF72EBFC56A6C0283B;825.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 236.
  ) 
 Here is how much of TeX's memory you used:
- 8855 strings out of 493634
- 143870 string characters out of 3135239
- 324249 words of memory out of 3000000
- 12072 multiletter control sequences out of 15000+200000
- 8932 words of font info for 32 fonts, out of 3000000 for 9000
+ 8917 strings out of 493634
+ 145207 string characters out of 3135239
+ 381812 words of memory out of 3000000
+ 12092 multiletter control sequences out of 15000+200000
+ 9100 words of font info for 33 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
  43i,11n,66p,8526b,391s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\Lukas\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\public\bbding\dpi65
@@ -1346,10 +4170,11 @@ nts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Lukas/AppData/Local/Programs/M
 iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Lukas/AppData/Loca
 l/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Users/Luk
 as/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-
-Output written on Qualit√§tssicherung.pdf (14 pages, 429567 bytes).
+<C:/Users/Lukas/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/c
+m/cmtt10.pfb>
+Output written on Qualit√§tssicherung.pdf (26 pages, 471577 bytes).
 PDF statistics:
- 180 PDF objects out of 1000 (max. 8388607)
- 35 named destinations out of 1000 (max. 500000)
- 130 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 255 PDF objects out of 1000 (max. 8388607)
+ 58 named destinations out of 1000 (max. 500000)
+ 138 words of extra memory for PDF output out of 10000 (max. 10000000)
 

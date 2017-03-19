@@ -1,0 +1,103 @@
+\begin{table}[]
+\caption{Testfall 8.2 (Testfall für Rückgängig machen und Wiederherstellen)}
+\centering
+	\begin{tabular}{| p{0.15\linewidth} | p{0.15\linewidth} | p{0.20\linewidth} |
+	p{0.15\linewidth} | p{0.1\linewidth} | p{0.1\linewidth} |}
+	\hline
+	\textbf{Sub-Testfall} &
+	\textbf{Abgedeckte Funktionalitäten} &
+	\textbf{Beschreibung} &
+	\textbf{Ergebnis} & \textbf{Lukas}
+	(Windows 10) Version ??? &
+	\textbf{Justin} Lubuntu 16.1 Version 1.4.19) 
+\\
+\hline
+/T010/ (C-Editor) &
+/FS1030/ /FS1100/ /FS1110/ &
+Man gibt ein Wahlverfahren ein. Man wählt in der Toolbar den Button "`Neu"' aus. In einen Dialog gibt man das gewünschte Wahlverfahren und die Anzahl der Sitze ein. In ein Textfeld wird der Name eingegeben. Man drückt auf den Button "`Erstellen"'.
+ &
+Ein neuer vorgefertigter C-Code erscheint im C-Editor. Ausgegraut sind die Argumente des Wahlverfahrens. &
+\centering . & \Checkmark
+\\
+\hline 
+/T010/ (Eigenschafteneditor) &
+/FM2100/ /FS2150/ &
+Man gibt formale Eigenschaften ein. Man wählt in der Toolbar den Button "`Neu"' aus. 
+ &
+Die Felder für "`Symbolische Variablen"', "`Vorbedingungen"' und "`Nachbedingungen"' leeren sich. In der Titelleiste erscheint der Name "`Eigenschaft 0"'. &
+\centering , & \Checkmark
+\\
+\hline 
+/T010/ (Eigenschaftenliste) &
+/FM3020/ &
+Man fügt Eigenschaften zur Liste hinzu. Man wählt in der Toolbar den Button "`Neu"' aus. Die Nachfrage, ob man speichern will, wird verneint.
+ &
+Die Liste der Eigenschaften leert sich. &
+\centering . & \Checkmark
+\\
+\hline 
+/T010/ (Parametereditor) &
+/FM4050/ &
+Man ändert die Parameter. Man wählt in der Toolbar den Button "`Neu"' aus.
+ &
+Es existiert kein Button für das Neu erstellen. &
+\centering . & X
+\\
+\hline
+/T020/ /T030/ (C-Editor) &
+/FM1030/ /FS1100/ /FS1040/ /FS1060/ &
+Man gibt ein Wahlverfahren ein. Man wählt in der Toolbar den Button "`Speichern"' aus. In einen Dialog gibt man den gewünschten Speicherort ein. Man drückt auf den Button "`Speichern"'. Man wählt in der Toolbar den Button "`Öffnen"' aus. In einem Dialog wählt man das gespeicherte Wahlverfahren aus.
+ &
+Das Wahlverfahren wurde gespeichert. Das Laden des Wahlverfahrens schlug fehl. Das Format wurde nicht erkannt. &
+\centering . & X
+\\
+\hline 
+/T020/ /T030/ (Eigenschafteneditor) &
+/FM2100/ /FS2110/ &
+Man gibt formale Eigenschaften ein. Man wählt in der Toolbar den Button "`Speichern"' aus. In einen Dialog gibt man den gewünschten Speicherort ein. Man drückt auf den Button "`Speichern"'. Man wählt in der Toolbar den Button "`Öffnen"' aus. In einem Dialog wählt man die gespeicherten formalen Eigenschaften aus.
+ &
+Die Eigenschaft wurde gespeichert. Das Laden schlägt fehl. Das Format wurde nicht erkannt. &
+\centering . & X
+\\
+\hline 
+/T020/ /T030/ (Eigenschaftenliste) &
+/FM3060/ /FM3070/ &
+Man fügt Eigenschaften zur Liste hinzu. Man wählt in der Toolbar den Button "`Speichern"' aus. In einen Dialog gibt man den gewünschten Speicherort ein. Man drückt auf den Button "`Speichern"'. Man wählt in der Toolbar den Button "`Öffnen"' aus. In einem Dialog wählt man die gespeicherte Eigenschaftenliste aus.
+ &
+Die Liste der Eigenschaften wurde gespeichert. Die Liste wird wieder geladen. &
+\centering . & \Checkmark
+\\
+\hline 
+/T020/ /T030/ (Parametereditor) &
+/FM4050/ /FM4060/ &
+Man ändert die Parameter. Man wählt in der Toolbar den Button "`Speichern"' aus. In einen Dialog gibt man den gewünschten Speicherort ein. Man drückt auf den Button "`Speichern"'. Man wählt in der Toolbar den Button "`Öffnen"' aus. In einem Dialog wählt man die gespeicherte Eigenschaftenliste aus.
+ &
+Das Projekt wird gespeichert. Das Projekt kann wieder geladen werden. &
+\centering . & \Checkmark
+\\
+
+
+
+
+\hline 
+/T020/ (Parametereditor) &
+/FM4050/ &
+Man ändert die Parameter. Man wählt in der Toolbar den Button "`Neu"' aus.
+ &
+Fehlschlag: Es existiert kein Button für das Neu erstellen. &
+\centering . & X
+\\
+\hline 
+/T010/& /FS1100/ /FS2150/ /F0010/ /F0050 &
+Man startet das Programm ganz normal. Nun gibt man in
+jedes Feld, das die "`Rückgängig machen"' Funktionalität unterstützt, einen
+kleinen Text ein, und drückt dann, während der Fokus auf dem zu testendem Feld
+liegt "`Strg + z"'. Nun drückt man "`Strg + r" &
+Der vorher durch das rückgängig machen verschwundene Buchstabe oder Textblock
+erscheint wieder &
+\centering \Checkmark 
+& X 
+\\ \hline
+
+\end{tabular}
+\end{table}

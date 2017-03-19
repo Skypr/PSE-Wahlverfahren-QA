@@ -192,7 +192,13 @@ läuft.
 
 Nummer problem | Ursache | Lösung
 
+Issue 16\\
+Beschreibung: Es war Möglich, Zeilen zu verändern welche als nicht editierbar angezeigt und festgelegt wurden. Dies geschah wenn man unterhalb einer solchen Zeile etwas schrieb. Durch der Zeilentrennungszeichens wurde dieses Zeichen dann in die nicht editierbare Zeile angehoben.\\
+Lösung: In die \verb!removeToTheLeft! Methode in \verb!UserInserToCode! wurde ein zusätzlicher Check eingefügt. Es überprüft nun ob die Zeile darüber nicht editierbar ist. Falls ja, wird nur gelöscht falls die Zeile auf welcher sich der Cursor befindet leer ist.
 
+Issue 27\\
+Beschreibung: Obwohl als Voraussetzung angegeben war, dass beide vote-Arrays gleich sein sollten (\verb!VOTES1==VOTES2!) wurde in beiden Wahlvorgängen verschiedene Stimmen abgegeben.\\
+Lösung: Der Bug stammte daher, dass der generierte Code die abgegebenen Stimmen nur bis zu Anzahl Wähler verglich. Bei Wahlverfahren, bei welchen jeder Wähler eine Liste von Länge Anzahl Kandidaten abgibt, wurden daher nur die ersten Stimmen verglichen. Dies führte zu dem Bug, sobald es mehr Kandidaten als Wähler gab.
 
 
 \chapter{Verbesserungen in der Phase}

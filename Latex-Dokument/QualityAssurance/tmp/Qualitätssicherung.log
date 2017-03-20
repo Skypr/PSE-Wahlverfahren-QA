@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.3.30)  20 MAR 2017 02:32
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.3.30)  20 MAR 2017 05:25
 entering extended mode
 **./Qualitätssicherung.tex
 (Qualitätssicherung.tex
@@ -842,197 +842,340 @@ Package babel Info: Redefining german shorthand "|
 (babel)             in language  on input line 96.
 Package babel Info: Redefining german shorthand "~
 (babel)             in language  on input line 96.
-Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 109.
-Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 109.
-Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 109.
-Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 109.
-Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 109.
-Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 109.
 
+Underfull \hbox (badness 10000) in paragraph at lines 102--107
+
+ []
+
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 107.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 107.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 107.
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 107.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 107.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 107.
 [5
 
 ]
-Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 109.
-Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 109.
-Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 109.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <9> on input line 112.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 112.
+ <images/Coverage.png, id=102, 840.89156pt x 688.82344pt>
+File: images/Coverage.png Graphic file (type png)
 
-Overfull \hbox (10.13342pt too wide) in paragraph at lines 112--113
+<use images/Coverage.png>
+Package pdftex.def Info: images/Coverage.png used on input line 132.
+(pdftex.def)             Requested size: 418.25064pt x 167.29698pt.
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 140.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 140.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 140.
+
+Overfull \hbox (10.13342pt too wide) in paragraph at lines 143--144
 []\OT1/cmr/m/n/10.95 uberpr[]uft (Bei-spie-le in htt-ps://formal.iti.kit.edu/te
 aching/pse/201617/voting/kickOff.pdf,
  []
 
 Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 116.
+(babel)             in language  on input line 144.
 Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 116.
+(babel)             in language  on input line 144.
 Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 116.
+(babel)             in language  on input line 144.
 Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 116.
+(babel)             in language  on input line 144.
 Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 116.
+(babel)             in language  on input line 144.
 Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 116.
-[6]
+(babel)             in language  on input line 144.
+[6 <./images/Coverage.png>]
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 147.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 147.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 147.
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 147.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 147.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 147.
+ [7]
 chapter 4.
 Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 116.
+(babel)             in language  on input line 147.
 Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 116.
+(babel)             in language  on input line 147.
 Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 116.
+(babel)             in language  on input line 147.
 Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 146.
+(babel)             in language  on input line 177.
 Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 146.
+(babel)             in language  on input line 177.
 Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 146.
+(babel)             in language  on input line 177.
 Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 146.
+(babel)             in language  on input line 177.
 Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 146.
+(babel)             in language  on input line 177.
 Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 146.
-[7
+(babel)             in language  on input line 177.
+[8
 
-] <images/OLD_NO.png, id=116, 1245.9047pt x 667.74469pt>
+] <images/OLD_NO.png, id=132, 1245.9047pt x 667.74469pt>
 File: images/OLD_NO.png Graphic file (type png)
 
 <use images/OLD_NO.png>
-Package pdftex.def Info: images/OLD_NO.png used on input line 150.
+Package pdftex.def Info: images/OLD_NO.png used on input line 181.
 (pdftex.def)             Requested size: 418.25992pt x 167.29237pt.
 
-<images/NEW_NO.png, id=117, 1239.88219pt x 664.73344pt>
+<images/NEW_NO.png, id=133, 1239.88219pt x 664.73344pt>
 File: images/NEW_NO.png Graphic file (type png)
 
 <use images/NEW_NO.png>
-Package pdftex.def Info: images/NEW_NO.png used on input line 160.
+Package pdftex.def Info: images/NEW_NO.png used on input line 191.
 (pdftex.def)             Requested size: 418.24353pt x 167.29868pt.
 Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 166.
+(babel)             in language  on input line 197.
 Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 166.
+(babel)             in language  on input line 197.
 Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 166.
+(babel)             in language  on input line 197.
 Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 166.
+(babel)             in language  on input line 197.
 Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 166.
+(babel)             in language  on input line 197.
 Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 166.
- [8 <./images/OLD_NO.png> <./images/NEW_NO.png>]
-<images/OLD_YES.png, id=122, 1241.38782pt x 669.2503pt>
+(babel)             in language  on input line 197.
+ [9 <./images/OLD_NO.png> <./images/NEW_NO.png>]
+<images/OLD_YES.png, id=138, 1241.38782pt x 669.2503pt>
 File: images/OLD_YES.png Graphic file (type png)
 
 <use images/OLD_YES.png>
-Package pdftex.def Info: images/OLD_YES.png used on input line 171.
+Package pdftex.def Info: images/OLD_YES.png used on input line 202.
 (pdftex.def)             Requested size: 418.23997pt x 167.30196pt.
 
-<images/NEW_YES.png, id=123, 1244.39906pt x 670.75594pt>
+<images/NEW_YES.png, id=139, 1244.39906pt x 670.75594pt>
 File: images/NEW_YES.png Graphic file (type png)
 
 <use images/NEW_YES.png>
-Package pdftex.def Info: images/NEW_YES.png used on input line 181.
+Package pdftex.def Info: images/NEW_YES.png used on input line 212.
 (pdftex.def)             Requested size: 418.24815pt x 167.29964pt.
 Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 186.
+(babel)             in language  on input line 217.
 Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 186.
+(babel)             in language  on input line 217.
 Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 186.
+(babel)             in language  on input line 217.
 Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 186.
+(babel)             in language  on input line 217.
 Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 186.
+(babel)             in language  on input line 217.
 Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 186.
- [9 <./images/OLD_YES.png> <./images/NEW_YES.png>]
-<images/BEAST_PROCESSORTIME.png, id=129, 1111.15125pt x 372.39125pt>
+(babel)             in language  on input line 217.
+ [10 <./images/OLD_YES.png> <./images/NEW_YES.png>]
+<images/BEAST_PROCESSORTIME.png, id=145, 1111.15125pt x 372.39125pt>
 File: images/BEAST_PROCESSORTIME.png Graphic file (type png)
 
 <use images/BEAST_PROCESSORTIME.png>
-Package pdftex.def Info: images/BEAST_PROCESSORTIME.png used on input line 204.
+Package pdftex.def Info: images/BEAST_PROCESSORTIME.png used on input line 235.
 
 (pdftex.def)             Requested size: 418.25749pt x 167.30176pt.
 Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 209.
+(babel)             in language  on input line 240.
 Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 209.
+(babel)             in language  on input line 240.
 Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 209.
+(babel)             in language  on input line 240.
 Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 209.
+(babel)             in language  on input line 240.
 Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 209.
+(babel)             in language  on input line 240.
 Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 209.
- [10 <./images/BEAST_PROCESSORTIME.png (PNG copy)>]
+(babel)             in language  on input line 240.
+ [11 <./images/BEAST_PROCESSORTIME.png (PNG copy)>]
 chapter 5.
 Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 209.
+(babel)             in language  on input line 240.
 Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 209.
+(babel)             in language  on input line 240.
 Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 209.
+(babel)             in language  on input line 240.
+! Missing $ inserted.
+<inserted text> 
+                $
+l.258 "`list_
+             of_candidates_per_voter"'
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+LaTeX Warning: Command \grqq invalid in math mode on input line 258.
+
+! Improper \spacefactor.
+\save@sf@q ...@SF {\spacefactor \the \spacefactor 
+                                                  }#1\@SF \endgroup 
+l.258 "`list_of_candidates_per_voter"'
+                                      
+You can refer to \spacefactor only in horizontal mode;
+you can refer to \prevdepth only in vertical mode; and
+neither of these is meaningful inside \write. So
+I'm forgetting what you said and using zero instead.
+
+! You can't use `\spacefactor' in math mode.
+\@SF ->\spacefactor 
+                    0
+l.258 "`list_of_candidates_per_voter"'
+                                      
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.259 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
 Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 232.
+(babel)             in language  on input line 267.
 Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 232.
+(babel)             in language  on input line 267.
 Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 232.
+(babel)             in language  on input line 267.
 Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 232.
+(babel)             in language  on input line 267.
 Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 232.
+(babel)             in language  on input line 267.
 Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 232.
-[11
+(babel)             in language  on input line 267.
+[12
 
 ]
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 274.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 274.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 274.
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 274.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 274.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 274.
+ [13]
 chapter 6.
 Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 232.
+(babel)             in language  on input line 274.
 Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 232.
+(babel)             in language  on input line 274.
 Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 232.
+(babel)             in language  on input line 274.
+! Missing $ inserted.
+<inserted text> 
+                $
+l.286 ... aber in dem speziellen Ordner \backslash
+                                                   core \backslash
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+! LaTeX Error: Command \end{itemize} invalid in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.290 \end{itemize}
+                   
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.290 \end{itemize}
+                   
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.290 \end{itemize}
+                   
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.290 \end{itemize}
+                   
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Overfull \hbox (539.07146pt too wide) in paragraph at lines 284--291
+\OT1/cmr/m/n/10.95 dem spe-zi-el-len Ord-ner $\OMS/cmsy/m/n/10.95 n\OML/cmm/m/i
+t/10.95 core\OMS/cmsy/m/n/10.95 n\OML/cmm/m/it/10.95 user[]ncludes\OMS/cmsy/m/n
+/10.95 n\OML/cmm/m/it/10.95 liegen:Siewerdendannauchautomatischancbmcweitergege
+ben; sodassdernutzerkeineweiterenArbeitenmachenmuss; wennereineeigeneDateieinbi
+ndenwill:$ 
+ []
+
 Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 244.
+(babel)             in language  on input line 292.
 Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 244.
+(babel)             in language  on input line 292.
 Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 244.
+(babel)             in language  on input line 292.
 Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 244.
+(babel)             in language  on input line 292.
 Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 244.
+(babel)             in language  on input line 292.
 Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 244.
-[12
+(babel)             in language  on input line 292.
+[14
 
 ]
 chapter 7.
 Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 244.
+(babel)             in language  on input line 292.
 Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 244.
+(babel)             in language  on input line 292.
 Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 244.
+(babel)             in language  on input line 292.
 Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 246.
+(babel)             in language  on input line 294.
 Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 246.
+(babel)             in language  on input line 294.
 Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 246.
+(babel)             in language  on input line 294.
 (testProtokolle/Testfall8_1.tex
 
 LaTeX Warning: No positions in optional float specifier.
@@ -2399,7 +2542,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 8--8
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 10--11
-[]\OT1/cmr/bx/n/10.95 Niels
+[]\OT1/cmr/bx/n/10.95 Lukas
  []
 
 
@@ -2448,239 +2591,232 @@ Underfull \hbox (badness 10000) in paragraph at lines 12--14
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 16--16
-[][]\OT1/cmr/m/n/10.95 /FM1010/
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 16--16
-\OT1/cmr/m/n/10.95 /FM1020/
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 16--16
-\OT1/cmr/m/n/10.95 /FM2010/
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 16--16
-\OT1/cmr/m/n/10.95 /FM2020/
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 16--16
-\OT1/cmr/m/n/10.95 /FS1070/
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 16--16
-\OT1/cmr/m/n/10.95 /FS1070/
- []
-
-
-Underfull \hbox (badness 2990) in paragraph at lines 17--18
+Underfull \hbox (badness 2990) in paragraph at lines 17--19
 [][]\OT1/cmr/m/n/10.95 Man star-tet das
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 17--18
+Underfull \hbox (badness 10000) in paragraph at lines 17--19
 \OT1/cmr/m/n/10.95 Pro-gramm ganz
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 17--18
+Underfull \hbox (badness 10000) in paragraph at lines 17--19
 \OT1/cmr/m/n/10.95 nor-mal. Nun
  []
 
 
-Underfull \hbox (badness 8019) in paragraph at lines 17--18
+Underfull \hbox (badness 8019) in paragraph at lines 17--19
 []\OT1/cmr/m/n/10.95 offnet man den
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 17--18
-\OT1/cmr/m/n/10.95 den je-wei-li-gen
+Underfull \hbox (badness 1067) in paragraph at lines 17--19
+\OT1/cmr/m/n/10.95 in die Mit-te der
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 17--18
-\OT1/cmr/m/n/10.95 Edi-tor (CE-di-tor
+Underfull \hbox (badness 10000) in paragraph at lines 17--19
+\OT1/cmr/m/n/10.95 Vo-ting Me-tho-de
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 17--18
-\OT1/cmr/m/n/10.95 und Ei-gen-schaf-
+Underfull \hbox (badness 10000) in paragraph at lines 17--19
+[]\OT1/cmr/m/n/10.95 for\ ein. Nun
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 17--18
-\OT1/cmr/m/n/10.95 te-ne-di-tor) nun
+Underfull \hbox (badness 10000) in paragraph at lines 19--20
+\OT1/cmr/m/n/10.95 Se-kun-den []offnet
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 17--18
-\OT1/cmr/m/n/10.95 ver-sucht man
+Underfull \hbox (badness 10000) in paragraph at lines 19--20
+\OT1/cmr/m/n/10.95 sich ein Fen-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 17--18
-\OT1/cmr/m/n/10.95 Text dann zu
+Underfull \hbox (badness 2326) in paragraph at lines 19--20
+\OT1/cmr/m/n/10.95 ster, wel-ches die
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 19--19
-[][]\OT1/cmr/m/n/10.95 Der Text wird
+Underfull \hbox (badness 10000) in paragraph at lines 19--20
+\OT1/cmr/m/n/10.95 Code-Completion
  []
 
 
-Underfull \hbox (badness 2512) in paragraph at lines 19--19
-\OT1/cmr/m/n/10.95 kor-rekt an-ge-zeigt
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 19--19
-\OT1/cmr/m/n/10.95 und l[]asst sich
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 19--19
-\OT1/cmr/m/n/10.95 edi-tie-ren. Die
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 19--19
-\OT1/cmr/m/n/10.95 Zei-len-num-mer
- []
-
-
-Underfull \hbox (badness 1803) in paragraph at lines 19--19
-\OT1/cmr/m/n/10.95 wird kor-rekt an-
- []
-
-
-Underfull \hbox (badness 2591) in paragraph at lines 19--19
-\OT1/cmr/m/n/10.95 ein-ge-ge-be-ne Text
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 19--19
-\OT1/cmr/m/n/10.95 dem er-war-te-ten
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 19--19
-\OT1/cmr/m/n/10.95 ent-spricht wird
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 19--19
-\OT1/cmr/m/n/10.95 die Syn-tax des
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 19--19
-\OT1/cmr/m/n/10.95 Texts kor-rekt
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 24--24
-[][]\OT1/cmr/m/n/10.95 /FS1090/
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 24--24
-\OT1/cmr/m/n/10.95 /FM2120/
- []
-
-
-Underfull \hbox (badness 2990) in paragraph at lines 25--26
+Underfull \hbox (badness 2990) in paragraph at lines 25--28
 [][]\OT1/cmr/m/n/10.95 Man star-tet das
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 25--26
+Underfull \hbox (badness 10000) in paragraph at lines 25--28
 \OT1/cmr/m/n/10.95 Pro-gramm ganz
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 25--26
-\OT1/cmr/m/n/10.95 nor-mal. Nun
+Underfull \hbox (badness 10000) in paragraph at lines 25--28
+\OT1/cmr/m/n/10.95 den C-Editor.
  []
 
 
-Underfull \hbox (badness 8019) in paragraph at lines 25--26
-[]\OT1/cmr/m/n/10.95 offnet man den
+Underfull \hbox (badness 5533) in paragraph at lines 25--28
+\OT1/cmr/m/n/10.95 einen Co-de ein,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 25--26
-\OT1/cmr/m/n/10.95 den je-wei-li-gen
+Underfull \hbox (badness 10000) in paragraph at lines 25--28
+\OT1/cmr/m/n/10.95 der []uber 10000
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 25--26
-\OT1/cmr/m/n/10.95 Edi-tor (CE-di-tor
+Underfull \hbox (badness 10000) in paragraph at lines 25--28
+\OT1/cmr/m/n/10.95 Pa-ra-me-te-rE-di-tor
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 25--26
-\OT1/cmr/m/n/10.95 ein. Nun f[]uhrt
+Underfull \hbox (badness 10000) in paragraph at lines 25--28
+\OT1/cmr/m/n/10.95 w[]ahlt man al-le
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 25--26
-\OT1/cmr/m/n/10.95 Feh-ler-un-ter-su-
+Underfull \hbox (badness 4647) in paragraph at lines 25--28
+\OT1/cmr/m/n/10.95 Va-ria-blen klei-ner
  []
 
 
-Underfull \hbox (badness 7888) in paragraph at lines 25--26
-\OT1/cmr/m/n/10.95 chung aus oder
+Underfull \hbox (badness 10000) in paragraph at lines 25--28
+\OT1/cmr/m/n/10.95 Im Ei-gen-schaf-
  []
 
 
-Underfull \hbox (badness 6220) in paragraph at lines 25--26
-\OT1/cmr/m/n/10.95 war-tet ein paar
+Underfull \hbox (badness 10000) in paragraph at lines 25--28
+\OT1/cmr/m/n/10.95 te-ne-di-tor []offnet
  []
 
 
-Underfull \hbox (badness 7203) in paragraph at lines 27--27
-[][]\OT1/cmr/m/n/10.95 Falls der ein-ge-
+Underfull \hbox (badness 10000) in paragraph at lines 25--28
+\OT1/cmr/m/n/10.95 man []Fal-se-Pro-
  []
 
 
-Underfull \hbox (badness 2626) in paragraph at lines 27--27
-\OT1/cmr/m/n/10.95 ge-be-ne Text der
+Underfull \hbox (badness 5802) in paragraph at lines 25--28
+\OT1/cmr/m/n/10.95 star-tet man die
  []
 
 
-Underfull \hbox (badness 5681) in paragraph at lines 27--27
-\OT1/cmr/m/n/10.95 im Edi-tor nicht
+Underfull \hbox (badness 2828) in paragraph at lines 28--30
+\OT1/cmr/m/n/10.95 be-en-det sich die
  []
 
 
-Underfull \hbox (badness 6526) in paragraph at lines 27--27
-\OT1/cmr/m/n/10.95 Feh-ler an-ge-zeigt.
+Underfull \hbox (badness 1024) in paragraph at lines 28--30
+\OT1/cmr/m/n/10.95 geb-nis im Ei-gen-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 27--27
-\OT1/cmr/m/n/10.95 im Feh-ler-fen-
+Underfull \hbox (badness 10000) in paragraph at lines 35--35
+[][]\OT1/cmr/m/n/10.95 /NF20/
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 27--27
-\OT1/cmr/m/n/10.95 ster an-ge-zeigt
+Underfull \hbox (badness 10000) in paragraph at lines 35--35
+\OT1/cmr/m/n/10.95 /NF40/
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 27--27
-\OT1/cmr/m/n/10.95 und im Edi-tor
+Underfull \hbox (badness 10000) in paragraph at lines 35--35
+\OT1/cmr/m/n/10.95 /NF50/
  []
 
 
-Overfull \hbox (9.27055pt too wide) in paragraph at lines 4--32
+Underfull \hbox (badness 2990) in paragraph at lines 36--39
+[][]\OT1/cmr/m/n/10.95 Man star-tet das
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 36--39
+\OT1/cmr/m/n/10.95 Pro-gramm ganz
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 36--39
+\OT1/cmr/m/n/10.95 den C-Editor.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 36--39
+\OT1/cmr/m/n/10.95 Hier gibt man
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 36--39
+\OT1/cmr/m/n/10.95 nur einen sehr
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 36--39
+\OT1/cmr/m/n/10.95 ein-fa-chen Co-de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 36--39
+\OT1/cmr/m/n/10.95 ein. Im Ei-gen-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 36--39
+\OT1/cmr/m/n/10.95 schaf-te-ne-di-tor
+ []
+
+
+Underfull \hbox (badness 1072) in paragraph at lines 36--39
+\OT1/cmr/m/n/10.95 er-stellt man ei-ne
+ []
+
+
+Underfull \hbox (badness 1286) in paragraph at lines 36--39
+\OT1/cmr/m/n/10.95 neue Ei-gen-schaft,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 36--39
+\OT1/cmr/m/n/10.95 wel-che 10 Vor-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 36--39
+\OT1/cmr/m/n/10.95 und Nach-be-din-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 36--39
+\OT1/cmr/m/n/10.95 gun-gen enth[]alt.
+ []
+
+
+Underfull \hbox (badness 7649) in paragraph at lines 39--41
+\OT1/cmr/m/n/10.95 der []Uberpr[]ufung
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 39--41
+\OT1/cmr/m/n/10.95 der Ei-gen-schaft.
+ []
+
+
+Underfull \hbox (badness 2460) in paragraph at lines 39--41
+\OT1/cmr/m/n/10.95 h[]ort es mit der
+ []
+
+
+Overfull \hbox (9.27055pt too wide) in paragraph at lines 4--46
  [][][] 
  []
+
+
+LaTeX Warning: Float too large for page by 196.69206pt on input line 46.
 
 ) (testProtokolle/Testfall8_3c.tex
 
@@ -4478,7 +4614,37 @@ Underfull \hbox (badness 10000) in paragraph at lines 10--11
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 12--14
-[][]\OT1/cmr/bx/n/10.95 ???
+[][]\OT1/cmr/bx/n/10.95 Niels
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12--14
+\OT1/cmr/m/n/10.95 (Li-nux
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12--14
+\OT1/cmr/m/n/10.95 Mint
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12--14
+\OT1/cmr/m/n/10.95 Cin-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12--14
+\OT1/cmr/m/n/10.95 na-mon
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12--14
+\OT1/cmr/m/n/10.95 3.0.7)
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12--14
+\OT1/cmr/m/n/10.95 Ver-si-on
  []
 
 
@@ -4646,6 +4812,9 @@ Overfull \hbox (9.25781pt too wide) in paragraph at lines 4--36
  [][][] 
  []
 
+
+LaTeX Warning: Float too large for page by 4.4613pt on input line 36.
+
 ) (testProtokolle/Testfall8_7b.tex
 
 LaTeX Warning: No positions in optional float specifier.
@@ -4689,6 +4858,41 @@ Underfull \hbox (badness 10000) in paragraph at lines 10--11
 
 Underfull \hbox (badness 10000) in paragraph at lines 10--11
 \OT1/cmr/m/n/10.95 BE-AST
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12--13
+[][]\OT1/cmr/bx/n/10.95 Niels
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12--13
+\OT1/cmr/m/n/10.95 (Li-nux
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12--13
+\OT1/cmr/m/n/10.95 Mint
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12--13
+\OT1/cmr/m/n/10.95 Cin-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12--13
+\OT1/cmr/m/n/10.95 na-mon
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12--13
+\OT1/cmr/m/n/10.95 3.0.7)
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12--13
+\OT1/cmr/m/n/10.95 Ver-si-on
  []
 
 
@@ -4897,6 +5101,41 @@ Underfull \hbox (badness 10000) in paragraph at lines 10--11
  []
 
 
+Underfull \hbox (badness 10000) in paragraph at lines 12--14
+[][]\OT1/cmr/bx/n/10.95 Niels
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12--14
+\OT1/cmr/m/n/10.95 (Li-nux
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12--14
+\OT1/cmr/m/n/10.95 Mint
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12--14
+\OT1/cmr/m/n/10.95 Cin-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12--14
+\OT1/cmr/m/n/10.95 na-mon
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12--14
+\OT1/cmr/m/n/10.95 3.0.7)
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12--14
+\OT1/cmr/m/n/10.95 Ver-si-on
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 16--16
 [][]\OT1/cmr/m/n/10.95 /FM0020/
  []
@@ -5006,286 +5245,715 @@ Overfull \hbox (9.2578pt too wide) in paragraph at lines 4--27
  [][][] 
  []
 
+) (testProtokolle/Produktleistungen.tex
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 1.
+
+
+Overfull \hbox (1.17683pt too wide) in paragraph at lines 8--8
+[][]\OT1/cmr/bx/n/10.95 Abgedeckte
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 8--8
+\OT1/cmr/bx/n/10.95 Funk-tio-na-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--11
+[]\OT1/cmr/bx/n/10.95 Lukas
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--11
+\OT1/cmr/m/n/10.95 (Win-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--11
+\OT1/cmr/m/n/10.95 Ver-si-on
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12--14
+[][]\OT1/cmr/bx/n/10.95 Niels
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12--14
+\OT1/cmr/m/n/10.95 (Li-nux
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12--14
+\OT1/cmr/m/n/10.95 Mint
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12--14
+\OT1/cmr/m/n/10.95 Cin-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12--14
+\OT1/cmr/m/n/10.95 na-mon
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12--14
+\OT1/cmr/m/n/10.95 3.0.7)
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12--14
+\OT1/cmr/m/n/10.95 Ver-si-on
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--19
+\OT1/cmr/m/n/10.95 Pro-gramm nor-
+ []
+
+
+Underfull \hbox (badness 4927) in paragraph at lines 17--19
+\OT1/cmr/m/n/10.95 mal und []offnet
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--19
+\OT1/cmr/m/n/10.95 den CE-di-tor.
+ []
+
+
+Underfull \hbox (badness 3148) in paragraph at lines 17--19
+\OT1/cmr/m/n/10.95 Hier tippt man
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--19
+\OT1/cmr/m/n/10.95 te der vo-ting
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--19
+\OT1/cmr/m/n/10.95 Me-tho-de und
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--19
+\OT1/cmr/m/n/10.95 schreibt []for\.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 19--20
+[][]\OT1/cmr/m/n/10.95 Nach we-ni-
+ []
+
+
+Underfull \hbox (badness 5607) in paragraph at lines 19--20
+\OT1/cmr/m/n/10.95 ger als 0.5
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 19--20
+\OT1/cmr/m/n/10.95 Se-kun-den
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 19--20
+[]\OT1/cmr/m/n/10.95 offnet sich
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 19--20
+\OT1/cmr/m/n/10.95 ein Fen-
+ []
+
+
+Overfull \hbox (17.62517pt too wide) in paragraph at lines 19--20
+\OT1/cmr/m/n/10.95 vollst[]andigungen
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 26--31
+\OT1/cmr/m/n/10.95 Pro-gramm nor-
+ []
+
+
+Underfull \hbox (badness 4927) in paragraph at lines 26--31
+\OT1/cmr/m/n/10.95 mal und []offnet
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 26--31
+\OT1/cmr/m/n/10.95 den CE-di-tor.
+ []
+
+
+Underfull \hbox (badness 3148) in paragraph at lines 26--31
+\OT1/cmr/m/n/10.95 Hier tippt man
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 26--31
+\OT1/cmr/m/n/10.95 ein (Bei-spiels-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 26--31
+\OT1/cmr/m/n/10.95 wei-se 1 Zei-le:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 26--31
+\OT1/cmr/m/n/10.95 En-de: re-turn
+ []
+
+
+Underfull \hbox (badness 6559) in paragraph at lines 26--31
+\OT1/cmr/m/n/10.95 i;). Im Pa-ram-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 26--31
+\OT1/cmr/m/n/10.95 te-re-di-tor stellt
+ []
+
+
+Underfull \hbox (badness 4726) in paragraph at lines 26--31
+\OT1/cmr/m/n/10.95 man al-le Pa-ra-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 26--31
+\OT1/cmr/m/n/10.95 me-ter mo-de-rat
+ []
+
+
+Underfull \hbox (badness 3612) in paragraph at lines 26--31
+\OT1/cmr/m/n/10.95 ein (al-les un-ter
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 26--31
+\OT1/cmr/m/n/10.95 10, Ti-meout
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 26--31
+\OT1/cmr/m/n/10.95 aus-ge-stellt). Im
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 26--31
+\OT1/cmr/m/n/10.95 Ei-gen-schaf-te-ne-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 26--31
+\OT1/cmr/m/n/10.95 di-tor l[]ad man
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 26--31
+\OT1/cmr/m/n/10.95 die Ei-gen-schaft
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 26--31
+[]\OT1/cmr/m/n/10.95 Fal-se-Pro-per-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 26--31
+\OT1/cmr/m/n/10.95 ty.props\ und
+ []
+
+
+Underfull \hbox (badness 1577) in paragraph at lines 31--32
+\OT1/cmr/m/n/10.95 Zeit schliet
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 31--32
+\OT1/cmr/m/n/10.95 die Ana-lys
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 31--32
+\OT1/cmr/m/n/10.95 kann das
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 31--32
+\OT1/cmr/m/n/10.95 Er-geb-nis
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 37--37
+[][]\OT1/cmr/m/n/10.95 /NF20/
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 37--37
+\OT1/cmr/m/n/10.95 /NF40/
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 37--37
+\OT1/cmr/m/n/10.95 /NF50/
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 38--45
+\OT1/cmr/m/n/10.95 Pro-gramm nor-
+ []
+
+
+Underfull \hbox (badness 4927) in paragraph at lines 38--45
+\OT1/cmr/m/n/10.95 mal und []offnet
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 38--45
+\OT1/cmr/m/n/10.95 den CE-di-tor.
+ []
+
+
+Underfull \hbox (badness 3148) in paragraph at lines 38--45
+\OT1/cmr/m/n/10.95 Hier tippt man
+ []
+
+
+Underfull \hbox (badness 1199) in paragraph at lines 38--45
+\OT1/cmr/m/n/10.95 i++; Am En-de:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 38--45
+\OT1/cmr/m/n/10.95 re-turn i;). Im
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 38--45
+\OT1/cmr/m/n/10.95 Pa-ram-te-re-di-tor
+ []
+
+
+Underfull \hbox (badness 7576) in paragraph at lines 38--45
+\OT1/cmr/m/n/10.95 stellt man al-le
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 38--45
+\OT1/cmr/m/n/10.95 Pa-ra-me-ter auf
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 38--45
+\OT1/cmr/m/n/10.95 10000 ein und
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 38--45
+\OT1/cmr/m/n/10.95 den Ti-meOut
+ []
+
+
+Underfull \hbox (badness 2269) in paragraph at lines 38--45
+\OT1/cmr/m/n/10.95 auf 15 Mi-nu-ten
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 38--45
+\OT1/cmr/m/n/10.95 er 15 Mi-nu-ten
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 38--45
+\OT1/cmr/m/n/10.95 schafft, schafft
+ []
+
+
+Underfull \hbox (badness 6157) in paragraph at lines 38--45
+\OT1/cmr/m/n/10.95 Ta-ge / Jah-re).
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 38--45
+\OT1/cmr/m/n/10.95 die Ei-gen-schaft
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 38--45
+[]\OT1/cmr/m/n/10.95 Fal-se-Pro-per-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 38--45
+\OT1/cmr/m/n/10.95 ty.props\ und
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 45--46
+[][]\OT1/cmr/m/n/10.95 Nach ziem-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 45--46
+\OT1/cmr/m/n/10.95 lich ge-nau
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 45--46
+\OT1/cmr/m/n/10.95 15 Mi-nu-ten
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 45--46
+\OT1/cmr/m/n/10.95 h[]ort die
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 45--46
+[]\OT1/cmr/m/n/10.95 Uberpr[]ufung
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 45--46
+\OT1/cmr/m/n/10.95 Ei-gen-schaft
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 45--46
+\OT1/cmr/m/n/10.95 wird als
+ []
+
+
+Underfull \hbox (badness 5741) in paragraph at lines 45--46
+\OT1/cmr/m/n/10.95 durch einen
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 45--46
+\OT1/cmr/m/n/10.95 Ti-meout
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 45--46
+\OT1/cmr/m/n/10.95 ab-ge-bro-chen
+ []
+
+
+Overfull \hbox (9.2578pt too wide) in paragraph at lines 4--53
+ [][][] 
+ []
+
+
+LaTeX Warning: Float too large for page by 468.69218pt on input line 53.
+
 )
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 262.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 311.
 Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 262.
+(babel)             in language  on input line 311.
 Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 262.
+(babel)             in language  on input line 311.
 Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 262.
+(babel)             in language  on input line 311.
 Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 262.
+(babel)             in language  on input line 311.
 Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 262.
+(babel)             in language  on input line 311.
 Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 262.
- [13
+(babel)             in language  on input line 311.
+ [15
 
 ]
 Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 262.
+(babel)             in language  on input line 311.
 Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 262.
+(babel)             in language  on input line 311.
 Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 262.
+(babel)             in language  on input line 311.
 Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 262.
+(babel)             in language  on input line 311.
 Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 262.
+(babel)             in language  on input line 311.
 Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 262.
- [14]
-Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 262.
-Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 262.
-Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 262.
-Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 262.
-Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 262.
-Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 262.
- [15]
-Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 262.
-Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 262.
-Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 262.
-Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 262.
-Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 262.
-Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 262.
+(babel)             in language  on input line 311.
  [16]
 Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 262.
+(babel)             in language  on input line 311.
 Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 262.
+(babel)             in language  on input line 311.
 Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 262.
+(babel)             in language  on input line 311.
 Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 262.
+(babel)             in language  on input line 311.
 Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 262.
+(babel)             in language  on input line 311.
 Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 262.
+(babel)             in language  on input line 311.
  [17]
 Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 262.
+(babel)             in language  on input line 311.
 Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 262.
+(babel)             in language  on input line 311.
 Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 262.
+(babel)             in language  on input line 311.
 Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 262.
+(babel)             in language  on input line 311.
 Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 262.
+(babel)             in language  on input line 311.
 Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 262.
+(babel)             in language  on input line 311.
  [18]
 Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 262.
+(babel)             in language  on input line 311.
 Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 262.
+(babel)             in language  on input line 311.
 Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 262.
+(babel)             in language  on input line 311.
 Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 262.
+(babel)             in language  on input line 311.
 Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 262.
+(babel)             in language  on input line 311.
 Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 262.
+(babel)             in language  on input line 311.
  [19]
 Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 262.
+(babel)             in language  on input line 311.
 Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 262.
+(babel)             in language  on input line 311.
 Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 262.
+(babel)             in language  on input line 311.
 Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 262.
+(babel)             in language  on input line 311.
 Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 262.
+(babel)             in language  on input line 311.
 Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 262.
+(babel)             in language  on input line 311.
  [20]
 Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 262.
+(babel)             in language  on input line 311.
 Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 262.
+(babel)             in language  on input line 311.
 Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 262.
+(babel)             in language  on input line 311.
 Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 262.
+(babel)             in language  on input line 311.
 Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 262.
+(babel)             in language  on input line 311.
 Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 262.
+(babel)             in language  on input line 311.
  [21]
 Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 262.
+(babel)             in language  on input line 311.
 Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 262.
+(babel)             in language  on input line 311.
 Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 262.
+(babel)             in language  on input line 311.
 Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 262.
+(babel)             in language  on input line 311.
 Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 262.
+(babel)             in language  on input line 311.
 Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 262.
+(babel)             in language  on input line 311.
  [22]
 Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 262.
+(babel)             in language  on input line 311.
 Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 262.
+(babel)             in language  on input line 311.
 Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 262.
+(babel)             in language  on input line 311.
 Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 262.
+(babel)             in language  on input line 311.
 Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 262.
+(babel)             in language  on input line 311.
 Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 262.
+(babel)             in language  on input line 311.
  [23]
 Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 262.
+(babel)             in language  on input line 311.
 Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 262.
+(babel)             in language  on input line 311.
 Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 262.
+(babel)             in language  on input line 311.
 Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 262.
+(babel)             in language  on input line 311.
 Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 262.
+(babel)             in language  on input line 311.
 Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 262.
+(babel)             in language  on input line 311.
  [24]
 Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 262.
+(babel)             in language  on input line 311.
 Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 262.
+(babel)             in language  on input line 311.
 Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 262.
+(babel)             in language  on input line 311.
 Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 262.
+(babel)             in language  on input line 311.
 Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 262.
+(babel)             in language  on input line 311.
 Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 262.
+(babel)             in language  on input line 311.
  [25]
 Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 262.
+(babel)             in language  on input line 311.
 Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 262.
+(babel)             in language  on input line 311.
 Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 262.
+(babel)             in language  on input line 311.
 Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 262.
+(babel)             in language  on input line 311.
 Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 262.
+(babel)             in language  on input line 311.
 Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 262.
+(babel)             in language  on input line 311.
  [26]
 Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 262.
+(babel)             in language  on input line 311.
 Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 262.
+(babel)             in language  on input line 311.
 Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 262.
+(babel)             in language  on input line 311.
 Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 262.
+(babel)             in language  on input line 311.
 Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 262.
+(babel)             in language  on input line 311.
 Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 262.
-
-[27]
+(babel)             in language  on input line 311.
+ [27]
 Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 262.
+(babel)             in language  on input line 311.
 Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 262.
+(babel)             in language  on input line 311.
 Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 262.
+(babel)             in language  on input line 311.
 Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 262.
+(babel)             in language  on input line 311.
 Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 262.
+(babel)             in language  on input line 311.
 Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 262.
+(babel)             in language  on input line 311.
  [28]
 Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 262.
+(babel)             in language  on input line 311.
 Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 262.
+(babel)             in language  on input line 311.
 Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 262.
+(babel)             in language  on input line 311.
 Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 262.
+(babel)             in language  on input line 311.
 Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 262.
+(babel)             in language  on input line 311.
 Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 262.
- [29]
+(babel)             in language  on input line 311.
+
+[29]
 Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 262.
+(babel)             in language  on input line 311.
 Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 262.
+(babel)             in language  on input line 311.
 Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 262.
+(babel)             in language  on input line 311.
 Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 262.
+(babel)             in language  on input line 311.
 Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 262.
+(babel)             in language  on input line 311.
 Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 262.
+(babel)             in language  on input line 311.
  [30]
 Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 262.
+(babel)             in language  on input line 311.
 Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 262.
+(babel)             in language  on input line 311.
 Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 262.
+(babel)             in language  on input line 311.
 Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 262.
+(babel)             in language  on input line 311.
 Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 262.
+(babel)             in language  on input line 311.
 Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 262.
+(babel)             in language  on input line 311.
  [31]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 262.
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 311.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 311.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 311.
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 311.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 311.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 311.
+ [32]
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 311.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 311.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 311.
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 311.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 311.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 311.
+ [33]
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 311.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 311.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 311.
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 311.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 311.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 311.
+ [34]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 311.
  (Qualitätssicherung.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 262.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 262.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 311.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 311.
 Package rerunfilecheck Info: File `Qualitätssicherung.out' has not changed.
 (rerunfilecheck)             Checksum: F7BE8EA938F54AAF72EBFC56A6C0283B;825.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 262.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 311.
  ) 
 Here is how much of TeX's memory you used:
- 8969 strings out of 493634
- 146471 string characters out of 3135239
- 420248 words of memory out of 3000000
- 12110 multiletter control sequences out of 15000+200000
- 9100 words of font info for 33 fonts, out of 3000000 for 9000
+ 9000 strings out of 493634
+ 147000 string characters out of 3135239
+ 432639 words of memory out of 3000000
+ 12125 multiletter control sequences out of 15000+200000
+ 10012 words of font info for 36 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
  43i,11n,66p,8526b,391s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\Lukas\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\public\bbding\dpi65
 7\bbding10.pk><C:/Users/Lukas/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pub
 lic/amsfonts/cm/cmbx10.pfb><C:/Users/Lukas/AppData/Local/Programs/MiKTeX 2.9/fo
-nts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Lukas/AppData/Local/Programs/M
-iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Lukas/AppData/Loca
-l/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Users/Luk
-as/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-<C:/Users/Lukas/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/c
-m/cmtt10.pfb>
-Output written on Qualitätssicherung.pdf (31 pages, 485394 bytes).
+nts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Lukas/AppData/Local/Programs/
+MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/Lukas/AppData/Loc
+al/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Users/Lukas
+/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:
+/Users/Lukas/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
+mr12.pfb><C:/Users/Lukas/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/a
+msfonts/cm/cmr6.pfb><C:/Users/Lukas/AppData/Local/Programs/MiKTeX 2.9/fonts/typ
+e1/public/amsfonts/cm/cmr8.pfb><C:/Users/Lukas/AppData/Local/Programs/MiKTeX 2.
+9/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/Lukas/AppData/Local/Program
+s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Users/Lukas/AppDat
+a/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users
+/Lukas/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy9.p
+fb><C:/Users/Lukas/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfont
+s/cm/cmtt10.pfb>
+Output written on Qualitätssicherung.pdf (34 pages, 676003 bytes).
 PDF statistics:
- 291 PDF objects out of 1000 (max. 8388607)
- 74 named destinations out of 1000 (max. 500000)
- 138 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 343 PDF objects out of 1000 (max. 8388607)
+ 83 named destinations out of 1000 (max. 500000)
+ 143 words of extra memory for PDF output out of 10000 (max. 10000000)
 

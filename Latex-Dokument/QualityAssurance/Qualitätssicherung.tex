@@ -103,6 +103,37 @@ Weiterhin wird aber auch darauf geachtet, dass in den Methoden der einzelnen Kla
 Pfadüberdeckung gegeben ist. Da die Metrik-Werkzeuge, welche wir verwenden, zwar
 nicht überdeckte Pfade anzeigen, sich daraus aber keine ausdrucksvolle Metrik ergibt, fließt sie nicht in die Metrik an sich mit ein, auch wenn darauf
 geachtet wurde.
+\newline
+
+Wie man im Bild \ref{coverage}sehen kann gibt es in unserem Paket große
+Unterschiede, was die Coverage\footnote{Die "`Coverage"' einer Klasse beschreibt
+wie viele der Befehle (Zuweisungen, Methodenaufrufe, \ldots )
+, wobei es davon auch mehrere pro Zeile code geben kann, von mindestens einem
+Testfall abgelaufen werden.} der verschiedenen Pakete anbelangt.
+Während Beispielsweise die Pakete der Datentypen ziemlich leicht eine sehr hohe Coverage
+erreichen können, haben vor allem Pakete die einen höheren GUI Bezug haben
+deutlich geringere Werte. \\
+Außerdem muss man bedenken, dass einige Klassen aus Paketen
+betriebssytemabhänging sind, sodass diese Pakete nie eine 100\%ige Coverage
+erreichen können. Auch von AntLR erstellte Klassen haben eine sehr geringe
+Coverage, da wir diese nicht testen.
+\newline
+Berechnet man nun die Coverage ohne die oben genannten Teile, kommen wir auf ca
+76\%\footnote{Berechnet durch: $32000 (covered instructions) / 63300 (all
+lines) - 19500 (CElectionCodeArea.Antlr) - 1800 (booleanexp) - 200
+(LinuxProcess)$}.
+Zusammen mit den vielen GUI-Tests, und auch dem normalen Benutzen mit BEAST sind
+wir aber zuversichtlich, dass unere Testfallüberdeckung ausreicht um eine
+angenehme Benutzung von BEAST möglich zu machen.
+
+\begin{figure}[ht]
+	\centering
+  \includegraphics[width=1.0\textwidth,
+  height=0.40\textwidth]{images/Coverage.png} \caption{Eine Übersicht über die
+  in den einzelnen Paketen erreichte CodeCoverage (eine größere Version des
+  Bildes befindet sich im Anhang)}
+	\label{coverage}
+\end{figure}
 
 
 
@@ -207,13 +238,24 @@ läuft.
 \end{figure}
 
 \chapter{Fehlerbehebungen}
-
-Nummer des Problems | Ursache | Lösung
+Im Laufe der Phase haben wir einige Fehler gefunden, welche die Benutzung von
+BEAST stark beeinträchtigt haben. Eine komplette Liste aller "`Issues"' kann auf
+der BEAST
+GitHub-Seite\footnote{https://github.com/NikolaiLMS/PSE-Wahlverfahren-Implementierung/issues}
+angeschaut werden. Trotzdem werden wir hier einen kleinen Überblick über ein
+paar der gefundenen Fehler und deren Behebung geben:
 
 \paragraph{Issue 16}- \newline
 Beschreibung: Es war möglich, Zeilen zu verändern, welche als nicht editierbar angezeigt und festgelegt wurden. Dies geschah, wenn man unterhalb einer solchen Zeile etwas schrieb. Durch Entfernen des Zeilentrennungszeichens wurde dieses Zeichen dann in die nicht editierbare Zeile angehoben.
 \newline
 Lösung: In die \verb!removeToTheLeft! Methode in \verb!UserInserToCode! wurde ein zusätzlicher Check eingefügt. Es überprüft nun, ob die Zeile über der, in welcher etwas gelöscht wird, nicht editierbar ist. Falls ja, und das zu löschende Zeichen ist ein Zeichentrennungszeichen, wird nur gelöscht, falls die Zeile leer ist, auf welcher sich der Cursor befindet.
+
+\paragraph{Issue 17}- \newline
+Beschreibung: Öffnet man eine falsch formatierte Datei in BEAST führte dies zu
+einer NullpointerException
+\newline
+Lösung: Gelöst durch zwingende Namensgebung der form
+"`list_of_candidates_per_voter"' 
 
 \paragraph{Issue 27}- \\
 Beschreibung: Obwohl als Voraussetzung angegeben war, dass beide vote-Arrays gleich sein sollten (\verb!VOTES1==VOTES2!) wurden in beiden Wahlvorgängen verschiedene Stimmen abgegeben.\\
@@ -239,11 +281,17 @@ verbessert:
   schreiben kann.
   \item Der Nutzer kann nun Wähler, Kandidaten und Sitze via ihrer Position in den entsprechenden Arrays angeben. Dazu wurden die Sprachkonstrukte \verb!VOTER_AT_POS!, \verb!CAND_AT_POS! und \verb!SEAT_AT_POS! implementiert.
   \item Der Nutzer kann nun beliebige mathematische Terme angeben, welche *, /, + und - unterstützen. Diese binären mathematischen Operationen können auf sämtliche Ausdrücke angewendet werden, welche einen ganzzahligen Wert liefern.
+  \item Gibt der Nutzer nun Dateien, welche in das C-Programm eingebunden werden
+  sollen, an, wird automatisch überprüft, ob diese einem standart C-Include
+  entsprechen, oder aber in dem speziellen Ordner \backslash core \backslash
+  user_includes \backslash liegen. Sie werden dann auch automatisch an cbmc
+  weitergegeben, sodass der nutzer keine weiteren Arbeiten machen muss, wenn er
+  eine eigene Datei einbinden will.
 \end{itemize}
 
 \chapter{Anhang}
 
-\section{Testprotokolle}
+\section{Testprotokolle} 
 \input{testProtokolle/Testfall8_1.tex}
 \input{testProtokolle/Testfall8_1b.tex}
 \input{testProtokolle/Testfall8_1c.tex}
@@ -257,6 +305,7 @@ verbessert:
 \input{testProtokolle/Testfall8_7.tex}
 \input{testProtokolle/Testfall8_7b.tex}
 \input{testProtokolle/Testfall8_8.tex}
+\input{testProtokolle/Produktleistungen.tex}
 
 
 \end{document}

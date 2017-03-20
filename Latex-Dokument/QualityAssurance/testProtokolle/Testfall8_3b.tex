@@ -1,0 +1,32 @@
+\begin{table}[]
+\caption{Testfall 8.3 (Bearbeiten des Codes in den Editoren)}
+\centering
+	\begin{tabular}{| p{0.09\linewidth} | p{0.14\linewidth} | p{0.21\linewidth} |
+	p{0.21\linewidth} | p{0.1\linewidth} | p{0.1\linewidth} |}
+	\hline
+	\textbf{Sub-Testfall} &
+	\textbf{Abgedeckte Funktionalitäten} &
+	\textbf{Beschreibung} &
+	\textbf{Ergebnis} & \textbf{Niels}
+	(Windows 10) Version 1.4.13 &
+	\textbf{Niels} Ubuntu 14.0 Version 1.4.13) 
+\\
+\hline
+/T210/ &
+/FM1010/ /FM1020/ /FM2010/ /FM2020/ /FS1070/ /FS1070/ /FS1080/  &
+Man startet das Programm ganz normal. Nun öffnet man den den jeweiligen Editor (CEditor und Eigenschafteneditor) nun versucht man einen Text einzugeben und diesen Text dann zu editieren.
+&
+Der Text wird korrekt angezeigt und lässt sich editieren. Die Zeilennummer wird korrekt angezeigt. Falls der eingegebene Text dem erwarteten Syntax im Editor entspricht wird die Syntax des Texts korrekt gehighlighted.  &
+\Checkmark & \Checkmark
+\\
+\hline
+/T210/ &
+/FS1090/ /FM2120/ /FS2140/ &
+Man startet das Programm ganz normal. Nun öffnet man den den jeweiligen Editor (CEditor und Eigenschafteneditor) und gibt einen kleinen Text ein. Nun führt man die statische Fehleruntersuchung aus oder wartet ein paar Sekunden auf die automatische Fehleruntersuchung.
+&
+Falls der eingegebene Text der erwarteten Syntax im Editor nicht entspricht werden Fehler angezeigt. Die Fehler werden mit Zeilennummer im Fehlerfenster angezeigt und im Editor unterstrichen   &
+\Checkmark & \Checkmark
+\\
+\hline
+\end{tabular}
+\end{table}

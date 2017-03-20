@@ -1,0 +1,46 @@
+
+
+\begin{table}[]
+\caption{Testfall 8.3 (Testfall für Kopieren, Einfügen und Ausschneiden in den Editoren)}
+\centering
+	\begin{tabular}{| p{0.09\linewidth} | p{0.14\linewidth} | p{0.27\linewidth} |
+	p{0.15\linewidth} | p{0.1\linewidth} | p{0.1\linewidth} |}
+	\hline
+	\textbf{Sub-Testfall} &
+	\textbf{Abgedeckte Funktionalitäten} &
+	\textbf{Beschreibung} &
+	\textbf{Ergebnis} & \textbf{Niels}
+	(Windows 10) Version 1.4.13 &
+	\textbf{Niels} Ubuntu 14.0 Version 1.4.13) 
+\\
+\hline
+/T200/ &
+/F0010/ /FS1100/ /FS2150/ &
+Man startet das Programm ganz normal. Nun öffnet man den den jeweiligen Editor (C-Editor und Eigenschafteneditor) und gibt einen kleinen Text ein.
+Man markiert den kleinen Text und drückt dann, während der Fokus auf dem Editor liegt, "`Strg + x"' oder betätigt den Button für Ausschneiden. 
+&
+Der markierte Text wird gelöscht und in den Zwischenspeicher gespeichert. &
+\Checkmark & \Checkmark
+\\
+\hline
+/T200/ &
+/F0010/ /FS1100/ /FS2150/ &
+Man startet das Programm ganz normal. Nun öffnet man den den jeweiligen Editor (C-Editor und Eigenschafteneditor) und gibt einen kleinen Text ein.
+Man markiert den kleinen Text und drückt dann, während der Fokus auf dem Editor liegt, "`Strg + c"' oder betätigt den Button für Kopieren
+&
+Der markierte Text wird in den Zwischenspeicher gespeichert. &
+\Checkmark & \Checkmark
+\\
+\hline
+/T200/ &
+/F0010/ /FS1100/ /FS2150/ &
+Man startet das Programm ganz normal. Nun öffnet man den den jeweiligen Editor (C-Editor und Eigenschafteneditor)
+Man drückt "`Strg + c"' oder betätigt den Button für Einfügen.
+&
+Falls ein Text im Zwischenspeicher gespeichert ist, wird er im Editor eingefügt. &
+\Checkmark & \Checkmark
+\\
+\hline
+
+\end{tabular}
+\end{table}

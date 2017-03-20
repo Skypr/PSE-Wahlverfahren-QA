@@ -4,7 +4,7 @@
 \usepackage{graphicx}
 \usepackage{hyperref}
 \usepackage{pdflscape}
-\usepackage{wrapfig}
+\usepackage{wrapfig} 
 \usepackage{adjustbox}
 \usepackage{bbding}
 \usepackage{subfiles}
@@ -25,7 +25,18 @@
 \tableofcontents	
 
 \chapter{Einleitung}
-
+Dieses Dokument ist dafür gedacht einen Überlick über die
+Qualitätssicherungsphase unseres Projektes "`BEAST"' zu geben. Obwohl unser
+Programm schon bei der Abgabe funktionierte, fanden wir erst in dieser Phase
+viele Bereiche, vor allem Randfälle, in denen es noch nicht funktionierte. Wir
+wissen jedoch auch, dass man durch Teseten nicht die Abwesenheit von Fehler
+zeigen kann, sondern nur deren Anwesenheit. Wir hoffen trotzdem, dass wir so
+viele Fälle der Benutzung, sei es automatisch oder von Hand, getestet haben,
+dass die späteren Nutzer unseres Programmes es ohne Probleme nutzen können.
+\newline
+Das Dokument wird im weiteren eine Übersicht über den Ablauf unserer
+Qualitätssicherungsphase geben, und die Vorgehensweise der von uns eingesetzten
+Methoden beschreiben.
 
 \chapter{Codereviews}
 
@@ -44,12 +55,14 @@ refactorn, um die Lesbarkeit, Wartbarkeit und spätere Testbarkeit zu erhöhen.
 \section{Ergebnis}
 Das Ergebnis der Codereviews ist nicht ganz eindeutig. Manchen
 Teammitgliedern haben sie geholfen Fehler zu finden, die beim späteren Testen
-wahrscheinlich nicht entdeckt worden wären, und den Code an sich etwas robuster
-zu machen. Andere haben eigentlich nur ein paar Style-Fehler gefunden, und
-angegeben, dass ihnen die Codereviews eigentlich nicht geholfen hätten. Dies
-kann aber auch daran gelegen haben, dass die Leute zu schnell über den Code
-gegangen sind, und die andere Person nicht genügend tiefgründige Fragen
-gestellt hat.
+wahrscheinlich nicht entdeckt worden wären. So fiel Beispielsweise auf, dass
+bei ein paar Methoden ein "`synchronized"' gefunden wurde, oder aber, dass ein
+"`Result"'-Objekt zu früh auf "`finished"' gesetzt wurde, was dazu führen
+könnte, dass ein noch nicht fertig bearbeitetes Objekt angezeigt werden würde.
+Andere haben eigentlich nur ein paar Style-Fehler gefunden, und angegeben, dass
+ihnen die Codereviews eigentlich nicht geholfen hätten. Dies kann aber auch
+daran gelegen haben, dass die Leute zu schnell über den Code gegangen sind, und
+die andere Person nicht genügend tiefgründige Fragen gestellt hat.
 
 \chapter{Unit-Tests}
 

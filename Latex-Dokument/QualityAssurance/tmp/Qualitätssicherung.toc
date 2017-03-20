@@ -10,6 +10,10 @@
 \contentsline {section}{\numberline {3.4}Unit-Tests f\IeC {\"u}r AST- und Codegenerierung}{6}{section.3.4}
 \contentsline {chapter}{\numberline {4}Performance und Verbrauch:}{7}{chapter.4}
 \contentsline {chapter}{\numberline {5}Fehlerbehebungen}{11}{chapter.5}
+\contentsline {paragraph}{\nonumberline Issue 16}{11}{section*.2}
+\contentsline {paragraph}{\nonumberline Issue 27}{11}{section*.3}
+\contentsline {paragraph}{\nonumberline Issue 28}{11}{section*.4}
+\contentsline {paragraph}{\nonumberline Issue 42}{11}{section*.5}
 \contentsline {chapter}{\numberline {6}Verbesserungen in der Phase}{12}{chapter.6}
 \contentsline {chapter}{\numberline {7}Anhang}{13}{chapter.7}
 \contentsline {section}{\numberline {7.1}Testprotokolle}{13}{section.7.1}

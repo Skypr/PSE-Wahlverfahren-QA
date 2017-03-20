@@ -291,6 +291,11 @@ verbessert:
 
 \chapter{Anhang}
 
+Hier finden sich die Testprotokolle für die im Pflichtenheft angegebenen
+Testfälle. Diese wurden von Hand durchgeführt, da sie alle einen starten GUI und
+Anwendungsbezug haben, und sie somit ohne große Anstrengung fast nicht
+automatisierbar wären.
+
 \section{Testprotokolle} 
 \input{testProtokolle/Testfall8_1.tex}
 \input{testProtokolle/Testfall8_1b.tex}
@@ -307,6 +312,52 @@ verbessert:
 \input{testProtokolle/Testfall8_8.tex}
 \input{testProtokolle/Produktleistungen_a.tex}
 \input{testProtokolle/Produktleistungen_b.tex}
+
+\newpage
+
+\begin{figure}[ht]
+	\centering
+  \includegraphics[width=1.0\textheight, 
+  height=1.0\textwidth, angle=90]{images/BEAST_PROCESSORTIME.png}
+  \caption{Der prozentuale Anteil einzelner Methoden an der gesamten genutzten Prozessorzeit}
+	\label{big_procc}
+\end{figure} 
+\newpage
+\begin{figure}[ht]
+	\centering
+  \includegraphics[width=1.0\textheight, 
+  height=1.0\textwidth, angle=90]{images/OLD_NO.png} \caption{Dies ist der
+  Ressourcenverbrauch des Programmes, während es auf eine Eingabe vom Nutzer wartet und momentan keine Verifikation durchführt}
+	\label{d}
+\end{figure}
+
+\begin{figure}[ht]
+	\centering
+  \includegraphics[width=1.0\textheight, 
+  height=1.0\textwidth, angle=90]{images/NEW_NO.png} \caption{Der Ressourcenverbrauch der
+  momentanen Version des Programmes, während keine Überprüfung durchgeführt wird}
+	\label{c}
+\end{figure}
+
+
+\begin{figure}[ht]
+	\centering
+  \includegraphics[width=1.0\textheight, 
+  height=1.0\textwidth, angle=90]{images/OLD_YES.png} \caption{Der Ressourcenverbrauch
+ der originalen Version von BEAST, während Eigenschaften überprüft werden}
+	\label{b}
+\end{figure}
+
+\begin{figure}[ht]
+	\centering
+  \includegraphics[width=1.0\textheight, 
+  height=1.0\textwidth, angle=90]{images/NEW_YES.png} \caption{Der Ressourcenverbrauch der
+  momentanen Version des Programmes, während Eigenschaften überprüft werden}
+	\label{a}
+\end{figure}
+
+
+
 
 
 \end{document}

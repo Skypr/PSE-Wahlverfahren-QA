@@ -252,16 +252,16 @@ Lösung: In die \verb!removeToTheLeft! Methode in \verb!UserInserToCode! wurde e
 Beschreibung: Öffnet man eine falsch formatierte Datei in BEAST führte dies zu
 einer NullpointerException
 \newline
-Lösung: Gelöst durch zwingende Namensgebung der form
-"`list_of_candidates_per_voter"' 
+Lösung: Gelöst durch zwingende Namensgebung der Form
+"`list\_of\_candidates\_per\_voter"' 
 
 \paragraph{Issue 27}- \\
-Beschreibung: Obwohl als Voraussetzung angegeben war, dass beide vote-Arrays gleich sein sollten (\verb!VOTES1==VOTES2!) wurden in beiden Wahlvorgängen verschiedene Stimmen abgegeben.\\
-Lösung: Der Bug stammte daher, dass der generierte Code die abgegebenen Stimmen nur bis zur Anzahl der Wähler verglich. Bei Wahlverfahren, bei welchen jeder Wähler eine Liste mit Länge der Anzahl von Kandidaten abgibt, wurden daher nur die ersten Stimmen verglichen. Dies führte zu dem Bug, sobald es mehr Kandidaten als Wähler gab.
+Beschreibung: Obwohl als Voraussetzung angegeben war, dass beide vote-Arrays gleich sein sollten (\verb!VOTES1==VOTES2!), wurden in beiden Wahlvorgängen verschiedene Stimmen abgegeben.\\
+Lösung: Der Bug stammte daher, dass der generierte Code die abgegebenen Stimmen nur bis zur Anzahl der Wähler verglich. Bei Wahlverfahren, bei welchen jeder Wähler eine Liste mit Länge der Anzahl von Kandidaten abgibt, wurden daher nur die ersten Stimmen verglichen. Dies führte zu diesem Bug, sobald es mehr Kandidaten als Wähler gab.
 
 \paragraph{Issue 28}- \\
-Beschreibung: Bei einem Wahlverfahren, welches Preference-Voting als Input verwendet, dauerte es enorm lange eine Eigenschaft zu testen, wenn es mehr Kandidaten als Wähler gab. Bei 6 Wählern und Kandidaten dauerte eine Überprüfung wenige Sekunden. Bei 5 Wählern und 6 Kandidaten war die Überprüfung nach 2 Minuten noch nicht fertig.\\
-Lösung: Die Ursache war, dass bei Preference-voting als zusätzliche Voraussetzung alle von einem Wähler abgegebenen Stimmen verschieden sein müssen. Dies liegt daran, dass diese Platzierungen von Wählern repräsentieren. Der Code, welcher produziert wurde, um diese Eigenschaft sicherzustellen, war fehlerhaft.
+Beschreibung: Bei einem Wahlverfahren, welches Präferenzwahl als Input verwendet, dauerte es ungewöhnlich lange eine Eigenschaft zu testen, wenn es mehr Kandidaten als Wähler gab. Bei 6 Wählern und Kandidaten dauerte eine Überprüfung wenige Sekunden. Bei 5 Wählern und 6 Kandidaten war die Überprüfung nach 2 Minuten noch nicht fertig.\\
+Lösung: Die Ursache war, dass bei Präferenzwahlen als zusätzliche Voraussetzung alle von einem Wähler abgegebenen Stimmen verschieden sein müssen. Dies liegt daran, dass diese Platzierungen von Wählern repräsentieren. Der Code zur Sicherstellung dieser Eigenschaft war fehlerhaft.
 
 \paragraph{Issue 42}- \\
 Beschreibung: Bei der Codeerzeugung für Vergleiche wurden linke und rechte Seite des Vergleichs vertauscht.\\
@@ -282,15 +282,15 @@ verbessert:
   \item Gibt der Nutzer nun Dateien, welche in das C-Programm eingebunden werden
   sollen, an, wird automatisch überprüft, ob diese einem standart C-Include
   entsprechen, oder aber in dem speziellen Ordner \backslash core \backslash
-  user_includes \backslash liegen. Sie werden dann auch automatisch an cbmc
-  weitergegeben, sodass der nutzer keine weiteren Arbeiten machen muss, wenn er
+  user\_includes \backslash liegen. Sie werden dann auch automatisch an cbmc
+  weitergegeben, sodass der Nutzer keine weiteren Arbeiten machen muss, wenn er
   eine eigene Datei einbinden will.
 \end{itemize}
 
 \chapter{Anhang}
 
 Hier finden sich die Testprotokolle für die im Pflichtenheft angegebenen
-Testfälle. Diese wurden von Hand durchgeführt, da sie alle einen starten GUI und
+Testfälle. Diese wurden von Hand durchgeführt, da sie alle einen starken GUI- und
 Anwendungsbezug haben, und sie somit ohne große Anstrengung fast nicht
 automatisierbar wären.
 

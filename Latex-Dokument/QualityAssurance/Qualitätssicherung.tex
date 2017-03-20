@@ -28,11 +28,13 @@
 Dieses Dokument ist dafür gedacht, einen Überlick über die
 Qualitätssicherungsphase unseres Projektes "`BEAST"' zu geben. Obwohl unser
 Programm schon bei der Abgabe funktionierte, fanden wir erst in dieser Phase
-viele Bereiche, vor allem Randfälle, in denen es noch nicht funktionierte. Wir
-wissen jedoch auch, dass man durch Testen nicht die Abwesenheit von Fehlern
-zeigen kann, sondern nur deren Anwesenheit. Wir hoffen trotzdem, dass wir so
-viele Fälle der Benutzung, sei es automatisch oder von Hand, getestet haben,
-dass die späteren Nutzer unseres Programmes es ohne Probleme nutzen können.
+viele Bereiche, vor allem Randfälle, in denen es dies noch nicht oder nicht
+vollständig tat.
+Wir wissen jedoch auch, dass man durch Testen nicht die Abwesenheit von Fehlern
+zeigen kann, sondern nur deren Anwesenheit. Trotzdem hoffen wir, dass wir
+so viele Fälle der Benutzung, sei es automatisch oder von Hand, getestet haben,
+dass die späteren Nutzer unseres Programmes keine Probleme mehr bei der
+Verwendung haben sollten
 \newline
 Das Dokument wird im Weiteren eine Übersicht über den Ablauf unserer
 Qualitätssicherungsphase geben und die Vorgehensweise der von uns eingesetzten
@@ -42,35 +44,45 @@ Methoden beschreiben.
 
 \section{Planung}
 Wir haben die Qualitätssicherungsphase mit Codereviews angefangen.
-Hierfür wurde unsere Gruppe in Gruppen zu je zwei Leuten unterteilt, wobei
-darauf Wert gelegt wurde, dass diese, die sich gegenseitig ihren Code erklären
-müssen, möglichst wenig über den Code des anderen wissen. 
-
+Hierfür wurde unsere Gruppe in Teams zu je zwei Leuten unterteilt, wobei
+darauf Wert gelegt wurde, dass die Personen, die sich gegenseitig ihren Code
+erklären müssen, möglichst wenig über die vom anderen vorher geschriebenen
+Klassen wissen.
+\newline
 Wir haben hiermit
 angefangen, um möglichst schnell die gröbsten Fehler im Code zu finden, sodass
-wir uns im weiteren Verlauf der Qualitätssicherung auf versteckter liegende Fehler konzentrieren
+wir uns im weiteren Verlauf der Qualitätssicherung auf versteckter liegende konzentrieren
 konnten. Ein weiterer wichtiger Aspekt dieser Codereviews war, den Code zu
-refaktorisieren, um die Lesbarkeit, Wartbarkeit und spätere Testbarkeit zu erhöhen.
+refactorn, um die Lesbarkeit, Wartbarkeit und spätere Testbarkeit zu erhöhen.
+\newline
+Die Lesbarkeit für den Code ist vor allem wichtig, da dieses Projekt später
+nicht mehr von uns weitergeführt werden wird, sondern von jemand andere, und wir
+dieser Person es so gut es geht ersparen möchten, zu viel Zeit alleine darauf
+verwenden zu müssen, ein paar Klassen zu verstehen
+
 
 \section{Ergebnis}
-Das Ergebnis der Codereviews ist nicht ganz eindeutig. Manchen
-Teammitgliedern haben sie geholfen Fehler zu finden, die beim späteren Testen
-wahrscheinlich nicht entdeckt worden wären. So fiel beispielsweise auf, dass
+Das Ergebnis der Codereviews war nicht ganz eindeutig. Während sie manchen
+Teammitgliedern  geholfen haben,Fehler zu finden, die beim späteren
+Testen wahrscheinlich nicht entdeckt worden wären. So fiel beispielsweise auf, dass
 bei einigen Methoden ein "`synchronized"' gefunden wurde, oder aber, dass ein
 "`Result"'-Objekt zu früh auf "`finished"' gesetzt wurde, was dazu führen
 könnte, dass ein noch nicht fertig bearbeitetes Objekt angezeigt wird.
 Andere haben vorwiegend Stilfehler gefunden, und angegeben, dass
 ihnen die Codereviews wenig geholfen hätten. Dies kann aber auch
 daran gelegen haben, dass die Leute zu schnell über den Code gegangen sind und
-die andere Person nicht genügend tiefgründige Fragen gestellt hat.
+die andere Person nicht genügend tiefgründige Fragen gestellt hat. Trotzdem
+denken wir gemeinsam als Gruppe, dass die Codereviews einen positiven Einfluss
+auf die Codequalität, auch im Verhältnis zur Zeit die sie gekostet haben,
+hatten.
 
 \chapter{Unit-Tests}
 
 \section{Planung}
 Neben den Codereviews haben wir anfangs parallel (zum
-Beispiel weil ein Gruppenmitglied einer Zweiergruppe keine Zeit hatte und sein
+Beispiel, weil ein Gruppenmitglied einer Zweiergruppe keine Zeit hatte und sein
 Partner etwas zu tun brauchte) und später auch
-verstärkt darauf hingearbeitet, Testfälle für den Code zu schreiben.
+verstärkt darauf hingearbeitet, JUnit-Testfälle für den Code zu schreiben.
 
 Zum einen werden wir alle Testfälle, welche im Pflichtenheft genannt wurden,
 implementieren. Sollte der Testfall GUI Bezug haben, oder sich überhaupt nicht mit JUnit
@@ -90,6 +102,8 @@ Fehler gefunden werden, sodass wir hier eine Übersicht über einige Fehler gebe
   \item Ein Fehler in der Codegenerierung, wenn man "`EXISTSONE"' verwendet.
   \item Fehler bei der Präferenz Wahl, bei der Wähler Kandidaten dieselbe
   Position geben konnten.
+  \item Die Wartezeit auf das beenden eines Prozesses auf Windows war zu kurz
+  angesetzt.
 \end{itemize}
 
 
@@ -118,8 +132,8 @@ erreichen können. Auch von AntLR erstellte Klassen haben eine sehr geringe
 Coverage, da wir diese nicht testen.
 \newline
 Berechnet man nun die Coverage ohne die oben genannten Teile, kommen wir auf etwa
-76\%\footnote{Berechnet durch: $32000 (covered instructions) / 63300 (all
-lines) - 19500 (CElectionCodeArea.Antlr) - 1800 (booleanexp) - 200
+76\%\footnote{Berechnet durch: $32000 (covered instructions) / (63300 (all
+lines) - 19500 (CElectionCodeArea.Antlr) - 1800 (booleanexp) - 200)
 (LinuxProcess)$}.
 Zusammen mit den vielen GUI-Tests und dem normalen Benutzen von BEAST sind
 wir zuversichtlich, dass unsere Testfallüberdeckung ausreicht, um eine
@@ -281,8 +295,8 @@ verbessert:
   \item Der Nutzer kann nun beliebige mathematische Terme angeben, welche *, /, + und - unterstützen. Diese binären mathematischen Operationen können auf sämtliche Ausdrücke angewendet werden, welche einen ganzzahligen Wert liefern.
   \item Gibt der Nutzer nun Dateien, welche in das C-Programm eingebunden werden
   sollen, an, wird automatisch überprüft, ob diese einem standart C-Include
-  entsprechen, oder aber in dem speziellen Ordner \backslash core \backslash
-  user_includes \backslash liegen. Sie werden dann auch automatisch an cbmc
+  entsprechen, oder aber in dem speziellen Ordner $\backslash core \backslash
+  user\_includes \backslash$ liegen. Sie werden dann auch automatisch an cbmc
   weitergegeben, sodass der nutzer keine weiteren Arbeiten machen muss, wenn er
   eine eigene Datei einbinden will.
 \end{itemize}
@@ -310,6 +324,17 @@ automatisierbar wären.
 \input{testProtokolle/Testfall8_8.tex}
 \input{testProtokolle/Produktleistungen_a.tex}
 \input{testProtokolle/Produktleistungen_b.tex}
+
+\newpage
+
+\begin{figure}[ht]
+	\centering
+  \includegraphics[width=1.0\textheight, 
+  height=1.0\textwidth, angle=90]{images/Coverage.png} \caption{Eine Übersicht über die
+  in den einzelnen Paketen erreichte Code-Coverage (eine größere Version des
+  Bildes befindet sich im Anhang)}
+	\label{coverage_alt}
+\end{figure}
 
 \newpage
 

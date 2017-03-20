@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.3.30)  20 MAR 2017 09:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.3.30)  20 MAR 2017 10:14
 entering extended mode
 **./Qualitätssicherung.tex
 (Qualitätssicherung.tex
@@ -638,11 +638,7 @@ Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
 \verbatim@in@stream=\read1
 ))
 Package hyperref Info: Option `colorlinks' set `true' on input line 17.
- (Qualitätssicherung.aux
-
-LaTeX Warning: Label `coverage' multiply defined.
-
-)
+ (Qualitätssicherung.aux)
 \openout1 = `Qualitätssicherung.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
@@ -935,13 +931,13 @@ Package babel Info: Redefining german shorthand "~
 (babel)             in language  on input line 190.
 [8
 
-] <images/OLD_NO.png, id=133, 1245.9047pt x 667.74469pt>
+] <images/OLD_NO.png, id=132, 1245.9047pt x 667.74469pt>
 File: images/OLD_NO.png Graphic file (type png)
 
 <use images/OLD_NO.png>
 Package pdftex.def Info: images/OLD_NO.png used on input line 194.
 (pdftex.def)             Requested size: 418.25992pt x 167.29237pt.
- <images/NEW_NO.png, id=134, 1248.91594pt x 601.4972pt>
+ <images/NEW_NO.png, id=133, 1248.91594pt x 601.4972pt>
 File: images/NEW_NO.png Graphic file (type png)
 
 <use images/NEW_NO.png>
@@ -960,14 +956,14 @@ Package babel Info: Redefining german shorthand "|
 Package babel Info: Redefining german shorthand "~
 (babel)             in language  on input line 210.
  [9 <./images/OLD_NO.png> <./images/NEW_NO.png>]
-<images/OLD_YES.png, id=139, 1241.38782pt x 669.2503pt>
+<images/OLD_YES.png, id=138, 1241.38782pt x 669.2503pt>
 File: images/OLD_YES.png Graphic file (type png)
 
 <use images/OLD_YES.png>
 Package pdftex.def Info: images/OLD_YES.png used on input line 215.
 (pdftex.def)             Requested size: 418.23997pt x 167.30196pt.
 
-<images/NEW_YES.png, id=140, 1245.9047pt x 603.0028pt>
+<images/NEW_YES.png, id=139, 1245.9047pt x 603.0028pt>
 File: images/NEW_YES.png Graphic file (type png)
 
 <use images/NEW_YES.png>
@@ -986,7 +982,7 @@ Package babel Info: Redefining german shorthand "|
 Package babel Info: Redefining german shorthand "~
 (babel)             in language  on input line 230.
  [10 <./images/OLD_YES.png> <./images/NEW_YES.png>]
-<images/BEAST_PROCESSORTIME.png, id=146, 1637.11626pt x 685.56125pt>
+<images/BEAST_PROCESSORTIME.png, id=145, 1637.11626pt x 685.56125pt>
 File: images/BEAST_PROCESSORTIME.png Graphic file (type png)
 
 <use images/BEAST_PROCESSORTIME.png>
@@ -1013,45 +1009,6 @@ Package babel Info: Redefining german shorthand "|
 (babel)             in language  on input line 253.
 Package babel Info: Redefining german shorthand "~
 (babel)             in language  on input line 253.
-! Missing $ inserted.
-<inserted text> 
-                $
-l.270 "`list_
-             of_candidates_per_voter"'
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-
-LaTeX Warning: Command \grqq invalid in math mode on input line 270.
-
-! Improper \spacefactor.
-\save@sf@q ...@SF {\spacefactor \the \spacefactor 
-                                                  }#1\@SF \endgroup 
-l.270 "`list_of_candidates_per_voter"'
-                                      
-You can refer to \spacefactor only in horizontal mode;
-you can refer to \prevdepth only in vertical mode; and
-neither of these is meaningful inside \write. So
-I'm forgetting what you said and using zero instead.
-
-! You can't use `\spacefactor' in math mode.
-\@SF ->\spacefactor 
-                    0
-l.270 "`list_of_candidates_per_voter"'
-                                      
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.271 
-      
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
 Package babel Info: Redefining german shorthand "f
 (babel)             in language  on input line 279.
 Package babel Info: Redefining german shorthand "|
@@ -1404,8 +1361,23 @@ Underfull \hbox (badness 10000) in paragraph at lines 43--43
  []
 
 
-Underfull \hbox (badness 3049) in paragraph at lines 43--43
-\OT1/cmr/m/n/10.95 kein But-ton
+Underfull \hbox (badness 10000) in paragraph at lines 43--43
+\OT1/cmr/m/n/10.95 kein But-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 43--43
+\OT1/cmr/m/n/10.95 ton zum
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 43--43
+\OT1/cmr/m/n/10.95 Er-stel-len
+ []
+
+
+Underfull \hbox (badness 8170) in paragraph at lines 43--43
+\OT1/cmr/m/n/10.95 ei-nes neu-en
  []
 
 
@@ -1414,7 +1386,7 @@ Overfull \hbox (9.25781pt too wide) in paragraph at lines 4--51
  []
 
 
-LaTeX Warning: Float too large for page by 33.89197pt on input line 51.
+LaTeX Warning: Float too large for page by 61.09198pt on input line 51.
 
 ) (testProtokolle/Testfall8_1b.tex
 
@@ -2027,8 +1999,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 21--22
  []
 
 
-Underfull \hbox (badness 2726) in paragraph at lines 21--22
-\OT1/cmr/m/n/10.95 + c\) wird
+Underfull \hbox (badness 2103) in paragraph at lines 21--22
+\OT1/cmr/m/n/10.95 + v\) wird
  []
 
 
@@ -5265,8 +5237,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 17--19
  []
 
 
-Underfull \hbox (badness 3148) in paragraph at lines 17--19
-\OT1/cmr/m/n/10.95 Hier tippt man
+Underfull \hbox (badness 1394) in paragraph at lines 17--19
+\OT1/cmr/m/n/10.95 Hier klickt man
  []
 
 
@@ -5350,8 +5322,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 26--31
  []
 
 
-Underfull \hbox (badness 6559) in paragraph at lines 26--31
-\OT1/cmr/m/n/10.95 i;). Im Pa-ram-
+Underfull \hbox (badness 1968) in paragraph at lines 26--31
+\OT1/cmr/m/n/10.95 i;). Im Pa-ra-me-
  []
 
 
@@ -5390,8 +5362,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 26--31
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 26--31
-\OT1/cmr/m/n/10.95 di-tor l[]ad man
+Underfull \hbox (badness 5231) in paragraph at lines 26--31
+\OT1/cmr/m/n/10.95 di-tor l[]adt man
  []
 
 
@@ -5415,18 +5387,8 @@ Underfull \hbox (badness 1577) in paragraph at lines 31--32
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 31--32
-\OT1/cmr/m/n/10.95 die Ana-lys
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 31--32
-\OT1/cmr/m/n/10.95 kann das
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 31--32
-\OT1/cmr/m/n/10.95 Er-geb-nis
+Underfull \hbox (badness 6428) in paragraph at lines 31--32
+\OT1/cmr/m/n/10.95 die Ana-ly-se
  []
 
 
@@ -5538,6 +5500,11 @@ Underfull \hbox (badness 3148) in paragraph at lines 17--24
  []
 
 
+Underfull \hbox (badness 1412) in paragraph at lines 17--24
+\OT1/cmr/m/n/10.95 1; 10000 Zei-len:
+ []
+
+
 Underfull \hbox (badness 1199) in paragraph at lines 17--24
 \OT1/cmr/m/n/10.95 i++; Am En-de:
  []
@@ -5549,7 +5516,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 17--24
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 17--24
-\OT1/cmr/m/n/10.95 Pa-ram-te-re-di-tor
+\OT1/cmr/m/n/10.95 Pa-ra-me-te-re-di-tor
  []
 
 
@@ -5569,7 +5536,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 17--24
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 17--24
-\OT1/cmr/m/n/10.95 den Ti-meOut
+\OT1/cmr/m/n/10.95 den Ti-meout
  []
 
 
@@ -6074,16 +6041,12 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 386.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 386.
 Package rerunfilecheck Info: File `Qualitätssicherung.out' has not changed.
 (rerunfilecheck)             Checksum: F7BE8EA938F54AAF72EBFC56A6C0283B;825.
-
-
-LaTeX Warning: There were multiply-defined labels.
-
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 386.
  ) 
 Here is how much of TeX's memory you used:
  9027 strings out of 493634
- 147417 string characters out of 3135239
- 437267 words of memory out of 3000000
+ 147409 string characters out of 3135239
+ 437419 words of memory out of 3000000
  12135 multiletter control sequences out of 15000+200000
  10012 words of font info for 36 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
@@ -6092,22 +6055,21 @@ Here is how much of TeX's memory you used:
 7\bbding10.pk><C:/Users/Lukas/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pub
 lic/amsfonts/cm/cmbx10.pfb><C:/Users/Lukas/AppData/Local/Programs/MiKTeX 2.9/fo
 nts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Lukas/AppData/Local/Programs/
-MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/Lukas/AppData/Loc
-al/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Users/Lukas
-/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:
+MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Users/Lukas/AppData/Loc
+al/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Lukas
+/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:
 /Users/Lukas/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
-mr12.pfb><C:/Users/Lukas/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/a
-msfonts/cm/cmr6.pfb><C:/Users/Lukas/AppData/Local/Programs/MiKTeX 2.9/fonts/typ
-e1/public/amsfonts/cm/cmr8.pfb><C:/Users/Lukas/AppData/Local/Programs/MiKTeX 2.
-9/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/Lukas/AppData/Local/Program
-s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Users/Lukas/AppDat
-a/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users
-/Lukas/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy9.p
-fb><C:/Users/Lukas/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfont
-s/cm/cmtt10.pfb>
-Output written on Qualitätssicherung.pdf (41 pages, 732245 bytes).
+mr6.pfb><C:/Users/Lukas/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/am
+sfonts/cm/cmr8.pfb><C:/Users/Lukas/AppData/Local/Programs/MiKTeX 2.9/fonts/type
+1/public/amsfonts/cm/cmr9.pfb><C:/Users/Lukas/AppData/Local/Programs/MiKTeX 2.9
+/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Users/Lukas/AppData/Local/Prog
+rams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Lukas/AppDa
+ta/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy9.pfb><C:/Users
+/Lukas/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.
+pfb>
+Output written on Qualitätssicherung.pdf (41 pages, 723575 bytes).
 PDF statistics:
- 384 PDF objects out of 1000 (max. 8388607)
+ 380 PDF objects out of 1000 (max. 8388607)
  97 named destinations out of 1000 (max. 500000)
  143 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -25,17 +25,17 @@
 \tableofcontents	
 
 \chapter{Einleitung}
-Dieses Dokument ist dafür gedacht einen Überlick über die
+Dieses Dokument ist dafür gedacht, einen Überlick über die
 Qualitätssicherungsphase unseres Projektes "`BEAST"' zu geben. Obwohl unser
 Programm schon bei der Abgabe funktionierte, fanden wir erst in dieser Phase
 viele Bereiche, vor allem Randfälle, in denen es noch nicht funktionierte. Wir
-wissen jedoch auch, dass man durch Teseten nicht die Abwesenheit von Fehler
+wissen jedoch auch, dass man durch Testen nicht die Abwesenheit von Fehlern
 zeigen kann, sondern nur deren Anwesenheit. Wir hoffen trotzdem, dass wir so
 viele Fälle der Benutzung, sei es automatisch oder von Hand, getestet haben,
 dass die späteren Nutzer unseres Programmes es ohne Probleme nutzen können.
 \newline
-Das Dokument wird im weiteren eine Übersicht über den Ablauf unserer
-Qualitätssicherungsphase geben, und die Vorgehensweise der von uns eingesetzten
+Das Dokument wird im Weiteren eine Übersicht über den Ablauf unserer
+Qualitätssicherungsphase geben und die Vorgehensweise der von uns eingesetzten
 Methoden beschreiben.
 
 \chapter{Codereviews}
@@ -50,31 +50,31 @@ Wir haben hiermit
 angefangen, um möglichst schnell die gröbsten Fehler im Code zu finden, sodass
 wir uns im weiteren Verlauf der Qualitätssicherung auf versteckter liegende Fehler konzentrieren
 konnten. Ein weiterer wichtiger Aspekt dieser Codereviews war, den Code zu
-refactorn, um die Lesbarkeit, Wartbarkeit und spätere Testbarkeit zu erhöhen.
+refaktorisieren, um die Lesbarkeit, Wartbarkeit und spätere Testbarkeit zu erhöhen.
 
 \section{Ergebnis}
 Das Ergebnis der Codereviews ist nicht ganz eindeutig. Manchen
 Teammitgliedern haben sie geholfen Fehler zu finden, die beim späteren Testen
-wahrscheinlich nicht entdeckt worden wären. So fiel Beispielsweise auf, dass
-bei ein paar Methoden ein "`synchronized"' gefunden wurde, oder aber, dass ein
+wahrscheinlich nicht entdeckt worden wären. So fiel beispielsweise auf, dass
+bei einigen Methoden ein "`synchronized"' gefunden wurde, oder aber, dass ein
 "`Result"'-Objekt zu früh auf "`finished"' gesetzt wurde, was dazu führen
-könnte, dass ein noch nicht fertig bearbeitetes Objekt angezeigt werden würde.
-Andere haben eigentlich nur ein paar Style-Fehler gefunden, und angegeben, dass
-ihnen die Codereviews eigentlich nicht geholfen hätten. Dies kann aber auch
-daran gelegen haben, dass die Leute zu schnell über den Code gegangen sind, und
+könnte, dass ein noch nicht fertig bearbeitetes Objekt angezeigt wird.
+Andere haben vorwiegend Stilfehler gefunden, und angegeben, dass
+ihnen die Codereviews wenig geholfen hätten. Dies kann aber auch
+daran gelegen haben, dass die Leute zu schnell über den Code gegangen sind und
 die andere Person nicht genügend tiefgründige Fragen gestellt hat.
 
 \chapter{Unit-Tests}
 
 \section{Planung}
 Neben den Codereviews haben wir anfangs parallel (zum
-Beispiel weil ein Gruppenmitglied einer Zweiergruppe keine Zeit hat und sein
-Partner etwas zu tun braucht) und später auch
+Beispiel weil ein Gruppenmitglied einer Zweiergruppe keine Zeit hatte und sein
+Partner etwas zu tun brauchte) und später auch
 verstärkt darauf hingearbeitet, Testfälle für den Code zu schreiben.
 
 Zum einen werden wir alle Testfälle, welche im Pflichtenheft genannt wurden,
 implementieren. Sollte der Testfall GUI Bezug haben, oder sich überhaupt nicht mit JUnit
-realisieren lassen, wird er dann von Hand ausgefürt. Dabei ist es jedoch wichtig alle Schritte genau zu
+realisieren lassen, wird er dann von Hand ausgeführt. Dabei ist es jedoch wichtig alle Schritte genau zu
 dokumentieren, damit der Test, im Falle einer Änderung, auch später noch
 reproduzierbar ist.
 
@@ -83,8 +83,8 @@ Dank der Unit-Tests und dem Testen von Hand konnten in dieser Phase viele
 Fehler gefunden werden, sodass wir hier eine Übersicht über einige Fehler geben können:
 
 \begin{itemize}
-  \item Es gab einen Fehler in der Codegenerierung, sodass zum Beispiel Voting-Arrays, die gleich sein sollten, unterschiedlich waren.
-  \item In manchen Fälle ließ sich die Analyse nicht starten.
+  \item Es gab einen Fehler in der Codegenerierung, sodass etwa Voting-Arrays, die gleich sein sollten, unterschiedlich waren.
+  \item In manchen Fällen ließ sich die Analyse nicht starten.
   \item Ein paar Nullpointer-Exceptions.
   \item Die Ausgabe von CBMC konnte nicht immer richtig geparsed werden.
   \item Ein Fehler in der Codegenerierung, wenn man "`EXISTSONE"' verwendet.
@@ -101,36 +101,35 @@ bedürfen.
 
 Weiterhin wird aber auch darauf geachtet, dass in den Methoden der einzelnen Klassen eine möglichst hohe
 Pfadüberdeckung gegeben ist. Da die Metrik-Werkzeuge, welche wir verwenden, zwar
-nicht überdeckte Pfade anzeigen, sich daraus aber keine ausdrucksvolle Metrik ergibt, fließt sie nicht in die Metrik an sich mit ein, auch wenn darauf
+nicht überdeckte Pfade anzeigen, sich daraus aber keine ausdrucksvolle Metrik ergibt, fließt sie nicht in die Metrik an sich mit ein, obwohl darauf
 geachtet wurde.
 \newline
 
-Wie man im Bild \ref{coverage}sehen kann gibt es in unserem Paket große
+Wie man im Bild \ref{coverage} sehen kann, gibt es in unserem Paket große
 Unterschiede, was die Coverage\footnote{Die "`Coverage"' einer Klasse beschreibt
-wie viele der Befehle (Zuweisungen, Methodenaufrufe, \ldots )
-, wobei es davon auch mehrere pro Zeile code geben kann, von mindestens einem
-Testfall abgelaufen werden.} der verschiedenen Pakete anbelangt.
-Während Beispielsweise die Pakete der Datentypen ziemlich leicht eine sehr hohe Coverage
+wie viele der Befehle (Zuweisungen, Methodenaufrufe, \ldots ) von mindestens einem
+Testfall abgelaufen werden, wobei es davon auch mehrere pro Zeile Code geben kann.} der verschiedenen Pakete anbelangt.
+Während beispielsweise die Pakete der Datentypen leicht eine sehr hohe Coverage
 erreichen können, haben vor allem Pakete die einen höheren GUI Bezug haben
 deutlich geringere Werte. \\
 Außerdem muss man bedenken, dass einige Klassen aus Paketen
-betriebssytemabhänging sind, sodass diese Pakete nie eine 100\%ige Coverage
+betriebssytemabhängig sind, sodass diese Pakete nie eine hundertprozentige Coverage
 erreichen können. Auch von AntLR erstellte Klassen haben eine sehr geringe
 Coverage, da wir diese nicht testen.
 \newline
-Berechnet man nun die Coverage ohne die oben genannten Teile, kommen wir auf ca
+Berechnet man nun die Coverage ohne die oben genannten Teile, kommen wir auf etwa
 76\%\footnote{Berechnet durch: $32000 (covered instructions) / 63300 (all
 lines) - 19500 (CElectionCodeArea.Antlr) - 1800 (booleanexp) - 200
 (LinuxProcess)$}.
-Zusammen mit den vielen GUI-Tests, und auch dem normalen Benutzen mit BEAST sind
-wir aber zuversichtlich, dass unere Testfallüberdeckung ausreicht um eine
-angenehme Benutzung von BEAST möglich zu machen.
+Zusammen mit den vielen GUI-Tests und dem normalen Benutzen von BEAST sind
+wir zuversichtlich, dass unsere Testfallüberdeckung ausreicht, um eine
+angenehme Benutzung von BEAST zu ermöglichen.
 
 \begin{figure}[ht]
 	\centering
   \includegraphics[width=1.0\textwidth,
   height=0.40\textwidth]{images/Coverage.png} \caption{Eine Übersicht über die
-  in den einzelnen Paketen erreichte CodeCoverage (eine größere Version des
+  in den einzelnen Paketen erreichte Code-Coverage (eine größere Version des
   Bildes befindet sich im Anhang)}
 	\label{coverage}
 \end{figure}
@@ -138,7 +137,7 @@ angenehme Benutzung von BEAST möglich zu machen.
 
 
 \section{Unit-Tests für AST- und Codegenerierung}
-Da die theoretische Anzahl möglicher korrekter boolscher Ausdrücke abzählbar unendlich ist, ist es unmöglich jeden möglichen Ausdruck auf korrekte Übersetzung in AST und C-Code zu überprüfen. Daher wird stattdessen die AST- und Codegenerierung jedes Sprachkonstrukts einmal auf Korrektheit überprüft. 
+Da die theoretische Anzahl möglicher korrekter boolscher Ausdrücke abzählbar unendlich ist, ist es unmöglich jeden möglichen Ausdruck auf korrekte Übersetzung in AST und C-Code zu überprüfen. Daher wird stattdessen die AST- und Codegenerierung jedes Sprachkonstrukts einmal auf Korrektheit geprüft. 
 
 Sprachkonstrukte sind im Pflichtenheft in "'1.1 Die Syntax zur Angabe der formalen Eigenschaften"' beschrieben. Zusätzlich werden einige gängige komplexere Ausdrücke überprüft (Beispiele in https://formal.iti.kit.edu/teaching/pse/201617/voting/kickOff.pdf, Folie 22). 
 
@@ -154,7 +153,7 @@ Qualitätssicherungsphase relativ konstant geblieben ist.
 
 Wie man in \ref{fig1} und \ref{fig2} erkennen kann, ist der Verlauf des
 Speicherverbrauches so gut wie identisch mit ca. 30MB, bevor der "`garbage
-collector"' es wieder auf ca. 10 MB herunterbringt. Anscheinend haben viele
+collector"' ihn wieder auf ca. 10 MB reduziert. Anscheinend haben viele
 unserer Objekte nur eine kurze Lebensdauer, woraus sich auch schließen ließe,
 dass unser Programm im "`Leerlauf"' einen insignifikanten Speicherverbrauch hat,
 der Computersysteme von heute vor keine große Aufgabe stellen sollte.
@@ -168,10 +167,10 @@ zurückzuführen, dass nicht die exakt gleichen Wahlverfahren verglichen
 wurden, weil sich im Laufe der Qualitätssicherungsphase etwas am System zum
 Speichern der Wahlverfahren geändert hatte.
 
-Der Grundfür den höheren Ressourcenverbrauch bei der Überprüfung ist, dass in dieser Phase zum einen der Code, welcher an CBMC gesendet
+Der Grund für den höheren Ressourcenverbrauch bei der Überprüfung ist, dass in dieser Phase zum einen der Code, welcher an CBMC gesendet
 werden muss, für jede Eigenschaft einzeln erzeugt wird. Auch müssen mehrere Threads
 konstant die Ausgabe von CBMC auffangen.
-Ist die Überprüfung jedoch abgeschlossen normalisiert sich der
+Ist die Überprüfung jedoch abgeschlossen, normalisiert sich der
 Ressourcenverbrauch wieder relativ schnell.
 
 \newpage
@@ -216,13 +215,13 @@ Ressourcenverbrauch wieder relativ schnell.
 
 \newpage
 Betrachtet man die Verteilung der Prozessorzeit der neusten BEAST-Version während einer
-Analyse (siehe \ref{fig5}) fällt auf, dass die Methoden, welche die meiste
+Analyse (siehe \ref{fig5}), fällt auf, dass die Methoden, welche die meiste
 Zeit in Anspruch nehmen, die sind, die dafür sorgen, dass das Programm
 so angenehm wie möglich läuft. Würde man zum Beispiel die konstante
 Überprüfung auf Fehler weniger häufig ausführen, müsste der Nutzer länger auf eine
 Rückmeldung warten, was er noch ändern müsste. 
 
-Ähnlich verhält es sich zu den
+Ähnlich verhält es sich mit den
 "`ThreadedBufferedReader"'-Instanzen, die auch noch einen großen Anteil an der
 Prozessorzeit haben. Dies liegt daran, dass sie die gesamte Kommunikation zu
 außerhalb laufenden Prozessen übernehmen, und deshalb die gesamte Zeit ohne
@@ -238,12 +237,11 @@ läuft.
 \end{figure}
 
 \chapter{Fehlerbehebungen}
-Im Laufe der Phase haben wir einige Fehler gefunden, welche die Benutzung von
+Im Laufe dieser Phase haben wir einige Fehler gefunden, welche die Benutzung von
 BEAST stark beeinträchtigt haben. Eine komplette Liste aller "`Issues"' kann auf
 der BEAST
 GitHub-Seite\footnote{https://github.com/NikolaiLMS/PSE-Wahlverfahren-Implementierung/issues}
-angeschaut werden. Trotzdem werden wir hier einen kleinen Überblick über ein
-paar der gefundenen Fehler und deren Behebung geben:
+angeschaut werden. Trotzdem werden wir hier einen kleinen Überblick über gefundene Fehler und deren Behebung geben:
 
 \paragraph{Issue 16}- \newline
 Beschreibung: Es war möglich, Zeilen zu verändern, welche als nicht editierbar angezeigt und festgelegt wurden. Dies geschah, wenn man unterhalb einer solchen Zeile etwas schrieb. Durch Entfernen des Zeilentrennungszeichens wurde dieses Zeichen dann in die nicht editierbare Zeile angehoben.

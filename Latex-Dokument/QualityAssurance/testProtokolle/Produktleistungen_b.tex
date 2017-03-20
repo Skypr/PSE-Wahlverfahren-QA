@@ -1,0 +1,32 @@
+\begin{table}[]
+\caption{Testfall 8.8 (Testfälle für die Datenverwaltung)}
+\centering
+	\begin{tabular}{| p{0.15\linewidth} | p{0.15\linewidth} | p{0.20\linewidth} |
+	p{0.15\linewidth} | p{0.1\linewidth} | p{0.1\linewidth} |}
+	\hline
+	\textbf{Testfall} &
+	\textbf{Abgedeckte Funktionalitäten} &
+	\textbf{Beschreibung} &
+	\textbf{Ergebnis} & \textbf{Lukas}
+	(Windows 10) Version 1.4.22 &
+	\textbf{Niels} (Linux Mint Cinnamon 3.0.7) Version 1.4.22 
+\\
+\hline
+ &
+/NF20/ /NF40/ /NF50/ /NF60/ &
+Man startet das Programm normal und öffnet den CEditor. Hier tippt man nun 10000
+Zeilen richtigen C-Code ein (Beispielsweise 1 Zeile: int i = 1; 1000
+Zeilen: i++; Am Ende: return i;).
+Im Paramtereditor stellt man alle Parameter auf 10000 ein und den TimeOut auf
+15 Minuten (der TimeOut ist sehr linear, wenn er 15 Minuten schafft, schafft er
+auch mehrere Tage / Jahre).
+Im Eigenschafteneditor läd man die Eigenschaft "`FalseProperty.props"' und
+startet die Analyse. & Nach ziemlich genau 15 Minuten hört die Überprüfung auf,
+und die Eigenschaft wird als durch einen Timeout abgebrochen angezeigt &
+\Checkmark &
+\Checkmark
+\\
+\hline 
+
+\end{tabular}
+\end{table}
